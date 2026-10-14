@@ -33,6 +33,7 @@ import json
 import os
 import re
 import secrets
+import shutil
 import subprocess
 import sys
 import time
@@ -51,7 +52,8 @@ SKILL = PROJECT_ROOT / ".claude" / "skills" / "analyse" / "SKILL.md"
 LEDGER = PROJECT_ROOT / "reports" / "prediction_ledger.csv"
 SELFTEST_DIR = PROJECT_ROOT / "data" / ".antigravity_selftest"
 DONE_DIR = ".stage_done"
-AGENTAPI = Path(os.environ.get("ANTIGRAVITY_AGENTAPI") or Path.home() / ".gemini/antigravity-ide/bin/agentapi")
+_cand_agentapi = os.environ.get("ANTIGRAVITY_AGENTAPI") or shutil.which("agentapi")
+AGENTAPI = Path(_cand_agentapi) if _cand_agentapi else (Path.home() / ".gemini/antigravity-ide/bin/agentapi")
 STAGE_TIMEOUT_MIN = int(os.environ.get("PIPELINE_STAGE_TIMEOUT_MIN") or 60)
 FIX_ROUNDS = 2                        # follow-up messages per stage before giving up
 POLL_S = 10
@@ -65,6 +67,15 @@ class Stage:
     main: str                         # the file its gates check
     sections: tuple[str, ...]         # regexes of required "## " headings
 
+
+COMPANY_ALIASES = {
+    "google": "GOOGL", "goog": "GOOGL", "googl": "GOOGL", "alphabet": "GOOGL",
+    "apple": "AAPL", "microsoft": "MSFT", "amazon": "AMZN", "meta": "META",
+    "facebook": "META", "tesla": "TSLA", "nvidia": "NVDA", "netflix": "NFLX",
+    "tsmc": "TSM", "alibaba": "BABA", "tencent": "0700.HK", "samsung": "005930.KS",
+    "novo": "NVO", "novo nordisk": "NVO", "lvmh": "MC.PA", "asml": "ASML",
+    "berkshire": "BRK-B", "berkshire hathaway": "BRK-B",
+}
 
 STAGES = (
     Stage("value-researcher", "1/3 Researcher", ("01_research.md", "facts.json"), "01_research.md",
@@ -135,6 +146,41 @@ def find_conversation_id(data) -> str | None:
 
 
 def new_conversation(prompt: str, title: str, model: str) -> str:
+    # Direct Language Server RPC if available (avoids agentapi project_id bug)
+    ls_address = os.environ.get("ANTIGRAVITY_LS_ADDRESS")
+    csrf_token = os.environ.get("ANTIGRAVITY_CSRF_TOKEN")
+    if ls_address and csrf_token:
+        try:
+            import urllib.request
+            url = f"http://{ls_address}/exa.language_server_pb.LanguageServerService/StartCascade"
+            body = json.dumps({
+                "source": "CORTEX_TRAJECTORY_SOURCE_CASCADE_CLIENT",
+                "trajectoryType": "CORTEX_TRAJECTORY_TYPE_CASCADE"
+            }).encode("utf-8")
+            req = urllib.request.Request(
+                url, data=body,
+                headers={"Content-Type": "application/json", "X-Codeium-Csrf-Token": csrf_token, "Connect-Protocol-Version": "1"}
+            )
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                res_data = json.loads(resp.read().decode("utf-8"))
+                cid = res_data.get("cascadeId")
+                if cid:
+                    send_url = f"http://{ls_address}/exa.language_server_pb.LanguageServerService/SendUserCascadeMessage"
+                    send_body = json.dumps({
+                        "cascadeId": cid,
+                        "items": [{"text": prompt}],
+                        "cascadeConfig": {"plannerConfig": {"conversational": {}}}
+                    }).encode("utf-8")
+                    send_req = urllib.request.Request(
+                        send_url, data=send_body,
+                        headers={"Content-Type": "application/json", "X-Codeium-Csrf-Token": csrf_token, "Connect-Protocol-Version": "1"}
+                    )
+                    with urllib.request.urlopen(send_req, timeout=30):
+                        pass
+                    return cid
+        except Exception as e:
+            log(f"direct language server StartCascade failed ({e}), trying agentapi")
+
     data = _agentapi("new-conversation", f"--model={model}", f"--title={title[:60]}", prompt)
     cid = find_conversation_id(data)
     if not cid:
@@ -173,7 +219,7 @@ def wait_for_done(run_dir: Path, stage: str, nonce: str, conv_id: str | None, de
     while time.time() < deadline:
         if path.exists():
             try:
-                rec = json.loads(path.read_text())
+                rec = json.loads(path.read_text(encoding="utf-8"))
             except json.JSONDecodeError:
                 rec = {}
             path.unlink(missing_ok=True)                  # a signal is consumed exactly once
@@ -193,7 +239,7 @@ def wait_for_done(run_dir: Path, stage: str, nonce: str, conv_id: str | None, de
 # prompts
 # --------------------------------------------------------------------------- #
 def agent_body(stage: Stage) -> str:
-    text = (AGENTS_DIR / f"{stage.name}.md").read_text()
+    text = (AGENTS_DIR / f"{stage.name}.md").read_text(encoding="utf-8")
     return re.sub(r"^---\n.*?\n---\n", "", text, count=1, flags=re.S).strip()
 
 
@@ -226,7 +272,7 @@ Rules for this run (they add to your instructions below):
 
 def synthesis_prompt(ticker: str, run_dir: Path, today: str, context: str, nonce: str) -> str:
     rel = run_dir.relative_to(PROJECT_ROOT)
-    skill = SKILL.read_text()
+    skill = SKILL.read_text(encoding="utf-8")
     m = re.search(r"^## 2\. Synthesize.*?(?=^## 3\. )", skill, re.M | re.S)
     spec = m.group(0) if m else skill
     return f"""You write the final report of the value-investing pipeline for {ticker}. The three stages
@@ -267,7 +313,7 @@ def check_stage(stage: Stage, run_dir: Path, before: dict[str, str | None]) -> l
     main = run_dir / stage.main
     if not main.exists():
         return [f"{stage.main} is missing"]
-    text = main.read_text()
+    text = main.read_text(encoding="utf-8", errors="replace")
     if not text.startswith(f"<!-- pipeline:{stage.name} -->"):
         problems.append(f"{stage.main} must start with the line <!-- pipeline:{stage.name} -->")
     secs = _sections(text)
@@ -330,7 +376,7 @@ def record_stage(stage: Stage, run_dir: Path, conv_id: str | None, model: str) -
 # ledger (code writes it, from the verified verdict block)
 # --------------------------------------------------------------------------- #
 def ledger_row(report: Path, inputs: dict, template: str | None) -> dict:
-    f = report_lint.parse_verdict_block(report.read_text())
+    f = report_lint.parse_verdict_block(report.read_text(encoding="utf-8", errors="replace"))
     price, fv = report_lint.parse_money(f.get("PRICE")), report_lint.parse_money(f.get("FAIR_VALUE"))
     entry, exit_ = report_lint.parse_money(f.get("ENTRY_BELOW")), report_lint.parse_money(f.get("EXIT_ABOVE"))
     ccy = (price or (0, None))[1] or inputs.get("quote_currency") or "USD"
@@ -359,6 +405,7 @@ def append_ledger(row: dict) -> None:
 # the run
 # --------------------------------------------------------------------------- #
 def setup(ticker: str, fresh: bool) -> tuple[Path, str, str]:
+    ticker = COMPANY_ALIASES.get(ticker.lower(), ticker.upper())
     today = datetime.now().strftime("%Y-%m-%d")
     run_dir = RUNS_DIR / f"{ticker}_{today}"
     if run_dir.exists():
@@ -369,7 +416,7 @@ def setup(ticker: str, fresh: bool) -> tuple[Path, str, str]:
     py = sys.executable
     subprocess.run([py, str(PROJECT_ROOT / "methodologies" / "fundamentals.py"), ticker], cwd=PROJECT_ROOT,
                    capture_output=True, text=True, timeout=600)
-    rec = json.loads((PROJECT_ROOT / "data" / "fundamentals.json").read_text()).get("records", {}).get(ticker, {})
+    rec = json.loads((PROJECT_ROOT / "data" / "fundamentals.json").read_text(encoding="utf-8")).get("records", {}).get(ticker, {})
     if rec.get("errors"):
         raise RuntimeError(f"BLOCKED: data layer errors for {ticker}: {rec['errors']}")
     subprocess.run([py, str(PROJECT_ROOT / "methodologies" / "run_inputs.py"), ticker, str(run_dir)],
@@ -410,7 +457,7 @@ def run(ticker: str, fresh: bool = False, model: str | None = None) -> int:
         log(f"cannot run: {reason}")
         return 2
     model = model or os.environ.get("PIPELINE_GEMINI_MODEL") or "pro"
-    ticker = ticker.strip().upper()
+    ticker = COMPANY_ALIASES.get(ticker.strip().lower(), ticker.strip().upper())
     run_dir, today, context = setup(ticker, fresh)
     log(f"setup done: {run_dir.relative_to(PROJECT_ROOT)}")
     for stage in STAGES:
@@ -439,8 +486,8 @@ def run(ticker: str, fresh: bool = False, model: str | None = None) -> int:
               run_dir, ticker, model, check_report, STAGE_TIMEOUT_MIN)
     provenance._append(run_dir, {"file": report.name, "sha256": provenance.sha256_file(report),
                                  "stage": "orchestrator", "method": "lint-seal", "via": "antigravity_pipeline"})
-    tmpl = re.search(r"Template\s+([A-Za-z-]+)", report.read_text())
-    inputs = json.loads((run_dir / "00_inputs.json").read_text()) if (run_dir / "00_inputs.json").exists() else {}
+    tmpl = re.search(r"Template\s+([A-Za-z-]+)", report.read_text(encoding="utf-8", errors="replace"))
+    inputs = json.loads((run_dir / "00_inputs.json").read_text(encoding="utf-8")) if (run_dir / "00_inputs.json").exists() else {}
     append_ledger(ledger_row(report, inputs, tmpl.group(1) if tmpl else None))
     log(f"report linted, sealed and logged to the ledger: {report.relative_to(PROJECT_ROOT)}")
     return 0
@@ -478,7 +525,7 @@ def selftest(model: str = "flash_lite", wait_s: int = 240) -> tuple[bool, str]:
         return False, (f"conversation {conv} was created but its command didn't run within {wait_s}s. "
                        "Antigravity may be asking for approval before terminal commands: allow auto-execution "
                        "for this workspace, then re-run the self-test.")
-    env_cid = json.loads(path.read_text()).get("conversation_env")
+    env_cid = json.loads(path.read_text(encoding="utf-8")).get("conversation_env")
     path.unlink(missing_ok=True)
     match = "matches" if env_cid == conv else ("absent" if not env_cid else f"differs ({env_cid})")
     return True, f"OK: conversation {conv} ran the command; conversation id in its environment {match}."
