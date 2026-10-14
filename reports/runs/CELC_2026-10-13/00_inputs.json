@@ -1,0 +1,27 @@
+{
+ "ticker": "CELC",
+ "generated": "2026-10-13T13:52:19+00:00",
+ "price": 64.375,
+ "quote_currency": "USD",
+ "financial_currency": "USD",
+ "price_as_of": "2026-10-13T13:52:08+00:00",
+ "risk_free_10y": {
+  "USD": {
+   "value_pct": 5.22,
+   "date": "2026-10-08",
+   "series": "DGS10",
+   "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10",
+   "frequency": "daily"
+  }
+ },
+ "fx_spot_to_usd": {
+  "USDUSD": 1.0,
+  "SGDUSD": 0.781231701374054
+ },
+ "equity_risk_premium_pct": 5.0,
+ "discount_rate_floor": {
+  "USD": 8.0,
+  "other": "local 10y + 4.0"
+ },
+ "rule": "All agents use these values. If an agent believes one is wrong or stale, it says so in its output and shows the effect, but does not silently substitute another figure."
+}

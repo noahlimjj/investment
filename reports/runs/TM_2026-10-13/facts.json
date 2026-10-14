@@ -1,0 +1,889 @@
+{
+ "ticker": "TM",
+ "cik": 1094517,
+ "entity": "TOYOTA MOTOR CORP",
+ "retrieved": "2026-10-14",
+ "as_of": "2026-10-13",
+ "reporting_currency": "JPY",
+ "units": "JPY millions unless stated; shares in thousands where stated",
+ "accounting": "IFRS (FY2021 onward)",
+ "quote_currency": "USD",
+ "adr_ratio": "1 ADS = 10 ordinary shares (20-F FY2026 cover; Item 9)",
+ "source": "Toyota 20-F filings + 6-K Q1 FY2027 (primary documents), NOT the sec_facts.py XBRL feed (which is stale: latest annual period 2025-03-31 and FY2020 is US GAAP)",
+ "stale": false,
+ "stale_note": "Prior sec_facts.py output saved as facts_sec_facts_script_stale_FY2025.json. It is stale (no FY2026) and its diluted_share_cagr 0.36 is a split artifact (FY2020 2.846bn pre-5:1-split shares vs 13bn post-split). Do not use it.",
+ "fiscal_year_ends": [
+  "2022-03-31",
+  "2023-03-31",
+  "2024-03-31",
+  "2025-03-31",
+  "2026-03-31"
+ ],
+ "annual": {
+  "revenue": {
+   "FY2022": {
+    "val": 31379507,
+    "source": "20-F FY2023, accn 0001193125-23-179181",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312523179181/d360541d20f.htm"
+   },
+   "FY2023": {
+    "val": 37154298,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2024": {
+    "val": 45095325,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2025": {
+    "val": 48036704,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   },
+   "FY2026": {
+    "val": 50684952,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   }
+  },
+  "cost_of_products_sold": {
+   "FY2022": {
+    "val": 24250784,
+    "source": "20-F FY2023, accn 0001193125-23-179181",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312523179181/d360541d20f.htm"
+   },
+   "FY2023": {
+    "val": 29128561,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2024": {
+    "val": 33600612,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2025": {
+    "val": 35510157,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   },
+   "FY2026": {
+    "val": 39141418,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   }
+  },
+  "cost_of_financial_services": {
+   "FY2022": {
+    "val": 1157050,
+    "source": "20-F FY2023, accn 0001193125-23-179181",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312523179181/d360541d20f.htm"
+   },
+   "FY2023": {
+    "val": 1712721,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2024": {
+    "val": 2126395,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2025": {
+    "val": 2948509,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   },
+   "FY2026": {
+    "val": 3079794,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   }
+  },
+  "operating_income": {
+   "FY2022": {
+    "val": 2995697,
+    "source": "20-F FY2023, accn 0001193125-23-179181",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312523179181/d360541d20f.htm"
+   },
+   "FY2023": {
+    "val": 2725025,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2024": {
+    "val": 5352934,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2025": {
+    "val": 4795586,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   },
+   "FY2026": {
+    "val": 3766216,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   }
+  },
+  "pretax_income": {
+   "FY2022": {
+    "val": 3990532,
+    "source": "20-F FY2023, accn 0001193125-23-179181",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312523179181/d360541d20f.htm"
+   },
+   "FY2023": {
+    "val": 3668733,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2024": {
+    "val": 6965085,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2025": {
+    "val": 6414590,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   },
+   "FY2026": {
+    "val": 5152996,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   }
+  },
+  "net_income_attrib_to_TMC": {
+   "FY2022": {
+    "val": 2850110,
+    "source": "20-F FY2023, accn 0001193125-23-179181",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312523179181/d360541d20f.htm"
+   },
+   "FY2023": {
+    "val": 2451318,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2024": {
+    "val": 4944933,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2025": {
+    "val": 4765086,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   },
+   "FY2026": {
+    "val": 3848098,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   }
+  },
+  "net_income_incl_nci": {
+   "FY2022": {
+    "val": 2874614,
+    "source": "20-F FY2023, accn 0001193125-23-179181",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312523179181/d360541d20f.htm",
+    "note": "from 20-F FY2023 cash flow statement 'Net income' 2,874,614"
+   },
+   "FY2023": {
+    "val": 2492967,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2024": {
+    "val": 5071421,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2025": {
+    "val": 4789755,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   },
+   "FY2026": {
+    "val": 3985761,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   }
+  },
+  "d_and_a": {
+   "FY2022": {
+    "val": 1821880,
+    "source": "20-F FY2023, accn 0001193125-23-179181",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312523179181/d360541d20f.htm"
+   },
+   "FY2023": {
+    "val": 2039904,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2024": {
+    "val": 2087066,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2025": {
+    "val": 2251233,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   },
+   "FY2026": {
+    "val": 2392519,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   }
+  },
+  "ocf": {
+   "FY2022": {
+    "val": 3722615,
+    "source": "20-F FY2023, accn 0001193125-23-179181",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312523179181/d360541d20f.htm"
+   },
+   "FY2023": {
+    "val": 2955076,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2024": {
+    "val": 4206373,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2025": {
+    "val": 3696934,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   },
+   "FY2026": {
+    "val": 5472920,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   }
+  },
+  "capex_ppe_excl_leased_equipment": {
+   "FY2022": {
+    "val": 1197266,
+    "source": "20-F FY2023, accn 0001193125-23-179181",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312523179181/d360541d20f.htm"
+   },
+   "FY2023": {
+    "val": 1450196,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2024": {
+    "val": 1846447,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2025": {
+    "val": 1906811,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   },
+   "FY2026": {
+    "val": 2148192,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   }
+  },
+  "additions_equipment_leased_to_others": {
+   "FY2022": {
+    "val": 2286893,
+    "source": "20-F FY2023, accn 0001193125-23-179181",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312523179181/d360541d20f.htm"
+   },
+   "FY2023": {
+    "val": 1907356,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2024": {
+    "val": 2867660,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2025": {
+    "val": 2996920,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   },
+   "FY2026": {
+    "val": 2766352,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   }
+  },
+  "proceeds_sale_equipment_leased_to_others": {
+   "FY2022": {
+    "val": 1542132,
+    "source": "20-F FY2023, accn 0001193125-23-179181",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312523179181/d360541d20f.htm"
+   },
+   "FY2023": {
+    "val": 1659161,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2024": {
+    "val": 2008634,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2025": {
+    "val": 1707899,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   },
+   "FY2026": {
+    "val": 1355605,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   }
+  },
+  "proceeds_sale_fixed_assets_ex_leased": {
+   "FY2022": {
+    "val": 37749,
+    "source": "20-F FY2023, accn 0001193125-23-179181",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312523179181/d360541d20f.htm"
+   },
+   "FY2023": {
+    "val": 56436,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2024": {
+    "val": 154985,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2025": {
+    "val": 70821,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   },
+   "FY2026": {
+    "val": 31242,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   }
+  },
+  "capex_intangibles": {
+   "FY2022": {
+    "val": 346085,
+    "source": "20-F FY2023, accn 0001193125-23-179181",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312523179181/d360541d20f.htm"
+   },
+   "FY2023": {
+    "val": 348280,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2024": {
+    "val": 334287,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2025": {
+    "val": 354196,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   },
+   "FY2026": {
+    "val": 378804,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   }
+  },
+  "dividends_paid_to_TMC_shareholders": {
+   "FY2022": {
+    "val": 709872,
+    "source": "20-F FY2023, accn 0001193125-23-179181",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312523179181/d360541d20f.htm"
+   },
+   "FY2023": {
+    "val": 727980,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2024": {
+    "val": 880197,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2025": {
+    "val": 1132329,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   },
+   "FY2026": {
+    "val": 1238974,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   }
+  },
+  "buybacks_net_reissuance_repurchase_treasury": {
+   "FY2022": {
+    "val": 404718,
+    "source": "20-F FY2023, accn 0001193125-23-179181",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312523179181/d360541d20f.htm"
+   },
+   "FY2023": {
+    "val": 431099,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2024": {
+    "val": 231069,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2025": {
+    "val": 1179043,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   },
+   "FY2026": {
+    "val": 39975,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm",
+    "note": "FY2026 cash buyback only 39,975; the JPY 3,656,884M Toyota Industries self-tender (resolved 2026-03-30) settled in FY2027 Q1 (settlement 2026-05-25)"
+   }
+  },
+  "cash_and_equivalents": {
+   "FY2022": {
+    "val": 6113655,
+    "source": "20-F FY2023, accn 0001193125-23-179181",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312523179181/d360541d20f.htm"
+   },
+   "FY2023": {
+    "val": 7516966,
+    "source": "20-F FY2023, accn 0001193125-23-179181",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312523179181/d360541d20f.htm"
+   },
+   "FY2024": {
+    "val": 9412060,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2025": {
+    "val": 8982404,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   },
+   "FY2026": {
+    "val": 12659622,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   }
+  },
+  "debt_current_incl_leases": {
+   "FY2022": {
+    "val": 11187839,
+    "source": "20-F FY2023, accn 0001193125-23-179181",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312523179181/d360541d20f.htm",
+    "note": "FY2022-FY2023 BS lines; lease inclusion confirmed from FY2024 onward via Note 18 reconciliation (FY2024 BS lines sum = Note 18 total 36,561,780 which includes lease liabilities)"
+   },
+   "FY2023": {
+    "val": 12305639,
+    "source": "20-F FY2023, accn 0001193125-23-179181",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312523179181/d360541d20f.htm"
+   },
+   "FY2024": {
+    "val": 15406284,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2025": {
+    "val": 15829516,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   },
+   "FY2026": {
+    "val": 17581104,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   }
+  },
+  "debt_noncurrent_incl_leases": {
+   "FY2022": {
+    "val": 15308519,
+    "source": "20-F FY2023, accn 0001193125-23-179181",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312523179181/d360541d20f.htm"
+   },
+   "FY2023": {
+    "val": 17074634,
+    "source": "20-F FY2023, accn 0001193125-23-179181",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312523179181/d360541d20f.htm"
+   },
+   "FY2024": {
+    "val": 21155496,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2025": {
+    "val": 22963363,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   },
+   "FY2026": {
+    "val": 25624365,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   }
+  },
+  "equity_attrib_to_TMC": {
+   "FY2022": {
+    "val": 26245969,
+    "source": "20-F FY2023, accn 0001193125-23-179181",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312523179181/d360541d20f.htm"
+   },
+   "FY2023": {
+    "val": 28338706,
+    "source": "20-F FY2023, accn 0001193125-23-179181",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312523179181/d360541d20f.htm"
+   },
+   "FY2024": {
+    "val": 34220991,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2025": {
+    "val": 35924826,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   },
+   "FY2026": {
+    "val": 39918854,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   }
+  },
+  "inventories": {
+   "FY2022": {
+    "val": 3821356,
+    "source": "20-F FY2023, accn 0001193125-23-179181",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312523179181/d360541d20f.htm"
+   },
+   "FY2023": {
+    "val": 4255614,
+    "source": "20-F FY2023, accn 0001193125-23-179181",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312523179181/d360541d20f.htm"
+   },
+   "FY2024": {
+    "val": 4605368,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2025": {
+    "val": 4598232,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   },
+   "FY2026": {
+    "val": 5134996,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   }
+  },
+  "trade_receivables": {
+   "FY2022": {
+    "val": 3142832,
+    "source": "20-F FY2023, accn 0001193125-23-179181",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312523179181/d360541d20f.htm"
+   },
+   "FY2023": {
+    "val": 3586130,
+    "source": "20-F FY2023, accn 0001193125-23-179181",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312523179181/d360541d20f.htm"
+   },
+   "FY2024": {
+    "val": 3789429,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2025": {
+    "val": 3679722,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   },
+   "FY2026": {
+    "val": 3795986,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   }
+  },
+  "weighted_avg_shares_thousands": {
+   "FY2022": {
+    "val": 13887348,
+    "source": "20-F FY2023, accn 0001193125-23-179181",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312523179181/d360541d20f.htm"
+   },
+   "FY2023": {
+    "val": 13658382,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2024": {
+    "val": 13512848,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2025": {
+    "val": 13252456,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   },
+   "FY2026": {
+    "val": 13033274,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   }
+  },
+  "eps_basic_diluted_yen": {
+   "FY2022": {
+    "val": 205.23,
+    "source": "20-F FY2023, accn 0001193125-23-179181",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312523179181/d360541d20f.htm"
+   },
+   "FY2023": {
+    "val": 179.47,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2024": {
+    "val": 365.94,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2025": {
+    "val": 359.56,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   },
+   "FY2026": {
+    "val": 295.25,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   }
+  },
+  "dps_yen_split_adjusted": {
+   "FY2022": {
+    "val": 52,
+    "source": "20-F FY2023, accn 0001193125-23-179181",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312523179181/d360541d20f.htm",
+    "note": "derived: interim 120 yen pre-split /5 = 24, plus final 28 (20-F FY2023 dividend table); FY2023 = 25+35; FY2024 = 30+45; FY2025 = 40+50; FY2026 = 45+50 (20-F FY2026 Item 8)"
+   },
+   "FY2023": {
+    "val": 60,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2024": {
+    "val": 75,
+    "source": "20-F FY2025, accn 0001193125-25-142326",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2025": {
+    "val": 90,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   },
+   "FY2026": {
+    "val": 95,
+    "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   }
+  },
+  "gross_profit_derived": {
+   "FY2022": {
+    "val": 5971673,
+    "source": "derived: revenue - cost of products sold - cost of financial services (Toyota reports no gross profit line)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312523179181/d360541d20f.htm"
+   },
+   "FY2023": {
+    "val": 6313016,
+    "source": "derived: revenue - cost of products sold - cost of financial services (Toyota reports no gross profit line)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2024": {
+    "val": 9368318,
+    "source": "derived: revenue - cost of products sold - cost of financial services (Toyota reports no gross profit line)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm"
+   },
+   "FY2025": {
+    "val": 9578038,
+    "source": "derived: revenue - cost of products sold - cost of financial services (Toyota reports no gross profit line)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   },
+   "FY2026": {
+    "val": 8463740,
+    "source": "derived: revenue - cost of products sold - cost of financial services (Toyota reports no gross profit line)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm"
+   }
+  }
+ },
+ "interim_Q1_FY2027": {
+  "period": "2026-04-01..2026-06-30",
+  "source": "Q1 FY2027 financial summary (6-K accn 0001193125-26-331392, Ex 99.1), 3 months to 2026-06-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526331392/d258414dex991.htm",
+  "unit": "JPY millions",
+  "revenue": 13525400,
+  "revenue_prior_year_q1": 12253326,
+  "operating_income": 1063473,
+  "operating_income_prior_year_q1": 1166141,
+  "pretax_income": 1963862,
+  "pretax_prior": 1252152,
+  "net_income_attrib": 1477044,
+  "net_income_attrib_prior": 841345,
+  "eps_basic_diluted_yen": 120.69,
+  "eps_prior_yen": 64.56,
+  "d_and_a": 642139,
+  "d_and_a_prior": 551824,
+  "ocf": 536551,
+  "ocf_prior": 1876481,
+  "capex_ppe_excl_leased": 497447,
+  "capex_leased_equipment": 736856,
+  "capex_intangibles": 71229,
+  "dividends_paid_TMC": 651697,
+  "repurchase_treasury_stock": 3656884,
+  "cash": 10343085,
+  "total_assets": 102635116,
+  "equity_attrib_TMC": 37308828,
+  "equity_total": 38228932,
+  "nci": 920104,
+  "debt_current_incl_leases": 17868651,
+  "debt_noncurrent_incl_leases": 26084517,
+  "inventories": 5469806,
+  "trade_receivables": 4019645,
+  "equity_method_investments": 5539499,
+  "other_finance_income": 850594,
+  "other_finance_costs": -285617,
+  "fx_gain_net": 112378,
+  "total_liquid_assets_excl_financial_services": 14727600,
+  "total_liquid_assets_excl_fs_mar2026": 17418000,
+  "shares_issued": 14594987460,
+  "treasury_shares": 2753153800
+ },
+ "ttm_to_2026-06-30": {
+  "method": "FY2026 - Q1 FY2026 + Q1 FY2027 (derived arithmetic from the filings above)",
+  "unit": "JPY millions",
+  "revenue": 51957026,
+  "operating_income": 3663548,
+  "net_income_attrib": 4483797,
+  "ocf": 4132990,
+  "d_and_a": 2482834,
+  "capex_ppe_excl_leased": 2141832,
+  "capex_leased_equipment_gross": 2833471,
+  "capex_intangibles": 380655,
+  "dividends_paid": 1238225,
+  "repurchase_treasury_stock": 3656906,
+  "gross_profit_derived": 8706174,
+  "warning": "TTM NI includes Q1 FY2027 non-operating gains (~JPY 600bn Toyota Industries share sale + ~JPY 300bn FX gain on USD assets per company Q&A) - not recurring"
+ },
+ "industrial_vs_financial_services_FY2026_2026-03-31": {
+  "source": "20-F FY2026 (FYE 2026-03-31), accn 0001193125-26-264811, Item 5.B 'Consolidated Statement of Financial Position on Non-Financial Services Businesses and Financial Services Business'",
+  "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm",
+  "unit": "JPY millions",
+  "non_financial_services": {
+   "total_assets": 53395223,
+   "total_liabilities": 19022852,
+   "derived_equity": 34372371,
+   "cash_and_equivalents": 9885097,
+   "debt_current": 976235,
+   "debt_noncurrent": 1823843,
+   "debt_total": 2800078,
+   "liquid_assets_per_IR": 17418000,
+   "ocf": 5479380,
+   "capex_ppe": 2119162,
+   "capex_leased_equipment": 33176,
+   "capex_intangibles": 365834,
+   "dividends_paid": 1238974,
+   "interest_paid": 90538,
+   "net_income": 3376424
+  },
+  "financial_services": {
+   "total_assets": 53741709,
+   "total_liabilities": 47097547,
+   "derived_equity": 6644162,
+   "cash_and_equivalents": 2774524,
+   "debt_current": 17042885,
+   "debt_noncurrent": 23904821,
+   "debt_total": 40947706,
+   "ocf": -33745,
+   "investing_cf": -1478336,
+   "financing_cf": 1194223,
+   "net_income": 625307,
+   "interest_paid": 1620645,
+   "operating_income_segment": 851700,
+   "receivables_related_to_financial_services_current": 13483501,
+   "receivables_related_to_financial_services_noncurrent": 25494405
+  },
+  "eliminations": {
+   "assets": -1614601,
+   "liabilities": -1618136
+  },
+  "consolidated": {
+   "total_assets": 105522331,
+   "total_liabilities": 64502263,
+   "debt_total_incl_leases": 43205469,
+   "lease_liabilities": 711013
+  },
+  "reconciliation_note": "non-fin debt 2,800,078 + FS debt 40,947,706 = 43,747,784 vs consolidated 43,205,469: JPY 542,315M gap = intercompany eliminations (loans from parent/industrial to FS) - cause inferred, not itemised in filing; consolidated figure is right for group, segment figures are right for leverage analysis."
+ },
+ "share_count": {
+  "issued_2026-03-31": 15794987460,
+  "treasury_2026-03-31": 2761055486,
+  "outstanding_2026-03-31": 13033931974,
+  "tender_offer_shares_repurchased": 1192330962,
+  "tender_price_yen": 3067,
+  "tender_total_yen_bn": 3656.9,
+  "issued_2026-06-30": 14594987460,
+  "treasury_2026-06-30": 2753153800,
+  "outstanding_2026-06-30_derived": 11841833660,
+  "repurchased_2026-08-05_to_09-30": 63766500,
+  "repurchased_value_yen": 195000372200,
+  "outstanding_2026-09-30_derived_approx": 11778067160,
+  "note": "derived: Jun-30 outstanding minus Aug-Sep open-market buybacks; ignores treasury-stock reissuances for employee plans (Aug 7 disposition) and ESOP-trust treatment",
+  "source": "6-K accn 0001193125-26-331392 Ex 99.1/99.3; 6-K accn 0001193125-26-413029 Ex 99.1"
+ },
+ "guidance_FY2027": {
+  "revenue_bn": 54000.0,
+  "operating_income_bn": 3400.0,
+  "pretax_bn": 4570.0,
+  "net_income_attrib_bn": 3250.0,
+  "eps_yen": 272.17,
+  "dps_yen": 100,
+  "fx_usd": 160,
+  "fx_eur": 181,
+  "previous_guidance_2026-05-08": {
+   "revenue_bn": 51000.0,
+   "operating_income_bn": 3000.0,
+   "net_income_attrib_bn": 3000.0,
+   "fx_usd": 150
+  },
+  "source": "6-K accn 0001193125-26-331392 Ex 99.1 and 99.2 (2026-08-04)"
+ },
+ "derived": {
+  "rev_cagr_FY2022_FY2026": 0.12735,
+  "eps_cagr_FY2022_FY2026": 0.09518,
+  "eps_change_FY2024_FY2026": -0.19317,
+  "inventory_growth_FY2026": 0.11673,
+  "sales_growth_FY2026": 0.05513,
+  "receivables_growth_FY2026": 0.0316,
+  "gross_margin_FY2026": 0.16699,
+  "gross_margin_TTM": 0.16756,
+  "operating_margin_FY2026": 0.07431
+ },
+ "gaps": [
+  "SBC expense: not disclosed as a line (liability from stock-based compensation JPY 195M at 2026-03-31, 20-F Note) - treat as immaterial/UNKNOWN",
+  "Non-financial-services debt at 2026-06-30: UNKNOWN (Q1 summary has no segment balance sheet); Mar-31 figure used",
+  "Interest expense (industrial only): UNKNOWN as a line; consolidated interest expense JPY 1,696,845M FY2026 is mostly financial services; non-fin interest paid 90,538M (cash flow)",
+  "Minority-interest put liabilities: none found in 20-F",
+  "Goodwill: not material per 20-F accounting policy text"
+ ]
+}

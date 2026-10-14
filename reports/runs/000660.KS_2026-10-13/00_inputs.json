@@ -1,0 +1,41 @@
+{
+ "ticker": "000660.KS",
+ "generated": "2026-10-13T13:52:12+00:00",
+ "price": 1443000.0,
+ "quote_currency": "KRW",
+ "financial_currency": "KRW",
+ "price_as_of": "2026-10-13T13:52:04+00:00",
+ "risk_free_10y": {
+  "KRW": {
+   "value_pct": 4.369,
+   "date": "2026-10-06",
+   "series": "KTB 10y close (KOFIA, via SBS Biz)",
+   "source": "Researcher 000660.KS dossier \u00a71",
+   "frequency": "daily close; orchestrator replaced the OECD Aug monthly 4.286% with this fresher dated quote"
+  },
+  "USD": {
+   "value_pct": 5.22,
+   "date": "2026-10-08",
+   "series": "DGS10",
+   "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10",
+   "frequency": "daily"
+  },
+  "KRW_oecd_monthly": {
+   "value_pct": 4.286,
+   "date": "2026-08-01",
+   "series": "IRLTLT01KRM156N",
+   "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=IRLTLT01KRM156N",
+   "frequency": "monthly average (OECD, lags 1-2 months)"
+  }
+ },
+ "fx_spot_to_usd": {
+  "KRWUSD": 0.0007453897851519287,
+  "SGDUSD": 0.781231701374054
+ },
+ "equity_risk_premium_pct": 5.0,
+ "discount_rate_floor": {
+  "USD": 8.0,
+  "other": "local 10y + 4.0"
+ },
+ "rule": "All agents use these values. If an agent believes one is wrong or stale, it says so in its output and shows the effect, but does not silently substitute another figure."
+}

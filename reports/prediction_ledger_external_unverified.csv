@@ -1,0 +1,18 @@
+as_of,ticker,verdict,price_usd,fair_value,upside_pct,entry_below,exit_above,conviction,key_risk,data_warnings,review_date,actual_price_at_review,outcome,template
+2026-10-13,VXUS,TRIM,84.52,6.64,,,,HIGH,30% US dividend withholding (61.5 bp/yr drag) and US$60k US estate-tax situs on foreign equities,1,2027-01-13,,,FUND
+2026-10-13,NVO,HOLD,38.02,45.40,19.4,34.05,59.02,MEDIUM,US WAC list cuts of 35-50% in 2027 and tirzepatide competition compress EBIT margins toward 30-33% on DKK 140B debt load,1,2027-01-13,,,FULL
+2026-10-13,000660.KS,TRIM,1075.60,532.08,-50.5,319.25,691.71,HIGH,Price requires peak HBM margins to persist 5 full years without a cyclical downturn while Samsung ramps supply,0,2027-01-13,,,FULL
+2026-10-13,402340.KS,TRIM,638.80,366.20,-42.7,219.72,476.06,HIGH,SK Hynix represents 98% of NAV at peak memory margins; 20% regulatory floor prevents monetizing the holdco discount,0,2027-01-13,,,SOTP
+2026-10-13,SYK,TRIM,283.71,207.87,-26.7,166.30,270.23,HIGH,Price discounts ~10% revenue CAGR for a decade while M&A returns lag and peripheral vascular issues persist,0,2027-01-13,,,FULL
+2026-10-13,BABA,TRIM,110.53,72.57,-34.3,58.05,94.34,HIGH,Price discounts ~11.5% revenue CAGR for a decade while PDD and Douyin squeeze domestic commerce margins,0,2027-01-13,,,FULL
+2026-10-13,TM,HOLD,188.38,207.15,10.0,165.72,269.29,MEDIUM,BOJ rate hikes and yen strengthening normalize operating profits while Chinese EVs squeeze China and ASEAN volumes,1,2027-01-13,,,FULL
+2026-10-13,LAD,HOLD,287.94,344.79,19.7,258.59,448.23,HIGH,High-interest rate environment tightens consumer auto affordability while .0B corporate debt requires steady cash flow,1,2027-01-13,,,FULL
+2026-10-13,INCY,PASS,108.95,76.09,-30.2,60.87,98.91,HIGH,Price requires flawless pipeline execution to offset the late-2028 Jakafi patent cliff (>60% of revenue),1,2027-01-13,,,FULL
+2026-10-13,ACAD,HOLD,18.82,16.36,-13.1,13.09,21.26,MEDIUM,Daybue real-world GI discontinuations cap Rett syndrome penetration while Nuplazid faces 2030 patent expiry,1,2027-01-13,,,FULL
+2026-10-13,MDGL,TRIM,455.53,238.62,-47.6,167.03,310.21,HIGH,Price discounts ~$7B peak sales; GLP-1 and rival THR-beta competition cap durability,2,2027-01-13,,,rNPV
+2026-10-13,INSM,TRIM,98.50,28.78,-70.8,20.15,37.42,HIGH,Price discounts >$14.5B peak sales; commercial payor friction and multi-indication attrition cap upside,2,2027-01-13,,,rNPV
+2026-10-13,PRAX,TRIM,248.69,119.98,-51.8,83.99,155.98,HIGH,Price discounts >$5.5B peak sales; CNS Phase 3 endpoint subjectivity and clinical trial attrition,2,2027-01-13,,,rNPV
+2026-10-13,CELC,TRIM,64.38,35.04,-45.6,24.53,45.56,HIGH,Price discounts ~$3.0B peak sales; IV infusion logistics vs oral AKT competitors cap real-world share,4,2027-01-13,,,rNPV
+2026-10-14,BATS.L,HOLD,55.64,49.22,-11.5,46.43,68.99,HIGH,US combustible volume decline acceleration and prospective FDA menthol ban on Newport,0,2027-01-14,,,FULL
+2026-10-14,ASML.AS,PASS,1692.38,568.78,-66.4,455.02,739.42,HIGH,Current price trades at 3x intrinsic value requiring an impossible 22.3% revenue CAGR for a decade amidst China export restrictions,0,2027-01-14,,,FULL
+2026-10-14,INSM,TRIM,96.79,28.78,-70.3,20.15,37.42,HIGH,Price discounts >$17B peak sales; commercial payor friction and multi-indication attrition cap upside,2,2027-01-14,,,rNPV

@@ -1,0 +1,277 @@
+{
+ "ticker": "TSM",
+ "as_of": "2026-10-13",
+ "route": "FULL",
+ "stale_xbrl": true,
+ "currency_note": "Financials NT$ millions; price USD; 1 ADS=5 shares",
+ "market": {
+  "as_of": "2026-10-13",
+  "quote_ccy": "USD",
+  "reporting_ccy": "TWD",
+  "units": "NT$ millions unless noted",
+  "adr_ratio": "1 ADS = 5 common shares (20-F EPS per equivalent ADS = 5 x EPS per share)",
+  "price": 444.35,
+  "price_12m_ago_2025-10-13": 299.72,
+  "change_12m": 0.4826,
+  "high_52w_yfinance": 487.47,
+  "low_52w_yfinance": 266.82,
+  "high_52w_close_based": 485.8,
+  "low_52w_close_based": 272.18,
+  "market_cap_usd": 2304609615872,
+  "usdtwd": 32.133,
+  "market_cap_twd_m": 74054020.8,
+  "common_shares_m": 25932.5,
+  "adr_equiv_m_yfinance": 5186.47,
+  "ev_twd_m": 71646742.4,
+  "ev_build": "mcap 74,054,021 - cash&current securities 3,517,787 + debt 1,068,556 + NCI 41,953",
+  "ev_usd_b": 2229.7,
+  "pe_ttm_computed": 33.4,
+  "ev_ebitda_ttm_computed": 22.5,
+  "fcf_yield_ttm_computed": 0.0153,
+  "us10y_pct": 5.277,
+  "us10y_src": "^TNX yahoo 2026-10-13",
+  "tw10y": null
+ },
+ "annual": {
+  "revenue": {
+   "2021": 1587415,
+   "2022": 2263891,
+   "2023": 2161735.8,
+   "2024": 2894307.7,
+   "2025": 3809054.3
+  },
+  "gross_profit": {
+   "2021": 819537,
+   "2022": 1348355,
+   "2023": 1175110.6,
+   "2024": 1624353.6,
+   "2025": 2281294.0
+  },
+  "operating_income": {
+   "2021": 649981,
+   "2022": 1121279,
+   "2023": 921465.6,
+   "2024": 1322053.0,
+   "2025": 1936091.7
+  },
+  "net_income_parent": {
+   "2021": 592359,
+   "2022": 992923,
+   "2023": 851740.0,
+   "2024": 1158380.2,
+   "2025": 1697604.0
+  },
+  "d_and_a": {
+   "2021": null,
+   "2022": null,
+   "2023": 532190.9,
+   "2024": 662796.6,
+   "2025": 688096.4
+  },
+  "sbc": {
+   "2021": 8,
+   "2022": 302,
+   "2023": 483.0,
+   "2024": 1242.7,
+   "2025": 1246.1
+  },
+  "ocf": {
+   "2021": 1112161,
+   "2022": 1610599,
+   "2023": 1241967.3,
+   "2024": 1826177.1,
+   "2025": 2274975.6
+  },
+  "capex_ppe": {
+   "2021": 839196,
+   "2022": 1082672,
+   "2023": 949816.8,
+   "2024": 956006.5,
+   "2025": 1272410.5
+  },
+  "fcf_ocf_less_ppe": {
+   "2021": 272965,
+   "2022": 527927,
+   "2023": 292150.5,
+   "2024": 870170.6,
+   "2025": 1002565.1
+  },
+  "buybacks": {
+   "2021": null,
+   "2022": null,
+   "2023": 0,
+   "2024": 3089.2,
+   "2025": 0
+  },
+  "dividends_paid": {
+   "2021": 265786,
+   "2022": 285234,
+   "2023": 291721.9,
+   "2024": 363055.2,
+   "2025": 466779.2
+  },
+  "cash_and_equivalents": {
+   "2021": 1064990,
+   "2022": 1342814,
+   "2023": 1465428,
+   "2024": 2127627.0,
+   "2025": 2767856.4
+  },
+  "total_debt_incl_noncurrent_leases": {
+   "2021": null,
+   "2022": null,
+   "2023": null,
+   "2024": 1047042.1,
+   "2025": 1064582.7
+  },
+  "equity_parent": {
+   "2021": 2149260,
+   "2022": 2903020,
+   "2023": 3429522,
+   "2024": 4244266.5,
+   "2025": 5355038.7
+  },
+  "diluted_shares_m": {
+   "2021": 25930,
+   "2022": 25929,
+   "2023": 25929,
+   "2024": 25930,
+   "2025": null
+  },
+  "eps_diluted_twd": {
+   "2023": 32.85,
+   "2024": 44.67,
+   "2025": 65.47
+  }
+ },
+ "ttm": {
+  "basis": "TTM = FY2025 + 1H26 - 1H25 (NT$ millions)",
+  "period": "2025-07-01..2026-06-30",
+  "revenue": 4440492.5,
+  "gross_profit": 2852135.8,
+  "operating_income": 2491156.0,
+  "net_income_consolidated": 2216481.0,
+  "eps_diluted_twd": 85.49,
+  "ocf": 2634679.1,
+  "capex_ppe": 1491122.7,
+  "capex_intangibles": 9406.8,
+  "fcf": 1134149.6,
+  "depreciation": 680213.3,
+  "amortization": 8674.8,
+  "sbc": 683.5
+ },
+ "interim": {
+  "1Q26": {
+   "revenue": 1134103,
+   "gross_profit": 751295,
+   "operating_income": 658966,
+   "net_income": 572480,
+   "eps": 22.08,
+   "gm": 0.662,
+   "om": 0.581
+  },
+  "2Q26": {
+   "revenue": 1270381,
+   "gross_profit": 860311,
+   "operating_income": 766603,
+   "net_income": 706562,
+   "eps": 27.25,
+   "gm": 0.677,
+   "om": 0.603,
+   "usd_revenue_b": 40.2,
+   "oneoff_vis_gain_eps": 2.24
+  },
+  "1H26": {
+   "revenue": 2404483.7,
+   "gross_profit": 1611606.1,
+   "operating_income": 1425568.8,
+   "net_income_consolidated": 1279582.2,
+   "eps_diluted": 49.32,
+   "ocf": 1482341.2,
+   "capex_ppe": 846764.7,
+   "depreciation": 359541.5,
+   "cash_dividends_paid": 285258.1
+  },
+  "1H25": {
+   "revenue": 1773045.5,
+   "gross_profit": 1040764.3,
+   "operating_income": 870504.4,
+   "net_income_consolidated": 758226.1,
+   "eps_diluted": 29.3,
+   "ocf": 1122637.8,
+   "capex_ppe": 628052.5,
+   "depreciation": 359012.2
+  }
+ },
+ "balance_sheet_latest": {
+  "as_of": "2026-06-30",
+  "cash_and_equivalents": 3134218.2,
+  "fvoci_current": 193182.7,
+  "amortized_cost_current": 190385.8,
+  "cash_and_current_securities": 3517787.0,
+  "bonds_noncurrent": 815036.7,
+  "lt_bank_loans_noncurrent": 49227.0,
+  "lt_liabilities_current_portion": 167409.9,
+  "lease_noncurrent": 33276.1,
+  "lease_current": 3606.3,
+  "total_debt": 1068555.9,
+  "total_equity": 6474471.0,
+  "nci": 41952.6,
+  "total_assets": 9375654.7,
+  "total_liabilities": 2901183.7
+ },
+ "guidance": {
+  "3Q26": {
+   "revenue_usd_b": [
+    44.6,
+    45.8
+   ],
+   "gm": [
+    0.65,
+    0.67
+   ],
+   "om": [
+    0.56,
+    0.58
+   ],
+   "fx": 32
+  },
+  "FY26_revenue_growth_usd": "slightly above 40%",
+  "FY26_capex_usd_b": [
+   60,
+   64
+  ],
+  "FY26_capex_prior": [
+   52,
+   56
+  ],
+  "div_2026_twd_per_share": 24,
+  "div_2q26_twd_per_share": 7.0
+ },
+ "sources": {
+  "1": "https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm (20-F FY2025, accn 0001628280-26-025362, filed 2026-04-16)",
+  "2": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000541/a2026q2consolidatedreport-.htm (6-K 2026-08-14, accn 0001046179-26-000541, 2Q26 consolidated FS, NT$ thousands)",
+  "3": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000451/a2q26e_withguidancexfinal.htm (6-K 2026-07-16, accn 0001046179-26-000451, 2Q26 earnings release)",
+  "4": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000199/a1q26e_withguidancexfinal.htm (6-K 2026-04-16, accn 0001046179-26-000199, 1Q26 release)",
+  "5": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000008/a4q25e_withguidancexfinal.htm (6-K 2026-01-15, accn 0001046179-26-000008, 4Q25 release)",
+  "6": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf (2Q26 call transcript, LSEG, 2026-07-16)",
+  "7": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000536/tsm-boardx20260811.htm (6-K 2026-08-11, accn 0001046179-26-000536, board resolutions)",
+  "8": "methodologies/sec_facts.py TSM -> reports/runs/TSM_2026-10-13/facts_sec.json (XBRL companyfacts, FY2019-FY2024, STALE)",
+  "9": "methodologies/fundamentals.py fetch('TSM') via yfinance, 2026-10-13 (price, market cap, 52w range, shares, FX TWD=X, ^TNX)"
+ },
+ "customers": {
+  "top10_pct_rev_2025": 0.78,
+  "largest_2025": 0.19,
+  "second_2025": 0.17
+ },
+ "mix_2025": {
+  "HPC": 0.58,
+  "Smartphone": 0.29,
+  "IoT": 0.05,
+  "Auto": 0.05,
+  "DCE": 0.01,
+  "Others": 0.02,
+  "North_America": 0.75
+ },
+ "insider_activity": "UNKNOWN (foreign private issuer, no Form 4)"
+}

@@ -1,0 +1,1788 @@
+{
+ "ticker": "NVO",
+ "cik": 353278,
+ "entity": "NOVO NORDISK A S",
+ "retrieved": "2026-10-13T13:53:30+00:00",
+ "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000353278.json",
+ "fiscal_year_ends": [
+  "2020-12-31",
+  "2021-12-31",
+  "2022-12-31",
+  "2023-12-31",
+  "2024-12-31",
+  "2025-12-31"
+ ],
+ "annual": {
+  "revenue": {
+   "2020-12-31": {
+    "val": 126946000000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-23-001868",
+    "filed": "2023-02-01",
+    "tag": "ifrs-full:Revenue"
+   },
+   "2021-12-31": {
+    "val": 140800000000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-24-002635",
+    "filed": "2024-01-31",
+    "tag": "ifrs-full:Revenue"
+   },
+   "2022-12-31": {
+    "val": 176954000000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-25-003920",
+    "filed": "2025-02-05",
+    "tag": "ifrs-full:Revenue"
+   },
+   "2023-12-31": {
+    "val": 232261000000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:Revenue"
+   },
+   "2024-12-31": {
+    "val": 290403000000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:Revenue"
+   },
+   "2025-12-31": {
+    "val": 309064000000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:Revenue"
+   }
+  },
+  "gross_profit": {
+   "2020-12-31": {
+    "val": 106014000000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-23-001868",
+    "filed": "2023-02-01",
+    "tag": "ifrs-full:GrossProfit"
+   },
+   "2021-12-31": {
+    "val": 117142000000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-24-002635",
+    "filed": "2024-01-31",
+    "tag": "ifrs-full:GrossProfit"
+   },
+   "2022-12-31": {
+    "val": 148506000000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-25-003920",
+    "filed": "2025-02-05",
+    "tag": "ifrs-full:GrossProfit"
+   },
+   "2023-12-31": {
+    "val": 196496000000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:GrossProfit"
+   },
+   "2024-12-31": {
+    "val": 245881000000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:GrossProfit"
+   },
+   "2025-12-31": {
+    "val": 250276000000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:GrossProfit"
+   }
+  },
+  "cost_of_revenue": {
+   "2020-12-31": {
+    "val": 20932000000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-23-001868",
+    "filed": "2023-02-01",
+    "tag": "ifrs-full:CostOfSales"
+   },
+   "2021-12-31": {
+    "val": 23658000000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-24-002635",
+    "filed": "2024-01-31",
+    "tag": "ifrs-full:CostOfSales"
+   },
+   "2022-12-31": {
+    "val": 28448000000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-25-003920",
+    "filed": "2025-02-05",
+    "tag": "ifrs-full:CostOfSales"
+   },
+   "2023-12-31": {
+    "val": 35765000000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:CostOfSales"
+   },
+   "2024-12-31": {
+    "val": 44522000000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:CostOfSales"
+   },
+   "2025-12-31": {
+    "val": 58788000000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:CostOfSales"
+   }
+  },
+  "operating_income": {
+   "2020-12-31": {
+    "val": 54126000000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-23-001868",
+    "filed": "2023-02-01",
+    "tag": "ifrs-full:ProfitLossFromOperatingActivities"
+   },
+   "2021-12-31": {
+    "val": 58644000000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-24-002635",
+    "filed": "2024-01-31",
+    "tag": "ifrs-full:ProfitLossFromOperatingActivities"
+   },
+   "2022-12-31": {
+    "val": 74809000000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-25-003920",
+    "filed": "2025-02-05",
+    "tag": "ifrs-full:ProfitLossFromOperatingActivities"
+   },
+   "2023-12-31": {
+    "val": 102574000000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:ProfitLossFromOperatingActivities"
+   },
+   "2024-12-31": {
+    "val": 128339000000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:ProfitLossFromOperatingActivities"
+   },
+   "2025-12-31": {
+    "val": 127658000000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:ProfitLossFromOperatingActivities"
+   }
+  },
+  "pretax_income": {
+   "2020-12-31": {
+    "val": 53130000000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-23-001868",
+    "filed": "2023-02-01",
+    "tag": "ifrs-full:ProfitLossBeforeTax"
+   },
+   "2021-12-31": {
+    "val": 59080000000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-24-002635",
+    "filed": "2024-01-31",
+    "tag": "ifrs-full:ProfitLossBeforeTax"
+   },
+   "2022-12-31": {
+    "val": 69062000000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-25-003920",
+    "filed": "2025-02-05",
+    "tag": "ifrs-full:ProfitLossBeforeTax"
+   },
+   "2023-12-31": {
+    "val": 104674000000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:ProfitLossBeforeTax"
+   },
+   "2024-12-31": {
+    "val": 127191000000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:ProfitLossBeforeTax"
+   },
+   "2025-12-31": {
+    "val": 130540000000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:ProfitLossBeforeTax"
+   }
+  },
+  "income_tax": {
+   "2020-12-31": {
+    "val": 10992000000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-23-001868",
+    "filed": "2023-02-01",
+    "tag": "ifrs-full:IncomeTaxExpenseContinuingOperations"
+   },
+   "2021-12-31": {
+    "val": 11323000000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-24-002635",
+    "filed": "2024-01-31",
+    "tag": "ifrs-full:IncomeTaxExpenseContinuingOperations"
+   },
+   "2022-12-31": {
+    "val": 13537000000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-25-003920",
+    "filed": "2025-02-05",
+    "tag": "ifrs-full:IncomeTaxExpenseContinuingOperations"
+   },
+   "2023-12-31": {
+    "val": 20991000000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:IncomeTaxExpenseContinuingOperations"
+   },
+   "2024-12-31": {
+    "val": 26203000000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:IncomeTaxExpenseContinuingOperations"
+   },
+   "2025-12-31": {
+    "val": 28106000000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:IncomeTaxExpenseContinuingOperations"
+   }
+  },
+  "net_income": {
+   "2020-12-31": {
+    "val": 42138000000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-23-001868",
+    "filed": "2023-02-01",
+    "tag": "ifrs-full:ProfitLoss"
+   },
+   "2021-12-31": {
+    "val": 47757000000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-24-002635",
+    "filed": "2024-01-31",
+    "tag": "ifrs-full:ProfitLoss"
+   },
+   "2022-12-31": {
+    "val": 55525000000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-25-003920",
+    "filed": "2025-02-05",
+    "tag": "ifrs-full:ProfitLoss"
+   },
+   "2023-12-31": {
+    "val": 83683000000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:ProfitLoss"
+   },
+   "2024-12-31": {
+    "val": 100988000000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:ProfitLoss"
+   },
+   "2025-12-31": {
+    "val": 102434000000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:ProfitLoss"
+   }
+  },
+  "interest_expense": {
+   "2020-12-31": {
+    "val": 2624000000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-23-001868",
+    "filed": "2023-02-01",
+    "tag": "ifrs-full:FinanceCosts"
+   },
+   "2021-12-31": {
+    "val": 2451000000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-24-002635",
+    "filed": "2024-01-31",
+    "tag": "ifrs-full:FinanceCosts"
+   },
+   "2022-12-31": {
+    "val": 5986000000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-25-003920",
+    "filed": "2025-02-05",
+    "tag": "ifrs-full:FinanceCosts"
+   },
+   "2023-12-31": {
+    "val": 845000000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:FinanceCosts"
+   },
+   "2024-12-31": {
+    "val": 7346000000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:FinanceCosts"
+   },
+   "2025-12-31": {
+    "val": 6778000000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:FinanceCosts"
+   }
+  },
+  "d_and_a": {
+   "2022-12-31": {
+    "val": 6553000000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-25-003920",
+    "filed": "2025-02-05",
+    "tag": "ifrs-full:DepreciationAndAmortisationExpense"
+   },
+   "2023-12-31": {
+    "val": 7289000000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:DepreciationAndAmortisationExpense"
+   },
+   "2024-12-31": {
+    "val": 8545000000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:DepreciationAndAmortisationExpense"
+   },
+   "2025-12-31": {
+    "val": 14666000000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:DepreciationAndAmortisationExpense"
+   }
+  },
+  "sbc": {
+   "2020-12-31": {
+    "val": 823000000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-23-001868",
+    "filed": "2023-02-01",
+    "tag": "ifrs-full:AdjustmentsForSharebasedPayments"
+   },
+   "2021-12-31": {
+    "val": 1040000000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-24-002635",
+    "filed": "2024-01-31",
+    "tag": "ifrs-full:AdjustmentsForSharebasedPayments"
+   },
+   "2022-12-31": {
+    "val": 1539000000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-25-003920",
+    "filed": "2025-02-05",
+    "tag": "ifrs-full:AdjustmentsForSharebasedPayments"
+   },
+   "2023-12-31": {
+    "val": 2149000000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:AdjustmentsForSharebasedPayments"
+   },
+   "2024-12-31": {
+    "val": 2289000000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:AdjustmentsForSharebasedPayments"
+   },
+   "2025-12-31": {
+    "val": 1435000000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:AdjustmentsForSharebasedPayments"
+   }
+  },
+  "ocf": {
+   "2020-12-31": {
+    "val": 51951000000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-23-001868",
+    "filed": "2023-02-01",
+    "tag": "ifrs-full:CashFlowsFromUsedInOperatingActivities"
+   },
+   "2021-12-31": {
+    "val": 55000000000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-24-002635",
+    "filed": "2024-01-31",
+    "tag": "ifrs-full:CashFlowsFromUsedInOperatingActivities"
+   },
+   "2022-12-31": {
+    "val": 78887000000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-25-003920",
+    "filed": "2025-02-05",
+    "tag": "ifrs-full:CashFlowsFromUsedInOperatingActivities"
+   },
+   "2023-12-31": {
+    "val": 108908000000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:CashFlowsFromUsedInOperatingActivities"
+   },
+   "2024-12-31": {
+    "val": 120968000000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:CashFlowsFromUsedInOperatingActivities"
+   },
+   "2025-12-31": {
+    "val": 119102000000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:CashFlowsFromUsedInOperatingActivities"
+   }
+  },
+  "capex": {
+   "2020-12-31": {
+    "val": 5825000000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-23-001868",
+    "filed": "2023-02-01",
+    "tag": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities"
+   },
+   "2021-12-31": {
+    "val": 6335000000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-24-002635",
+    "filed": "2024-01-31",
+    "tag": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities"
+   },
+   "2022-12-31": {
+    "val": 12146000000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-25-003920",
+    "filed": "2025-02-05",
+    "tag": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities"
+   },
+   "2023-12-31": {
+    "val": 25806000000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities"
+   },
+   "2024-12-31": {
+    "val": 47164000000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities"
+   },
+   "2025-12-31": {
+    "val": 60140000000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities"
+   }
+  },
+  "capex_intangibles": {
+   "2020-12-31": {
+    "val": 16256000000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-23-001868",
+    "filed": "2023-02-01",
+    "tag": "ifrs-full:PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities"
+   },
+   "2021-12-31": {
+    "val": 1050000000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-24-002635",
+    "filed": "2024-01-31",
+    "tag": "ifrs-full:PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities"
+   },
+   "2022-12-31": {
+    "val": 2607000000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-25-003920",
+    "filed": "2025-02-05",
+    "tag": "ifrs-full:PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities"
+   },
+   "2023-12-31": {
+    "val": 13090000000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities"
+   },
+   "2024-12-31": {
+    "val": 4145000000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities"
+   },
+   "2025-12-31": {
+    "val": 29973000000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities"
+   }
+  },
+  "investing_cf": {
+   "2020-12-31": {
+    "val": -22436000000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-23-001868",
+    "filed": "2023-02-01",
+    "tag": "ifrs-full:CashFlowsFromUsedInInvestingActivities"
+   },
+   "2021-12-31": {
+    "val": -31605000000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-24-002635",
+    "filed": "2024-01-31",
+    "tag": "ifrs-full:CashFlowsFromUsedInInvestingActivities"
+   },
+   "2022-12-31": {
+    "val": -24918000000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-25-003920",
+    "filed": "2025-02-05",
+    "tag": "ifrs-full:CashFlowsFromUsedInInvestingActivities"
+   },
+   "2023-12-31": {
+    "val": -43892000000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:CashFlowsFromUsedInInvestingActivities"
+   },
+   "2024-12-31": {
+    "val": -128895000000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:CashFlowsFromUsedInInvestingActivities"
+   },
+   "2025-12-31": {
+    "val": -79158000000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:CashFlowsFromUsedInInvestingActivities"
+   }
+  },
+  "securities_bought": {},
+  "securities_sold": {},
+  "buybacks": {
+   "2020-12-31": {
+    "val": 16855000000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-23-001868",
+    "filed": "2023-02-01",
+    "tag": "ifrs-full:PaymentsToAcquireOrRedeemEntitysShares"
+   },
+   "2021-12-31": {
+    "val": 19447000000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-24-002635",
+    "filed": "2024-01-31",
+    "tag": "ifrs-full:PaymentsToAcquireOrRedeemEntitysShares"
+   },
+   "2022-12-31": {
+    "val": 24086000000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-25-003920",
+    "filed": "2025-02-05",
+    "tag": "ifrs-full:PaymentsToAcquireOrRedeemEntitysShares"
+   },
+   "2023-12-31": {
+    "val": 29924000000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:PaymentsToAcquireOrRedeemEntitysShares"
+   },
+   "2024-12-31": {
+    "val": 20181000000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:PaymentsToAcquireOrRedeemEntitysShares"
+   },
+   "2025-12-31": {
+    "val": 1388000000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:PaymentsToAcquireOrRedeemEntitysShares"
+   }
+  },
+  "dividends_paid": {
+   "2020-12-31": {
+    "val": 20121000000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-23-001868",
+    "filed": "2023-02-01",
+    "tag": "ifrs-full:DividendsPaidClassifiedAsFinancingActivities"
+   },
+   "2021-12-31": {
+    "val": 21517000000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-24-002635",
+    "filed": "2024-01-31",
+    "tag": "ifrs-full:DividendsPaidClassifiedAsFinancingActivities"
+   },
+   "2022-12-31": {
+    "val": 25303000000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-25-003920",
+    "filed": "2025-02-05",
+    "tag": "ifrs-full:DividendsPaidClassifiedAsFinancingActivities"
+   },
+   "2023-12-31": {
+    "val": 31767000000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:DividendsPaidClassifiedAsFinancingActivities"
+   },
+   "2024-12-31": {
+    "val": 44140000000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:DividendsPaidClassifiedAsFinancingActivities"
+   },
+   "2025-12-31": {
+    "val": 51763000000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:DividendsPaidClassifiedAsFinancingActivities"
+   }
+  },
+  "acquisitions": {
+   "2020-12-31": {
+    "val": 0,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-23-001868",
+    "filed": "2023-02-01",
+    "tag": "ifrs-full:CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities"
+   },
+   "2021-12-31": {
+    "val": 18283000000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-24-002635",
+    "filed": "2024-01-31",
+    "tag": "ifrs-full:CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities"
+   },
+   "2022-12-31": {
+    "val": 7075000000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-25-003920",
+    "filed": "2025-02-05",
+    "tag": "ifrs-full:CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities"
+   },
+   "2023-12-31": {
+    "val": 0,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities"
+   },
+   "2024-12-31": {
+    "val": 82163000000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities"
+   },
+   "2025-12-31": {
+    "val": 0,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities"
+   }
+  },
+  "diluted_shares": {
+   "2020-12-31": {
+    "val": 2340000000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "shares",
+    "form": "20-F",
+    "accn": "0001628280-23-001868",
+    "filed": "2023-02-01",
+    "tag": "ifrs-full:AdjustedWeightedAverageShares"
+   },
+   "2021-12-31": {
+    "val": 4606200000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "shares",
+    "form": "20-F",
+    "accn": "0001628280-24-002635",
+    "filed": "2024-01-31",
+    "tag": "ifrs-full:AdjustedWeightedAverageShares"
+   },
+   "2022-12-31": {
+    "val": 4544600000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "shares",
+    "form": "20-F",
+    "accn": "0001628280-25-003920",
+    "filed": "2025-02-05",
+    "tag": "ifrs-full:AdjustedWeightedAverageShares"
+   },
+   "2023-12-31": {
+    "val": 4494800000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "shares",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:AdjustedWeightedAverageShares"
+   },
+   "2024-12-31": {
+    "val": 4463000000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "shares",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:AdjustedWeightedAverageShares"
+   },
+   "2025-12-31": {
+    "val": 4447700000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "shares",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:AdjustedWeightedAverageShares"
+   }
+  },
+  "eps_diluted": {
+   "2020-12-31": {
+    "val": 18.01,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "DKK/shares",
+    "form": "20-F",
+    "accn": "0001628280-23-001868",
+    "filed": "2023-02-01",
+    "tag": "ifrs-full:DilutedEarningsLossPerShare"
+   },
+   "2021-12-31": {
+    "val": 10.37,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "DKK/shares",
+    "form": "20-F",
+    "accn": "0001628280-24-002635",
+    "filed": "2024-01-31",
+    "tag": "ifrs-full:DilutedEarningsLossPerShare"
+   },
+   "2022-12-31": {
+    "val": 12.22,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "DKK/shares",
+    "form": "20-F",
+    "accn": "0001628280-25-003920",
+    "filed": "2025-02-05",
+    "tag": "ifrs-full:DilutedEarningsLossPerShare"
+   },
+   "2023-12-31": {
+    "val": 18.62,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "DKK/shares",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:DilutedEarningsLossPerShare"
+   },
+   "2024-12-31": {
+    "val": 22.63,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "DKK/shares",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:DilutedEarningsLossPerShare"
+   },
+   "2025-12-31": {
+    "val": 23.03,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "DKK/shares",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:DilutedEarningsLossPerShare"
+   }
+  },
+  "cash": {
+   "2020-12-31": {
+    "val": 12226000000,
+    "start": null,
+    "end": "2020-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-24-002635",
+    "filed": "2024-01-31",
+    "tag": "ifrs-full:CashAndCashEquivalents"
+   },
+   "2021-12-31": {
+    "val": 10719000000,
+    "start": null,
+    "end": "2021-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-25-003920",
+    "filed": "2025-02-05",
+    "tag": "ifrs-full:CashAndCashEquivalents"
+   },
+   "2022-12-31": {
+    "val": 12653000000,
+    "start": null,
+    "end": "2022-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:CashAndCashEquivalents"
+   },
+   "2023-12-31": {
+    "val": 14392000000,
+    "start": null,
+    "end": "2023-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:CashAndCashEquivalents"
+   },
+   "2024-12-31": {
+    "val": 15655000000,
+    "start": null,
+    "end": "2024-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:CashAndCashEquivalents"
+   },
+   "2025-12-31": {
+    "val": 26464000000,
+    "start": null,
+    "end": "2025-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:CashAndCashEquivalents"
+   }
+  },
+  "short_term_investments": {},
+  "debt_current": {},
+  "debt_noncurrent": {},
+  "equity": {},
+  "total_assets": {
+   "2020-12-31": {
+    "val": 144922000000,
+    "start": null,
+    "end": "2020-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-22-001639",
+    "filed": "2022-02-02",
+    "tag": "ifrs-full:Assets"
+   },
+   "2021-12-31": {
+    "val": 194508000000,
+    "start": null,
+    "end": "2021-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-23-001868",
+    "filed": "2023-02-01",
+    "tag": "ifrs-full:Assets"
+   },
+   "2022-12-31": {
+    "val": 241257000000,
+    "start": null,
+    "end": "2022-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-24-002635",
+    "filed": "2024-01-31",
+    "tag": "ifrs-full:Assets"
+   },
+   "2023-12-31": {
+    "val": 314486000000,
+    "start": null,
+    "end": "2023-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-25-003920",
+    "filed": "2025-02-05",
+    "tag": "ifrs-full:Assets"
+   },
+   "2024-12-31": {
+    "val": 465630000000,
+    "start": null,
+    "end": "2024-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:Assets"
+   },
+   "2025-12-31": {
+    "val": 542902000000,
+    "start": null,
+    "end": "2025-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:Assets"
+   }
+  },
+  "goodwill": {
+   "2024-12-31": {
+    "val": 20017000000,
+    "start": null,
+    "end": "2024-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:Goodwill"
+   },
+   "2025-12-31": {
+    "val": 19845000000,
+    "start": null,
+    "end": "2025-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:Goodwill"
+   }
+  },
+  "inventory": {
+   "2020-12-31": {
+    "val": 18536000000,
+    "start": null,
+    "end": "2020-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-22-001639",
+    "filed": "2022-02-02",
+    "tag": "ifrs-full:Inventories"
+   },
+   "2021-12-31": {
+    "val": 19621000000,
+    "start": null,
+    "end": "2021-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-23-001868",
+    "filed": "2023-02-01",
+    "tag": "ifrs-full:Inventories"
+   },
+   "2022-12-31": {
+    "val": 24388000000,
+    "start": null,
+    "end": "2022-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-24-002635",
+    "filed": "2024-01-31",
+    "tag": "ifrs-full:Inventories"
+   },
+   "2023-12-31": {
+    "val": 31811000000,
+    "start": null,
+    "end": "2023-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-25-003920",
+    "filed": "2025-02-05",
+    "tag": "ifrs-full:Inventories"
+   },
+   "2024-12-31": {
+    "val": 40849000000,
+    "start": null,
+    "end": "2024-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:Inventories"
+   },
+   "2025-12-31": {
+    "val": 49623000000,
+    "start": null,
+    "end": "2025-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:Inventories"
+   }
+  },
+  "receivables": {},
+  "retained_earnings": {
+   "2020-12-31": {
+    "val": 63774000000,
+    "start": null,
+    "end": "2020-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-22-001639",
+    "filed": "2022-02-02",
+    "tag": "ifrs-full:RetainedEarnings"
+   },
+   "2021-12-31": {
+    "val": 72004000000,
+    "start": null,
+    "end": "2021-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-23-001868",
+    "filed": "2023-02-01",
+    "tag": "ifrs-full:RetainedEarnings"
+   },
+   "2022-12-31": {
+    "val": 80587000000,
+    "start": null,
+    "end": "2022-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-24-002635",
+    "filed": "2024-01-31",
+    "tag": "ifrs-full:RetainedEarnings"
+   },
+   "2023-12-31": {
+    "val": 104839000000,
+    "start": null,
+    "end": "2023-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0001628280-25-003920",
+    "filed": "2025-02-05",
+    "tag": "ifrs-full:RetainedEarnings"
+   },
+   "2024-12-31": {
+    "val": 144448000000,
+    "start": null,
+    "end": "2024-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:RetainedEarnings"
+   },
+   "2025-12-31": {
+    "val": 195298000000,
+    "start": null,
+    "end": "2025-12-31",
+    "unit": "DKK",
+    "form": "20-F",
+    "accn": "0000353278-26-000012",
+    "filed": "2026-02-04",
+    "tag": "ifrs-full:RetainedEarnings"
+   }
+  }
+ },
+ "derived": {
+  "2020-12-31": {
+   "capex_total": 22081000000,
+   "fcf": 29870000000,
+   "sbc_adjusted_fcf": 29047000000,
+   "owner_earnings": null,
+   "sbc_pct_of_ocf": 0.01584185097495717,
+   "gross_margin": 0.8351109920753707,
+   "operating_margin": 0.4263702676728688,
+   "fcf_margin": 0.23529689789359254,
+   "effective_tax_rate": 0.20688876341050255,
+   "net_cash": null,
+   "invested_capital": null,
+   "roic": null,
+   "roic_tax_rate_used": 0.20688876341050255,
+   "interest_coverage": 20.627286585365855,
+   "debt_to_equity": null,
+   "unexplained_investing_outflow": 355000000
+  },
+  "2021-12-31": {
+   "capex_total": 7385000000,
+   "fcf": 47615000000,
+   "sbc_adjusted_fcf": 46575000000,
+   "owner_earnings": null,
+   "sbc_pct_of_ocf": 0.01890909090909091,
+   "gross_margin": 0.8319744318181819,
+   "operating_margin": 0.4165056818181818,
+   "fcf_margin": 0.33817471590909093,
+   "effective_tax_rate": 0.19165538253215977,
+   "net_cash": null,
+   "invested_capital": null,
+   "roic": null,
+   "roic_tax_rate_used": 0.19165538253215977,
+   "interest_coverage": 23.9265605875153,
+   "debt_to_equity": null,
+   "unexplained_investing_outflow": 5937000000,
+   "capex_completeness_warning": "5,937M of investing outflow not explained by capex/acquisitions/securities tags - check the filing's cash-flow statement for company-specific capex lines before using FCF",
+   "inventory_growth_minus_sales_growth": -0.050598273985993814
+  },
+  "2022-12-31": {
+   "capex_total": 14753000000,
+   "fcf": 64134000000,
+   "sbc_adjusted_fcf": 62595000000,
+   "owner_earnings": 47325000000,
+   "sbc_pct_of_ocf": 0.01950891781915905,
+   "gross_margin": 0.8392350554381365,
+   "operating_margin": 0.4227595872373611,
+   "fcf_margin": 0.36243317472337444,
+   "effective_tax_rate": 0.19601227882192812,
+   "net_cash": null,
+   "invested_capital": null,
+   "roic": null,
+   "roic_tax_rate_used": 0.19601227882192812,
+   "interest_coverage": 12.497327096558637,
+   "debt_to_equity": null,
+   "unexplained_investing_outflow": 3090000000,
+   "inventory_growth_minus_sales_growth": -0.013821590300976183
+  },
+  "2023-12-31": {
+   "capex_total": 38896000000,
+   "fcf": 70012000000,
+   "sbc_adjusted_fcf": 67863000000,
+   "owner_earnings": 52076000000,
+   "sbc_pct_of_ocf": 0.019732251074301245,
+   "gross_margin": 0.8460137517706373,
+   "operating_margin": 0.44163247381178933,
+   "fcf_margin": 0.3014367457300193,
+   "effective_tax_rate": 0.20053690505760743,
+   "net_cash": null,
+   "invested_capital": null,
+   "roic": null,
+   "roic_tax_rate_used": 0.20053690505760743,
+   "interest_coverage": 121.38934911242603,
+   "debt_to_equity": null,
+   "unexplained_investing_outflow": 4996000000,
+   "inventory_growth_minus_sales_growth": -0.008179152145186608
+  },
+  "2024-12-31": {
+   "capex_total": 51309000000,
+   "fcf": 69659000000,
+   "sbc_adjusted_fcf": 67370000000,
+   "owner_earnings": 58224000000,
+   "sbc_pct_of_ocf": 0.018922359632299452,
+   "gross_margin": 0.8466889116159269,
+   "operating_margin": 0.4419341397988313,
+   "fcf_margin": 0.23987011153466045,
+   "effective_tax_rate": 0.206013004064753,
+   "net_cash": null,
+   "invested_capital": null,
+   "roic": null,
+   "roic_tax_rate_used": 0.206013004064753,
+   "interest_coverage": 17.470596242853254,
+   "debt_to_equity": null,
+   "unexplained_investing_outflow": -4577000000,
+   "inventory_growth_minus_sales_growth": 0.033785110299149324
+  },
+  "2025-12-31": {
+   "capex_total": 90113000000,
+   "fcf": 28989000000,
+   "sbc_adjusted_fcf": 27554000000,
+   "owner_earnings": 26987000000,
+   "sbc_pct_of_ocf": 0.01204849624691441,
+   "gross_margin": 0.8097869696891259,
+   "operating_margin": 0.4130471358682991,
+   "fcf_margin": 0.09379610695519375,
+   "effective_tax_rate": 0.21530565343955876,
+   "net_cash": null,
+   "invested_capital": null,
+   "roic": null,
+   "roic_tax_rate_used": 0.21530565343955876,
+   "interest_coverage": 18.834169371496017,
+   "debt_to_equity": null,
+   "unexplained_investing_outflow": -10955000000,
+   "inventory_growth_minus_sales_growth": 0.15053208171580423
+  }
+ },
+ "ttm": {},
+ "shares_outstanding_latest": null,
+ "diluted_share_cagr": 0.1370614236313339,
+ "revenue_cagr": 0.19477432144485918,
+ "stale": null,
+ "gaps": [
+  "d_and_a: no data for FY ending 2020-12-31",
+  "d_and_a: no data for FY ending 2021-12-31",
+  "securities_bought: no data for FY ending 2020-12-31",
+  "securities_bought: no data for FY ending 2021-12-31",
+  "securities_bought: no data for FY ending 2022-12-31",
+  "securities_bought: no data for FY ending 2023-12-31",
+  "securities_bought: no data for FY ending 2024-12-31",
+  "securities_bought: no data for FY ending 2025-12-31",
+  "securities_sold: no data for FY ending 2020-12-31",
+  "securities_sold: no data for FY ending 2021-12-31",
+  "securities_sold: no data for FY ending 2022-12-31",
+  "securities_sold: no data for FY ending 2023-12-31",
+  "securities_sold: no data for FY ending 2024-12-31",
+  "securities_sold: no data for FY ending 2025-12-31",
+  "short_term_investments: no data for FY ending 2020-12-31",
+  "short_term_investments: no data for FY ending 2021-12-31",
+  "short_term_investments: no data for FY ending 2022-12-31",
+  "short_term_investments: no data for FY ending 2023-12-31",
+  "short_term_investments: no data for FY ending 2024-12-31",
+  "short_term_investments: no data for FY ending 2025-12-31",
+  "debt_current: no data for FY ending 2020-12-31",
+  "debt_current: no data for FY ending 2021-12-31",
+  "debt_current: no data for FY ending 2022-12-31",
+  "debt_current: no data for FY ending 2023-12-31",
+  "debt_current: no data for FY ending 2024-12-31",
+  "debt_current: no data for FY ending 2025-12-31",
+  "debt_noncurrent: no data for FY ending 2020-12-31",
+  "debt_noncurrent: no data for FY ending 2021-12-31",
+  "debt_noncurrent: no data for FY ending 2022-12-31",
+  "debt_noncurrent: no data for FY ending 2023-12-31",
+  "debt_noncurrent: no data for FY ending 2024-12-31",
+  "debt_noncurrent: no data for FY ending 2025-12-31",
+  "equity: no data for FY ending 2020-12-31",
+  "equity: no data for FY ending 2021-12-31",
+  "equity: no data for FY ending 2022-12-31",
+  "equity: no data for FY ending 2023-12-31",
+  "equity: no data for FY ending 2024-12-31",
+  "equity: no data for FY ending 2025-12-31",
+  "goodwill: no data for FY ending 2020-12-31",
+  "goodwill: no data for FY ending 2021-12-31",
+  "goodwill: no data for FY ending 2022-12-31",
+  "goodwill: no data for FY ending 2023-12-31",
+  "receivables: no data for FY ending 2020-12-31",
+  "receivables: no data for FY ending 2021-12-31",
+  "receivables: no data for FY ending 2022-12-31",
+  "receivables: no data for FY ending 2023-12-31",
+  "receivables: no data for FY ending 2024-12-31",
+  "receivables: no data for FY ending 2025-12-31"
+ ],
+ "researcher_additions": {
+  "note": "DKK millions; XBRL ifrs-full tags from companyfacts (20-F). null != 0.",
+  "equity": {
+   "2020-12-31": {
+    "val": 63325000000,
+    "unit": "DKK",
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000353278.json"
+   },
+   "2021-12-31": {
+    "val": 70746000000,
+    "unit": "DKK",
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000353278.json"
+   },
+   "2022-12-31": {
+    "val": 83486000000,
+    "unit": "DKK",
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000353278.json"
+   },
+   "2023-12-31": {
+    "val": 106561000000,
+    "unit": "DKK",
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000353278.json"
+   },
+   "2024-12-31": {
+    "val": 143486000000,
+    "unit": "DKK",
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000353278.json"
+   },
+   "2025-12-31": {
+    "val": 194047000000,
+    "unit": "DKK",
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000353278.json"
+   }
+  },
+  "lease_liabilities": {
+   "2020-12-31": {
+    "val": 3672000000,
+    "unit": "DKK",
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000353278.json"
+   },
+   "2021-12-31": {
+    "val": 4129000000,
+    "unit": "DKK",
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000353278.json"
+   },
+   "2022-12-31": {
+    "val": 4529000000,
+    "unit": "DKK",
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000353278.json"
+   },
+   "2023-12-31": {
+    "val": 5726000000,
+    "unit": "DKK",
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000353278.json"
+   },
+   "2024-12-31": {
+    "val": 6766000000,
+    "unit": "DKK",
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000353278.json"
+   },
+   "2025-12-31": {
+    "val": 8572000000,
+    "unit": "DKK",
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000353278.json"
+   }
+  },
+  "borrowings_total": {
+   "2020-12-31": {
+    "val": 10356000000,
+    "unit": "DKK",
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000353278.json"
+   },
+   "2021-12-31": {
+    "val": 26645000000,
+    "unit": "DKK",
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000353278.json"
+   },
+   "2022-12-31": {
+    "val": 25784000000,
+    "unit": "DKK",
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000353278.json"
+   },
+   "2023-12-31": {
+    "val": 27006000000,
+    "unit": "DKK",
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000353278.json"
+   },
+   "2024-12-31": {
+    "val": 102787000000,
+    "unit": "DKK",
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000353278.json"
+   },
+   "2025-12-31": {
+    "val": 130958000000,
+    "unit": "DKK",
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000353278.json"
+   }
+  },
+  "trade_receivables": {
+   "2020-12-31": {
+    "val": 27734000000,
+    "unit": "DKK",
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000353278.json"
+   },
+   "2021-12-31": {
+    "val": 40643000000,
+    "unit": "DKK",
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000353278.json"
+   },
+   "2022-12-31": {
+    "val": 50560000000,
+    "unit": "DKK",
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000353278.json"
+   },
+   "2023-12-31": {
+    "val": 64770000000,
+    "unit": "DKK",
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000353278.json"
+   },
+   "2024-12-31": {
+    "val": 71949000000,
+    "unit": "DKK",
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000353278.json"
+   },
+   "2025-12-31": {
+    "val": 70856000000,
+    "unit": "DKK",
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000353278.json"
+   }
+  },
+  "ttm_h1_2026": {
+   "unit": "DKK",
+   "source": "6-K accn 0000353278-26-000023 and FY2025 20-F/6-K 0000353278-26-000006",
+   "revenue_ttm": 329431000000.0,
+   "net_income_ttm": 116443000000.0,
+   "diluted_eps_ttm": 26.2,
+   "ocf_ttm": null,
+   "ocf_ttm_note": "not comparable: interest reclassified out of OCF from 2026",
+   "includes_340B_reversal_dkk": 26760000000.0
+  },
+  "balance_sheet_2026-06-30": {
+   "unit": "DKK",
+   "source": "6-K accn 0000353278-26-000023",
+   "borrowings_noncurrent": 121794000000.0,
+   "borrowings_current": 18333000000.0,
+   "cash": 44482000000.0,
+   "marketable_securities": 500000000.0,
+   "equity": 221277000000.0,
+   "inventories": 51352000000.0,
+   "trade_receivables": 88949000000.0
+  },
+  "shares": {
+   "total_A_B_incl_treasury": 4465000000,
+   "treasury": 51889876,
+   "outstanding": 4413110124,
+   "source": "6-K accn 0001171843-26-006585 (as of 2026-10-09)",
+   "adr_ratio": "1 ADR = 1 B share"
+  },
+  "known_issues": [
+   "diluted_shares/eps FY2020 pre-split (not comparable); diluted_share_cagr 13.7% is an artefact",
+   "interest_expense FY2023 845M suspicious",
+   "capex_total includes intangibles (Akero FY2025)"
+  ]
+ },
+ "diluted_share_cagr_note": "ARTEFACT of FY2020 pre-split; FY2021-25 is about -0.7% p.a."
+}

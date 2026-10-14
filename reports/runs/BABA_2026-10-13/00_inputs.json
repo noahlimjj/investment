@@ -1,0 +1,32 @@
+{
+ "ticker": "BABA",
+ "generated": "2026-10-13T13:52:14+00:00",
+ "price": 109.6351,
+ "quote_currency": "USD",
+ "financial_currency": "CNY",
+ "price_as_of": "2026-10-13T13:52:05+00:00",
+ "risk_free_10y": {
+  "USD": {
+   "value_pct": 5.22,
+   "date": "2026-10-08",
+   "series": "DGS10",
+   "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10",
+   "frequency": "daily"
+  },
+  "CNY": {
+   "value_pct": null,
+   "note": "no free FRED series for CNY: Researcher must source a dated quote"
+  }
+ },
+ "fx_spot_to_usd": {
+  "USDUSD": 1.0,
+  "CNYUSD": 0.14968715608119965,
+  "SGDUSD": 0.7812073230743408
+ },
+ "equity_risk_premium_pct": 5.0,
+ "discount_rate_floor": {
+  "USD": 8.0,
+  "other": "local 10y + 4.0"
+ },
+ "rule": "All agents use these values. If an agent believes one is wrong or stale, it says so in its output and shows the effect, but does not silently substitute another figure."
+}

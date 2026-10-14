@@ -1,0 +1,133 @@
+{
+ "ticker": "VXUS",
+ "asset_class": "FUND",
+ "as_of": "2026-10-13",
+ "source_note": "Not an SEC operating-company filer in sec_facts map (exit 0, 'NOT AN SEC FILER'); fund fields from issuer factsheets and statute text. Financial statement keys omitted (not applicable to FUND).",
+ "quote_currency": "USD",
+ "reporting_currency": "USD",
+ "adr_ratio": null,
+ "price": {
+  "close_raw": 84.5198974609375,
+  "date": "2026-10-13",
+  "source": "yfinance history(auto_adjust=False)",
+  "close_12m_ago_raw": 73.2699966430664,
+  "date_12m_ago": "2025-10-13",
+  "change_12m_price_pct": 15.35,
+  "change_12m_total_return_adj_pct": 18.3,
+  "w52_low": 72.19,
+  "w52_low_date": "2025-11-20",
+  "w52_high": 88.41,
+  "w52_high_date": "2026-09-04",
+  "nav": 84.58,
+  "nav_source": "yfinance navPrice (date unstated)"
+ },
+ "fund": {
+  "expense_ratio_pct": 0.05,
+  "expense_source": "Vanguard factsheet F3369_062026 (as of 2026-06-30), https://institutional.vanguard.com/iippdf/pdfs/FS3369R.pdf",
+  "benchmark": "FTSE Global All Cap ex US Index",
+  "dividend_schedule": "Quarterly",
+  "inception": "2011-01-26",
+  "etf_class_tna_musd": 156510,
+  "fund_tna_musd": 651036,
+  "tna_asof": "2026-06-30",
+  "n_stocks_fund": 8755,
+  "n_stocks_index": 8579,
+  "top10_pct": 15.0,
+  "returns_asof_2026-06-30": {
+   "nav": {
+    "1y": 27.42,
+    "3y": 18.73,
+    "5y": 8.81,
+    "10y": 9.97
+   },
+   "spliced_index_net_of_wht": {
+    "1y": 26.74,
+    "3y": 18.6,
+    "5y": 8.67,
+    "10y": 9.97
+   }
+  },
+  "tracking_difference_pp": {
+   "1y": 0.68,
+   "3y": 0.13,
+   "5y": 0.14,
+   "10y": 0.0
+  },
+  "ttm_distributions_per_share": {
+   "2025-12-19": 1.363,
+   "2026-03-20": 0.08,
+   "2026-06-18": 0.386,
+   "2026-09-18": 0.156,
+   "sum": 1.985,
+   "yield_on_close_pct": 2.35,
+   "source": "yfinance dividends (raw)"
+  },
+  "foreign_tax_paid_pct_of_ordinary_div_2024": 7.48,
+  "foreign_source_income_pct_2024": 88.6575,
+  "ftc_source": "Vanguard FTCWS_012025.pdf"
+ },
+ "us_tax_nonresident": {
+  "s2104a": "shares of stock owned by NRNC deemed US property only if issued by a domestic corporation",
+  "s851a": "RIC = any domestic corporation",
+  "s2105d_RIC_look_through": "terminated for decedents dying after 2011-12-31",
+  "form706na_threshold_usd": 60000,
+  "max_unified_credit_usd": 13000,
+  "singapore_in_death_tax_treaty_list": false,
+  "singapore_in_pub901_income_tax_treaty_text": false,
+  "s871a_withholding_rate_pct": 30
+ },
+ "ucits_alternatives": [
+  {
+   "name": "Vanguard FTSE All-World ex-U.S. UCITS ETF USD Acc",
+   "isin": "IE0009A5ADV9",
+   "ocf_pct": 0.12,
+   "index": "FTSE All-World ex US (large+mid)",
+   "domicile": "Ireland",
+   "inception": "2026-08-18",
+   "tracking_difference": null,
+   "n_stocks": 2340,
+   "source": "Vanguard factsheet 2026-08-31"
+  },
+  {
+   "name": "Vanguard FTSE All-World ex-U.S. UCITS ETF USD Dist",
+   "isin": "IE000G1H7OC0",
+   "ocf_pct": 0.12,
+   "source": "[SNIPPET] search summary of factsheet; unopened"
+  },
+  {
+   "name": "iShares MSCI World ex-USA UCITS ETF USD Acc",
+   "isin": "IE000R4ZNTN3",
+   "ter_pct": 0.15,
+   "holdings": 735,
+   "inception": "2025-01-24",
+   "source": "justETF profile fetched 2026-10-14"
+  },
+  {
+   "name": "iShares Core MSCI EM IMI UCITS ETF USD Acc",
+   "isin": "IE00BKM4GZ66",
+   "ter_pct": 0.18,
+   "holdings": 2902,
+   "source": "justETF profile fetched 2026-10-14"
+  }
+ ],
+ "vwra": {
+  "isin": "IE00BK5BQT80",
+  "ocf_pct": 0.14,
+  "us_weight_pct": 61.68,
+  "asof": "2026-08-31",
+  "tracking_difference_pp_calendar": {
+   "2025": -0.06,
+   "2024": -0.01,
+   "2023": 0.03,
+   "2022": -0.01,
+   "2021": -0.07,
+   "2020": -0.02
+  },
+  "source": "Vanguard factsheet 2026-08-31"
+ },
+ "rf_10y_usd_pct": {
+  "value": 5.22,
+  "date": "2026-10-08",
+  "source": "00_inputs / FRED DGS10 (re-verified)"
+ }
+}

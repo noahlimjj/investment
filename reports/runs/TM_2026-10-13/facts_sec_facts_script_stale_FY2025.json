@@ -1,0 +1,1325 @@
+{
+ "ticker": "TM",
+ "cik": 1094517,
+ "entity": "TOYOTA MOTOR CORP/",
+ "retrieved": "2026-10-13T13:53:32+00:00",
+ "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001094517.json",
+ "fiscal_year_ends": [
+  "2020-03-31",
+  "2021-03-31",
+  "2022-03-31",
+  "2023-03-31",
+  "2024-03-31",
+  "2025-03-31"
+ ],
+ "annual": {
+  "revenue": {
+   "2020-03-31": {
+    "val": 29929992000000,
+    "start": "2019-04-01",
+    "end": "2020-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-20-177015",
+    "filed": "2020-06-24",
+    "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+   },
+   "2021-03-31": {
+    "val": 27214594000000,
+    "start": "2020-04-01",
+    "end": "2021-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-23-179181",
+    "filed": "2023-06-30",
+    "tag": "ifrs-full:Revenue"
+   },
+   "2022-03-31": {
+    "val": 31379507000000,
+    "start": "2021-04-01",
+    "end": "2022-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-24-167462",
+    "filed": "2024-06-25",
+    "tag": "ifrs-full:Revenue"
+   },
+   "2023-03-31": {
+    "val": 37154298000000,
+    "start": "2022-04-01",
+    "end": "2023-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:Revenue"
+   },
+   "2024-03-31": {
+    "val": 45095325000000,
+    "start": "2023-04-01",
+    "end": "2024-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:Revenue"
+   },
+   "2025-03-31": {
+    "val": 48036704000000,
+    "start": "2024-04-01",
+    "end": "2025-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:Revenue"
+   }
+  },
+  "gross_profit": {},
+  "cost_of_revenue": {},
+  "operating_income": {
+   "2020-03-31": {
+    "val": 2442869000000,
+    "start": "2019-04-01",
+    "end": "2020-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-20-177015",
+    "filed": "2020-06-24",
+    "tag": "us-gaap:OperatingIncomeLoss"
+   },
+   "2021-03-31": {
+    "val": 2197748000000,
+    "start": "2020-04-01",
+    "end": "2021-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-23-179181",
+    "filed": "2023-06-30",
+    "tag": "ifrs-full:ProfitLossFromOperatingActivities"
+   },
+   "2022-03-31": {
+    "val": 2995697000000,
+    "start": "2021-04-01",
+    "end": "2022-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-24-167462",
+    "filed": "2024-06-25",
+    "tag": "ifrs-full:ProfitLossFromOperatingActivities"
+   },
+   "2023-03-31": {
+    "val": 2725025000000,
+    "start": "2022-04-01",
+    "end": "2023-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:ProfitLossFromOperatingActivities"
+   },
+   "2024-03-31": {
+    "val": 5352934000000,
+    "start": "2023-04-01",
+    "end": "2024-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:ProfitLossFromOperatingActivities"
+   },
+   "2025-03-31": {
+    "val": 4795586000000,
+    "start": "2024-04-01",
+    "end": "2025-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:ProfitLossFromOperatingActivities"
+   }
+  },
+  "pretax_income": {
+   "2020-03-31": {
+    "val": 2554607000000,
+    "start": "2019-04-01",
+    "end": "2020-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-20-177015",
+    "filed": "2020-06-24",
+    "tag": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments"
+   },
+   "2021-03-31": {
+    "val": 2932354000000,
+    "start": "2020-04-01",
+    "end": "2021-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-23-179181",
+    "filed": "2023-06-30",
+    "tag": "ifrs-full:ProfitLossBeforeTax"
+   },
+   "2022-03-31": {
+    "val": 3990532000000,
+    "start": "2021-04-01",
+    "end": "2022-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-24-167462",
+    "filed": "2024-06-25",
+    "tag": "ifrs-full:ProfitLossBeforeTax"
+   },
+   "2023-03-31": {
+    "val": 3668733000000,
+    "start": "2022-04-01",
+    "end": "2023-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:ProfitLossBeforeTax"
+   },
+   "2024-03-31": {
+    "val": 6965085000000,
+    "start": "2023-04-01",
+    "end": "2024-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:ProfitLossBeforeTax"
+   },
+   "2025-03-31": {
+    "val": 6414590000000,
+    "start": "2024-04-01",
+    "end": "2025-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:ProfitLossBeforeTax"
+   }
+  },
+  "income_tax": {
+   "2020-03-31": {
+    "val": 683430000000,
+    "start": "2019-04-01",
+    "end": "2020-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-20-177015",
+    "filed": "2020-06-24",
+    "tag": "us-gaap:IncomeTaxExpenseBenefit"
+   },
+   "2021-03-31": {
+    "val": 649976000000,
+    "start": "2020-04-01",
+    "end": "2021-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-23-179181",
+    "filed": "2023-06-30",
+    "tag": "ifrs-full:IncomeTaxExpenseContinuingOperations"
+   },
+   "2022-03-31": {
+    "val": 1115918000000,
+    "start": "2021-04-01",
+    "end": "2022-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-24-167462",
+    "filed": "2024-06-25",
+    "tag": "ifrs-full:IncomeTaxExpenseContinuingOperations"
+   },
+   "2023-03-31": {
+    "val": 1175765000000,
+    "start": "2022-04-01",
+    "end": "2023-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:IncomeTaxExpenseContinuingOperations"
+   },
+   "2024-03-31": {
+    "val": 1893665000000,
+    "start": "2023-04-01",
+    "end": "2024-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:IncomeTaxExpenseContinuingOperations"
+   },
+   "2025-03-31": {
+    "val": 1624835000000,
+    "start": "2024-04-01",
+    "end": "2025-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:IncomeTaxExpenseContinuingOperations"
+   }
+  },
+  "net_income": {
+   "2020-03-31": {
+    "val": 2076183000000,
+    "start": "2019-04-01",
+    "end": "2020-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-20-177015",
+    "filed": "2020-06-24",
+    "tag": "us-gaap:NetIncomeLoss"
+   },
+   "2021-03-31": {
+    "val": 2245261000000,
+    "start": "2020-04-01",
+    "end": "2021-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-23-179181",
+    "filed": "2023-06-30",
+    "tag": "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+   },
+   "2022-03-31": {
+    "val": 2850110000000,
+    "start": "2021-04-01",
+    "end": "2022-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-24-167462",
+    "filed": "2024-06-25",
+    "tag": "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+   },
+   "2023-03-31": {
+    "val": 2451318000000,
+    "start": "2022-04-01",
+    "end": "2023-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+   },
+   "2024-03-31": {
+    "val": 4944933000000,
+    "start": "2023-04-01",
+    "end": "2024-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+   },
+   "2025-03-31": {
+    "val": 4765086000000,
+    "start": "2024-04-01",
+    "end": "2025-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+   }
+  },
+  "interest_expense": {
+   "2020-03-31": {
+    "val": 32217000000,
+    "start": "2019-04-01",
+    "end": "2020-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-20-177015",
+    "filed": "2020-06-24",
+    "tag": "us-gaap:InterestExpense"
+   }
+  },
+  "d_and_a": {
+   "2020-03-31": {
+    "val": 1605383000000,
+    "start": "2019-04-01",
+    "end": "2020-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-20-177015",
+    "filed": "2020-06-24",
+    "tag": "us-gaap:DepreciationDepletionAndAmortization"
+   },
+   "2021-03-31": {
+    "val": 1644290000000,
+    "start": "2020-04-01",
+    "end": "2021-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-23-179181",
+    "filed": "2023-06-30",
+    "tag": "ifrs-full:DepreciationAndAmortisationExpense"
+   },
+   "2022-03-31": {
+    "val": 1821880000000,
+    "start": "2021-04-01",
+    "end": "2022-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-24-167462",
+    "filed": "2024-06-25",
+    "tag": "ifrs-full:DepreciationAndAmortisationExpense"
+   },
+   "2023-03-31": {
+    "val": 2039904000000,
+    "start": "2022-04-01",
+    "end": "2023-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:DepreciationAndAmortisationExpense"
+   },
+   "2024-03-31": {
+    "val": 2087066000000,
+    "start": "2023-04-01",
+    "end": "2024-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:DepreciationAndAmortisationExpense"
+   },
+   "2025-03-31": {
+    "val": 2251233000000,
+    "start": "2024-04-01",
+    "end": "2025-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:DepreciationAndAmortisationExpense"
+   }
+  },
+  "sbc": {
+   "2020-03-31": {
+    "val": 0,
+    "start": "2019-04-01",
+    "end": "2020-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-20-177015",
+    "filed": "2020-06-24",
+    "tag": "us-gaap:AllocatedShareBasedCompensationExpense"
+   }
+  },
+  "ocf": {
+   "2020-03-31": {
+    "val": 3590643000000,
+    "start": "2019-04-01",
+    "end": "2020-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-20-177015",
+    "filed": "2020-06-24",
+    "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities"
+   },
+   "2021-03-31": {
+    "val": 2727162000000,
+    "start": "2020-04-01",
+    "end": "2021-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-23-179181",
+    "filed": "2023-06-30",
+    "tag": "ifrs-full:CashFlowsFromUsedInOperatingActivities"
+   },
+   "2022-03-31": {
+    "val": 3722615000000,
+    "start": "2021-04-01",
+    "end": "2022-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-24-167462",
+    "filed": "2024-06-25",
+    "tag": "ifrs-full:CashFlowsFromUsedInOperatingActivities"
+   },
+   "2023-03-31": {
+    "val": 2955076000000,
+    "start": "2022-04-01",
+    "end": "2023-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:CashFlowsFromUsedInOperatingActivities"
+   },
+   "2024-03-31": {
+    "val": 4206373000000,
+    "start": "2023-04-01",
+    "end": "2024-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:CashFlowsFromUsedInOperatingActivities"
+   },
+   "2025-03-31": {
+    "val": 3696934000000,
+    "start": "2024-04-01",
+    "end": "2025-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:CashFlowsFromUsedInOperatingActivities"
+   }
+  },
+  "capex": {
+   "2020-03-31": {
+    "val": 1407832000000,
+    "start": "2019-04-01",
+    "end": "2020-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-20-177015",
+    "filed": "2020-06-24",
+    "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+   }
+  },
+  "capex_intangibles": {
+   "2020-03-31": {
+    "val": 304992000000,
+    "start": "2019-04-01",
+    "end": "2020-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-22-179197",
+    "filed": "2022-06-23",
+    "tag": "ifrs-full:PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities"
+   },
+   "2021-03-31": {
+    "val": 278447000000,
+    "start": "2020-04-01",
+    "end": "2021-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-23-179181",
+    "filed": "2023-06-30",
+    "tag": "ifrs-full:PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities"
+   },
+   "2022-03-31": {
+    "val": 346085000000,
+    "start": "2021-04-01",
+    "end": "2022-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-24-167462",
+    "filed": "2024-06-25",
+    "tag": "ifrs-full:PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities"
+   },
+   "2023-03-31": {
+    "val": 348280000000,
+    "start": "2022-04-01",
+    "end": "2023-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities"
+   },
+   "2024-03-31": {
+    "val": 334287000000,
+    "start": "2023-04-01",
+    "end": "2024-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities"
+   },
+   "2025-03-31": {
+    "val": 354196000000,
+    "start": "2024-04-01",
+    "end": "2025-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities"
+   }
+  },
+  "investing_cf": {
+   "2020-03-31": {
+    "val": -3150861000000,
+    "start": "2019-04-01",
+    "end": "2020-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-20-177015",
+    "filed": "2020-06-24",
+    "tag": "us-gaap:NetCashProvidedByUsedInInvestingActivities"
+   },
+   "2021-03-31": {
+    "val": -4684175000000,
+    "start": "2020-04-01",
+    "end": "2021-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-23-179181",
+    "filed": "2023-06-30",
+    "tag": "ifrs-full:CashFlowsFromUsedInInvestingActivities"
+   },
+   "2022-03-31": {
+    "val": -577496000000,
+    "start": "2021-04-01",
+    "end": "2022-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-24-167462",
+    "filed": "2024-06-25",
+    "tag": "ifrs-full:CashFlowsFromUsedInInvestingActivities"
+   },
+   "2023-03-31": {
+    "val": -1598890000000,
+    "start": "2022-04-01",
+    "end": "2023-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:CashFlowsFromUsedInInvestingActivities"
+   },
+   "2024-03-31": {
+    "val": -4998751000000,
+    "start": "2023-04-01",
+    "end": "2024-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:CashFlowsFromUsedInInvestingActivities"
+   },
+   "2025-03-31": {
+    "val": -4189736000000,
+    "start": "2024-04-01",
+    "end": "2025-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:CashFlowsFromUsedInInvestingActivities"
+   }
+  },
+  "securities_bought": {},
+  "securities_sold": {},
+  "buybacks": {},
+  "dividends_paid": {
+   "2020-03-31": {
+    "val": 618801000000,
+    "start": "2019-04-01",
+    "end": "2020-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-20-177015",
+    "filed": "2020-06-24",
+    "tag": "us-gaap:PaymentsOfDividendsCommonStock"
+   }
+  },
+  "acquisitions": {},
+  "diluted_shares": {
+   "2020-03-31": {
+    "val": 2846018000,
+    "start": "2019-04-01",
+    "end": "2020-03-31",
+    "unit": "shares",
+    "form": "20-F",
+    "accn": "0001193125-20-177015",
+    "filed": "2020-06-24",
+    "tag": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding"
+   },
+   "2023-03-31": {
+    "val": 13658382000,
+    "start": "2022-04-01",
+    "end": "2023-03-31",
+    "unit": "shares",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:AdjustedWeightedAverageShares"
+   },
+   "2024-03-31": {
+    "val": 13512848000,
+    "start": "2023-04-01",
+    "end": "2024-03-31",
+    "unit": "shares",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:AdjustedWeightedAverageShares"
+   },
+   "2025-03-31": {
+    "val": 13252456000,
+    "start": "2024-04-01",
+    "end": "2025-03-31",
+    "unit": "shares",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:AdjustedWeightedAverageShares"
+   }
+  },
+  "eps_diluted": {
+   "2020-03-31": {
+    "val": 729.5,
+    "start": "2019-04-01",
+    "end": "2020-03-31",
+    "unit": "JPY/shares",
+    "form": "20-F",
+    "accn": "0001193125-20-177015",
+    "filed": "2020-06-24",
+    "tag": "us-gaap:EarningsPerShareDiluted"
+   },
+   "2021-03-31": {
+    "val": 158.93,
+    "start": "2020-04-01",
+    "end": "2021-03-31",
+    "unit": "JPY/shares",
+    "form": "20-F",
+    "accn": "0001193125-23-179181",
+    "filed": "2023-06-30",
+    "tag": "ifrs-full:DilutedEarningsLossPerShare"
+   },
+   "2022-03-31": {
+    "val": 205.23,
+    "start": "2021-04-01",
+    "end": "2022-03-31",
+    "unit": "JPY/shares",
+    "form": "20-F",
+    "accn": "0001193125-24-167462",
+    "filed": "2024-06-25",
+    "tag": "ifrs-full:DilutedEarningsLossPerShare"
+   },
+   "2023-03-31": {
+    "val": 179.47,
+    "start": "2022-04-01",
+    "end": "2023-03-31",
+    "unit": "JPY/shares",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:DilutedEarningsLossPerShare"
+   },
+   "2024-03-31": {
+    "val": 365.94,
+    "start": "2023-04-01",
+    "end": "2024-03-31",
+    "unit": "JPY/shares",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:DilutedEarningsLossPerShare"
+   },
+   "2025-03-31": {
+    "val": 359.56,
+    "start": "2024-04-01",
+    "end": "2025-03-31",
+    "unit": "JPY/shares",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:DilutedEarningsLossPerShare"
+   }
+  },
+  "cash": {
+   "2020-03-31": {
+    "val": 4190518000000,
+    "start": null,
+    "end": "2020-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-20-177015",
+    "filed": "2020-06-24",
+    "tag": "us-gaap:CashAndCashEquivalentsAtCarryingValue"
+   },
+   "2021-03-31": {
+    "val": 5100857000000,
+    "start": null,
+    "end": "2021-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-24-167462",
+    "filed": "2024-06-25",
+    "tag": "ifrs-full:CashAndCashEquivalents"
+   },
+   "2022-03-31": {
+    "val": 6113655000000,
+    "start": null,
+    "end": "2022-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:CashAndCashEquivalents"
+   },
+   "2023-03-31": {
+    "val": 7516966000000,
+    "start": null,
+    "end": "2023-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:CashAndCashEquivalents"
+   },
+   "2024-03-31": {
+    "val": 9412060000000,
+    "start": null,
+    "end": "2024-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:CashAndCashEquivalents"
+   },
+   "2025-03-31": {
+    "val": 8982404000000,
+    "start": null,
+    "end": "2025-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:CashAndCashEquivalents"
+   }
+  },
+  "short_term_investments": {},
+  "debt_current": {},
+  "debt_noncurrent": {
+   "2020-03-31": {
+    "val": 10692898000000,
+    "start": null,
+    "end": "2020-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-20-177015",
+    "filed": "2020-06-24",
+    "tag": "us-gaap:LongTermDebt"
+   }
+  },
+  "equity": {
+   "2020-03-31": {
+    "val": 20060618000000,
+    "start": null,
+    "end": "2020-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-20-177015",
+    "filed": "2020-06-24",
+    "tag": "us-gaap:StockholdersEquity"
+   },
+   "2021-03-31": {
+    "val": 23404547000000,
+    "start": null,
+    "end": "2021-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-22-179197",
+    "filed": "2022-06-23",
+    "tag": "ifrs-full:EquityAttributableToOwnersOfParent"
+   },
+   "2022-03-31": {
+    "val": 26245969000000,
+    "start": null,
+    "end": "2022-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-23-179181",
+    "filed": "2023-06-30",
+    "tag": "ifrs-full:EquityAttributableToOwnersOfParent"
+   },
+   "2023-03-31": {
+    "val": 28338706000000,
+    "start": null,
+    "end": "2023-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-24-167462",
+    "filed": "2024-06-25",
+    "tag": "ifrs-full:EquityAttributableToOwnersOfParent"
+   },
+   "2024-03-31": {
+    "val": 34220991000000,
+    "start": null,
+    "end": "2024-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:EquityAttributableToOwnersOfParent"
+   },
+   "2025-03-31": {
+    "val": 35924826000000,
+    "start": null,
+    "end": "2025-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:EquityAttributableToOwnersOfParent"
+   }
+  },
+  "total_assets": {
+   "2020-03-31": {
+    "val": 52680436000000,
+    "start": null,
+    "end": "2020-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-20-177015",
+    "filed": "2020-06-24",
+    "tag": "us-gaap:Assets"
+   },
+   "2021-03-31": {
+    "val": 62267140000000,
+    "start": null,
+    "end": "2021-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-23-179181",
+    "filed": "2023-06-30",
+    "tag": "ifrs-full:Assets"
+   },
+   "2022-03-31": {
+    "val": 67688771000000,
+    "start": null,
+    "end": "2022-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-24-167462",
+    "filed": "2024-06-25",
+    "tag": "ifrs-full:Assets"
+   },
+   "2023-03-31": {
+    "val": 74303180000000,
+    "start": null,
+    "end": "2023-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:Assets"
+   },
+   "2024-03-31": {
+    "val": 90114296000000,
+    "start": null,
+    "end": "2024-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:Assets"
+   },
+   "2025-03-31": {
+    "val": 93601350000000,
+    "start": null,
+    "end": "2025-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:Assets"
+   }
+  },
+  "goodwill": {},
+  "inventory": {
+   "2020-03-31": {
+    "val": 2434918000000,
+    "start": null,
+    "end": "2020-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-20-177015",
+    "filed": "2020-06-24",
+    "tag": "us-gaap:InventoryNet"
+   },
+   "2021-03-31": {
+    "val": 2888028000000,
+    "start": null,
+    "end": "2021-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-22-179197",
+    "filed": "2022-06-23",
+    "tag": "ifrs-full:Inventories"
+   },
+   "2022-03-31": {
+    "val": 3821356000000,
+    "start": null,
+    "end": "2022-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-23-179181",
+    "filed": "2023-06-30",
+    "tag": "ifrs-full:Inventories"
+   },
+   "2023-03-31": {
+    "val": 4255614000000,
+    "start": null,
+    "end": "2023-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-24-167462",
+    "filed": "2024-06-25",
+    "tag": "ifrs-full:Inventories"
+   },
+   "2024-03-31": {
+    "val": 4605368000000,
+    "start": null,
+    "end": "2024-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:Inventories"
+   },
+   "2025-03-31": {
+    "val": 4598232000000,
+    "start": null,
+    "end": "2025-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:Inventories"
+   }
+  },
+  "receivables": {
+   "2020-03-31": {
+    "val": 2648360000000,
+    "start": null,
+    "end": "2020-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-21-197902",
+    "filed": "2021-06-24",
+    "tag": "ifrs-full:TradeAndOtherCurrentReceivables"
+   },
+   "2021-03-31": {
+    "val": 2958742000000,
+    "start": null,
+    "end": "2021-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-22-179197",
+    "filed": "2022-06-23",
+    "tag": "ifrs-full:TradeAndOtherCurrentReceivables"
+   },
+   "2022-03-31": {
+    "val": 3142832000000,
+    "start": null,
+    "end": "2022-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-23-179181",
+    "filed": "2023-06-30",
+    "tag": "ifrs-full:TradeAndOtherCurrentReceivables"
+   },
+   "2023-03-31": {
+    "val": 3586130000000,
+    "start": null,
+    "end": "2023-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-24-167462",
+    "filed": "2024-06-25",
+    "tag": "ifrs-full:TradeAndOtherCurrentReceivables"
+   },
+   "2024-03-31": {
+    "val": 3789429000000,
+    "start": null,
+    "end": "2024-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:TradeAndOtherCurrentReceivables"
+   },
+   "2025-03-31": {
+    "val": 3679722000000,
+    "start": null,
+    "end": "2025-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:TradeAndOtherCurrentReceivables"
+   }
+  },
+  "retained_earnings": {
+   "2020-03-31": {
+    "val": 23427613000000,
+    "start": null,
+    "end": "2020-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-20-177015",
+    "filed": "2020-06-24",
+    "tag": "us-gaap:RetainedEarningsAccumulatedDeficit"
+   },
+   "2021-03-31": {
+    "val": 24104176000000,
+    "start": null,
+    "end": "2021-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-22-179197",
+    "filed": "2022-06-23",
+    "tag": "ifrs-full:RetainedEarnings"
+   },
+   "2022-03-31": {
+    "val": 26453126000000,
+    "start": null,
+    "end": "2022-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-23-179181",
+    "filed": "2023-06-30",
+    "tag": "ifrs-full:RetainedEarnings"
+   },
+   "2023-03-31": {
+    "val": 28343296000000,
+    "start": null,
+    "end": "2023-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-24-167462",
+    "filed": "2024-06-25",
+    "tag": "ifrs-full:RetainedEarnings"
+   },
+   "2024-03-31": {
+    "val": 32795365000000,
+    "start": null,
+    "end": "2024-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:RetainedEarnings"
+   },
+   "2025-03-31": {
+    "val": 35841218000000,
+    "start": null,
+    "end": "2025-03-31",
+    "unit": "JPY",
+    "form": "20-F",
+    "accn": "0001193125-25-142326",
+    "filed": "2025-06-18",
+    "tag": "ifrs-full:RetainedEarnings"
+   }
+  }
+ },
+ "derived": {
+  "2020-03-31": {
+   "capex_total": 1712824000000,
+   "fcf": 1877819000000,
+   "sbc_adjusted_fcf": 1877819000000,
+   "owner_earnings": 1968742000000,
+   "sbc_pct_of_ocf": 0.0,
+   "gross_margin": null,
+   "operating_margin": 0.08161943377732944,
+   "fcf_margin": 0.06274037761186171,
+   "effective_tax_rate": 0.26752843000899945,
+   "net_cash": -6502380000000,
+   "invested_capital": 26562998000000,
+   "roic": 0.06736182759612998,
+   "roic_tax_rate_used": 0.26752843000899945,
+   "interest_coverage": 75.82546481671167,
+   "debt_to_equity": 0.533029341369244,
+   "unexplained_investing_outflow": 1438037000000,
+   "capex_completeness_warning": "1,438,037M of investing outflow not explained by capex/acquisitions/securities tags - check the filing's cash-flow statement for company-specific capex lines before using FCF"
+  },
+  "2021-03-31": {
+   "capex_total": null,
+   "fcf": null,
+   "sbc_adjusted_fcf": null,
+   "owner_earnings": null,
+   "sbc_pct_of_ocf": null,
+   "gross_margin": null,
+   "operating_margin": 0.08075622954360444,
+   "fcf_margin": null,
+   "effective_tax_rate": 0.22165673039476133,
+   "net_cash": null,
+   "invested_capital": null,
+   "roic": null,
+   "roic_tax_rate_used": 0.22165673039476133,
+   "interest_coverage": null,
+   "debt_to_equity": null,
+   "inventory_growth_minus_sales_growth": 0.2768133846414328
+  },
+  "2022-03-31": {
+   "capex_total": null,
+   "fcf": null,
+   "sbc_adjusted_fcf": null,
+   "owner_earnings": null,
+   "sbc_pct_of_ocf": null,
+   "gross_margin": null,
+   "operating_margin": 0.09546666874020679,
+   "fcf_margin": null,
+   "effective_tax_rate": 0.27964141122035857,
+   "net_cash": null,
+   "invested_capital": null,
+   "roic": null,
+   "roic_tax_rate_used": 0.27964141122035857,
+   "interest_coverage": null,
+   "debt_to_equity": null,
+   "inventory_growth_minus_sales_growth": 0.17013169306918274
+  },
+  "2023-03-31": {
+   "capex_total": null,
+   "fcf": null,
+   "sbc_adjusted_fcf": null,
+   "owner_earnings": null,
+   "sbc_pct_of_ocf": null,
+   "gross_margin": null,
+   "operating_margin": 0.07334346621217282,
+   "fcf_margin": null,
+   "effective_tax_rate": 0.32048257531959945,
+   "net_cash": null,
+   "invested_capital": null,
+   "roic": null,
+   "roic_tax_rate_used": 0.32048257531959945,
+   "interest_coverage": null,
+   "debt_to_equity": null,
+   "inventory_growth_minus_sales_growth": -0.0703908822026369
+  },
+  "2024-03-31": {
+   "capex_total": null,
+   "fcf": null,
+   "sbc_adjusted_fcf": null,
+   "owner_earnings": null,
+   "sbc_pct_of_ocf": null,
+   "gross_margin": null,
+   "operating_margin": 0.11870263713588937,
+   "fcf_margin": null,
+   "effective_tax_rate": 0.27187966837447064,
+   "net_cash": null,
+   "invested_capital": null,
+   "roic": null,
+   "roic_tax_rate_used": 0.27187966837447064,
+   "interest_coverage": null,
+   "debt_to_equity": null,
+   "inventory_growth_minus_sales_growth": -0.13154455137685916
+  },
+  "2025-03-31": {
+   "capex_total": null,
+   "fcf": null,
+   "sbc_adjusted_fcf": null,
+   "owner_earnings": null,
+   "sbc_pct_of_ocf": null,
+   "gross_margin": null,
+   "operating_margin": 0.09983170369057794,
+   "fcf_margin": null,
+   "effective_tax_rate": 0.25330301702836816,
+   "net_cash": null,
+   "invested_capital": null,
+   "roic": null,
+   "roic_tax_rate_used": 0.25330301702836816,
+   "interest_coverage": null,
+   "debt_to_equity": null,
+   "inventory_growth_minus_sales_growth": -0.06677530392815922
+  }
+ },
+ "ttm": {},
+ "shares_outstanding_latest": {
+  "val": 13033931974,
+  "end": "2026-03-31",
+  "form": "20-F",
+  "accn": "0001193125-26-264811",
+  "filed": "2026-06-10"
+ },
+ "diluted_share_cagr": 0.36022811035645685,
+ "revenue_cagr": 0.099242016263702,
+ "stale": "STALE: latest annual XBRL period ends 2025-03-31. EDGAR has not got a newer annual filing tagged -- pull recent periods from the company's IR filings / 6-K and cite them",
+ "gaps": [
+  "gross_profit: no data for FY ending 2020-03-31",
+  "gross_profit: no data for FY ending 2021-03-31",
+  "gross_profit: no data for FY ending 2022-03-31",
+  "gross_profit: no data for FY ending 2023-03-31",
+  "gross_profit: no data for FY ending 2024-03-31",
+  "gross_profit: no data for FY ending 2025-03-31",
+  "cost_of_revenue: no data for FY ending 2020-03-31",
+  "cost_of_revenue: no data for FY ending 2021-03-31",
+  "cost_of_revenue: no data for FY ending 2022-03-31",
+  "cost_of_revenue: no data for FY ending 2023-03-31",
+  "cost_of_revenue: no data for FY ending 2024-03-31",
+  "cost_of_revenue: no data for FY ending 2025-03-31",
+  "interest_expense: no data for FY ending 2021-03-31",
+  "interest_expense: no data for FY ending 2022-03-31",
+  "interest_expense: no data for FY ending 2023-03-31",
+  "interest_expense: no data for FY ending 2024-03-31",
+  "interest_expense: no data for FY ending 2025-03-31",
+  "sbc: no data for FY ending 2021-03-31",
+  "sbc: no data for FY ending 2022-03-31",
+  "sbc: no data for FY ending 2023-03-31",
+  "sbc: no data for FY ending 2024-03-31",
+  "sbc: no data for FY ending 2025-03-31",
+  "capex: no data for FY ending 2021-03-31",
+  "capex: no data for FY ending 2022-03-31",
+  "capex: no data for FY ending 2023-03-31",
+  "capex: no data for FY ending 2024-03-31",
+  "capex: no data for FY ending 2025-03-31",
+  "securities_bought: no data for FY ending 2020-03-31",
+  "securities_bought: no data for FY ending 2021-03-31",
+  "securities_bought: no data for FY ending 2022-03-31",
+  "securities_bought: no data for FY ending 2023-03-31",
+  "securities_bought: no data for FY ending 2024-03-31",
+  "securities_bought: no data for FY ending 2025-03-31",
+  "securities_sold: no data for FY ending 2020-03-31",
+  "securities_sold: no data for FY ending 2021-03-31",
+  "securities_sold: no data for FY ending 2022-03-31",
+  "securities_sold: no data for FY ending 2023-03-31",
+  "securities_sold: no data for FY ending 2024-03-31",
+  "securities_sold: no data for FY ending 2025-03-31",
+  "buybacks: no data for FY ending 2020-03-31",
+  "buybacks: no data for FY ending 2021-03-31",
+  "buybacks: no data for FY ending 2022-03-31",
+  "buybacks: no data for FY ending 2023-03-31",
+  "buybacks: no data for FY ending 2024-03-31",
+  "buybacks: no data for FY ending 2025-03-31",
+  "dividends_paid: no data for FY ending 2021-03-31",
+  "dividends_paid: no data for FY ending 2022-03-31",
+  "dividends_paid: no data for FY ending 2023-03-31",
+  "dividends_paid: no data for FY ending 2024-03-31",
+  "dividends_paid: no data for FY ending 2025-03-31",
+  "acquisitions: no data for FY ending 2020-03-31",
+  "acquisitions: no data for FY ending 2021-03-31",
+  "acquisitions: no data for FY ending 2022-03-31",
+  "acquisitions: no data for FY ending 2023-03-31",
+  "acquisitions: no data for FY ending 2024-03-31",
+  "acquisitions: no data for FY ending 2025-03-31",
+  "diluted_shares: no data for FY ending 2021-03-31",
+  "diluted_shares: no data for FY ending 2022-03-31",
+  "short_term_investments: no data for FY ending 2020-03-31",
+  "short_term_investments: no data for FY ending 2021-03-31",
+  "short_term_investments: no data for FY ending 2022-03-31",
+  "short_term_investments: no data for FY ending 2023-03-31",
+  "short_term_investments: no data for FY ending 2024-03-31",
+  "short_term_investments: no data for FY ending 2025-03-31",
+  "debt_current: no data for FY ending 2020-03-31",
+  "debt_current: no data for FY ending 2021-03-31",
+  "debt_current: no data for FY ending 2022-03-31",
+  "debt_current: no data for FY ending 2023-03-31",
+  "debt_current: no data for FY ending 2024-03-31",
+  "debt_current: no data for FY ending 2025-03-31",
+  "debt_noncurrent: no data for FY ending 2021-03-31",
+  "debt_noncurrent: no data for FY ending 2022-03-31",
+  "debt_noncurrent: no data for FY ending 2023-03-31",
+  "debt_noncurrent: no data for FY ending 2024-03-31",
+  "debt_noncurrent: no data for FY ending 2025-03-31",
+  "goodwill: no data for FY ending 2020-03-31",
+  "goodwill: no data for FY ending 2021-03-31",
+  "goodwill: no data for FY ending 2022-03-31",
+  "goodwill: no data for FY ending 2023-03-31",
+  "goodwill: no data for FY ending 2024-03-31",
+  "goodwill: no data for FY ending 2025-03-31"
+ ]
+}

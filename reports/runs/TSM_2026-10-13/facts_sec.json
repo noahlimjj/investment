@@ -1,0 +1,1358 @@
+{
+ "ticker": "TSM",
+ "cik": 1046179,
+ "entity": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+ "retrieved": "2026-10-13T13:18:25+00:00",
+ "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001046179.json",
+ "fiscal_year_ends": [
+  "2019-12-31",
+  "2020-12-31",
+  "2021-12-31",
+  "2022-12-31",
+  "2023-12-31",
+  "2024-12-31"
+ ],
+ "annual": {
+  "revenue": {
+   "2019-12-31": {
+    "val": 1069985400000,
+    "start": "2019-01-01",
+    "end": "2019-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-22-104891",
+    "filed": "2022-04-14",
+    "tag": "ifrs-full:Revenue"
+   },
+   "2020-12-31": {
+    "val": 1339254800000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-23-107214",
+    "filed": "2023-04-20",
+    "tag": "ifrs-full:Revenue"
+   },
+   "2021-12-31": {
+    "val": 1587415000000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-24-099840",
+    "filed": "2024-04-18",
+    "tag": "ifrs-full:Revenue"
+   },
+   "2022-12-31": {
+    "val": 2263891300000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:Revenue"
+   },
+   "2023-12-31": {
+    "val": 2161735800000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:Revenue"
+   },
+   "2024-12-31": {
+    "val": 2894307700000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:Revenue"
+   }
+  },
+  "gross_profit": {
+   "2019-12-31": {
+    "val": 492701900000,
+    "start": "2019-01-01",
+    "end": "2019-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-22-104891",
+    "filed": "2022-04-14",
+    "tag": "ifrs-full:GrossProfit"
+   },
+   "2020-12-31": {
+    "val": 711130100000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-23-107214",
+    "filed": "2023-04-20",
+    "tag": "ifrs-full:GrossProfit"
+   },
+   "2021-12-31": {
+    "val": 819537300000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-24-099840",
+    "filed": "2024-04-18",
+    "tag": "ifrs-full:GrossProfit"
+   },
+   "2022-12-31": {
+    "val": 1348354800000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:GrossProfit"
+   },
+   "2023-12-31": {
+    "val": 1175110600000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:GrossProfit"
+   },
+   "2024-12-31": {
+    "val": 1624353600000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:GrossProfit"
+   }
+  },
+  "cost_of_revenue": {
+   "2019-12-31": {
+    "val": 577283500000,
+    "start": "2019-01-01",
+    "end": "2019-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-22-104891",
+    "filed": "2022-04-14",
+    "tag": "ifrs-full:CostOfSales"
+   },
+   "2020-12-31": {
+    "val": 628124700000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-23-107214",
+    "filed": "2023-04-20",
+    "tag": "ifrs-full:CostOfSales"
+   },
+   "2021-12-31": {
+    "val": 767877700000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-24-099840",
+    "filed": "2024-04-18",
+    "tag": "ifrs-full:CostOfSales"
+   },
+   "2022-12-31": {
+    "val": 915536500000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:CostOfSales"
+   },
+   "2023-12-31": {
+    "val": 986625200000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:CostOfSales"
+   },
+   "2024-12-31": {
+    "val": 1269954100000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:CostOfSales"
+   }
+  },
+  "operating_income": {
+   "2019-12-31": {
+    "val": 372701100000,
+    "start": "2019-01-01",
+    "end": "2019-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-22-104891",
+    "filed": "2022-04-14",
+    "tag": "ifrs-full:ProfitLossFromOperatingActivities"
+   },
+   "2020-12-31": {
+    "val": 566783700000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-23-107214",
+    "filed": "2023-04-20",
+    "tag": "ifrs-full:ProfitLossFromOperatingActivities"
+   },
+   "2021-12-31": {
+    "val": 649980900000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-24-099840",
+    "filed": "2024-04-18",
+    "tag": "ifrs-full:ProfitLossFromOperatingActivities"
+   },
+   "2022-12-31": {
+    "val": 1121278900000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:ProfitLossFromOperatingActivities"
+   },
+   "2023-12-31": {
+    "val": 921465600000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:ProfitLossFromOperatingActivities"
+   },
+   "2024-12-31": {
+    "val": 1322053000000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:ProfitLossFromOperatingActivities"
+   }
+  },
+  "pretax_income": {
+   "2019-12-31": {
+    "val": 389862100000,
+    "start": "2019-01-01",
+    "end": "2019-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-22-104891",
+    "filed": "2022-04-14",
+    "tag": "ifrs-full:ProfitLossBeforeTax"
+   },
+   "2020-12-31": {
+    "val": 584746300000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-23-107214",
+    "filed": "2023-04-20",
+    "tag": "ifrs-full:ProfitLossBeforeTax"
+   },
+   "2021-12-31": {
+    "val": 663036000000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-24-099840",
+    "filed": "2024-04-18",
+    "tag": "ifrs-full:ProfitLossBeforeTax"
+   },
+   "2022-12-31": {
+    "val": 1144072200000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:ProfitLossBeforeTax"
+   },
+   "2023-12-31": {
+    "val": 979316500000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:ProfitLossBeforeTax"
+   },
+   "2024-12-31": {
+    "val": 1405840000000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:ProfitLossBeforeTax"
+   }
+  },
+  "income_tax": {
+   "2019-12-31": {
+    "val": 35835100000,
+    "start": "2019-01-01",
+    "end": "2019-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-22-104891",
+    "filed": "2022-04-14",
+    "tag": "ifrs-full:IncomeTaxExpenseContinuingOperations"
+   },
+   "2020-12-31": {
+    "val": 73738300000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-23-107214",
+    "filed": "2023-04-20",
+    "tag": "ifrs-full:IncomeTaxExpenseContinuingOperations"
+   },
+   "2021-12-31": {
+    "val": 70155400000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-24-099840",
+    "filed": "2024-04-18",
+    "tag": "ifrs-full:IncomeTaxExpenseContinuingOperations"
+   },
+   "2022-12-31": {
+    "val": 150777500000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:IncomeTaxExpenseContinuingOperations"
+   },
+   "2023-12-31": {
+    "val": 128288800000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:IncomeTaxExpenseContinuingOperations"
+   },
+   "2024-12-31": {
+    "val": 248316100000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:IncomeTaxExpenseContinuingOperations"
+   }
+  },
+  "net_income": {
+   "2019-12-31": {
+    "val": 353948000000,
+    "start": "2019-01-01",
+    "end": "2019-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-22-104891",
+    "filed": "2022-04-14",
+    "tag": "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+   },
+   "2020-12-31": {
+    "val": 510744000000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-23-107214",
+    "filed": "2023-04-20",
+    "tag": "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+   },
+   "2021-12-31": {
+    "val": 592359200000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-24-099840",
+    "filed": "2024-04-18",
+    "tag": "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+   },
+   "2022-12-31": {
+    "val": 992923400000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+   },
+   "2023-12-31": {
+    "val": 851740000000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+   },
+   "2024-12-31": {
+    "val": 1158380200000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+   }
+  },
+  "interest_expense": {
+   "2019-12-31": {
+    "val": 3250900000,
+    "start": "2019-01-01",
+    "end": "2019-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-22-104891",
+    "filed": "2022-04-14",
+    "tag": "ifrs-full:FinanceCosts"
+   },
+   "2020-12-31": {
+    "val": 2081500000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-23-107214",
+    "filed": "2023-04-20",
+    "tag": "ifrs-full:FinanceCosts"
+   },
+   "2021-12-31": {
+    "val": 5414200000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-24-099840",
+    "filed": "2024-04-18",
+    "tag": "ifrs-full:FinanceCosts"
+   },
+   "2022-12-31": {
+    "val": 11750000000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:FinanceCosts"
+   },
+   "2023-12-31": {
+    "val": 11999400000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:FinanceCosts"
+   },
+   "2024-12-31": {
+    "val": 10495400000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:FinanceCosts"
+   }
+  },
+  "d_and_a": {},
+  "sbc": {
+   "2019-12-31": {
+    "val": 2800000,
+    "start": "2019-01-01",
+    "end": "2019-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-22-104891",
+    "filed": "2022-04-14",
+    "tag": "ifrs-full:AdjustmentsForSharebasedPayments"
+   },
+   "2020-12-31": {
+    "val": 6600000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-23-107214",
+    "filed": "2023-04-20",
+    "tag": "ifrs-full:AdjustmentsForSharebasedPayments"
+   },
+   "2021-12-31": {
+    "val": 7800000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-24-099840",
+    "filed": "2024-04-18",
+    "tag": "ifrs-full:AdjustmentsForSharebasedPayments"
+   },
+   "2022-12-31": {
+    "val": 302400000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:AdjustmentsForSharebasedPayments"
+   },
+   "2023-12-31": {
+    "val": 483000000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:AdjustmentsForSharebasedPayments"
+   },
+   "2024-12-31": {
+    "val": 1242700000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:AdjustmentsForSharebasedPayments"
+   }
+  },
+  "ocf": {
+   "2019-12-31": {
+    "val": 615138700000,
+    "start": "2019-01-01",
+    "end": "2019-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-22-104891",
+    "filed": "2022-04-14",
+    "tag": "ifrs-full:CashFlowsFromUsedInOperatingActivities"
+   },
+   "2020-12-31": {
+    "val": 822666200000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-23-107214",
+    "filed": "2023-04-20",
+    "tag": "ifrs-full:CashFlowsFromUsedInOperatingActivities"
+   },
+   "2021-12-31": {
+    "val": 1112160700000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-24-099840",
+    "filed": "2024-04-18",
+    "tag": "ifrs-full:CashFlowsFromUsedInOperatingActivities"
+   },
+   "2022-12-31": {
+    "val": 1610599200000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:CashFlowsFromUsedInOperatingActivities"
+   },
+   "2023-12-31": {
+    "val": 1241967300000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:CashFlowsFromUsedInOperatingActivities"
+   },
+   "2024-12-31": {
+    "val": 1826177100000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:CashFlowsFromUsedInOperatingActivities"
+   }
+  },
+  "capex": {
+   "2019-12-31": {
+    "val": 460422200000,
+    "start": "2019-01-01",
+    "end": "2019-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-22-104891",
+    "filed": "2022-04-14",
+    "tag": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities"
+   },
+   "2020-12-31": {
+    "val": 507238700000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-23-107214",
+    "filed": "2023-04-20",
+    "tag": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities"
+   },
+   "2021-12-31": {
+    "val": 839195700000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-24-099840",
+    "filed": "2024-04-18",
+    "tag": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities"
+   },
+   "2022-12-31": {
+    "val": 1082672100000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities"
+   },
+   "2023-12-31": {
+    "val": 949816800000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities"
+   },
+   "2024-12-31": {
+    "val": 956006500000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities"
+   }
+  },
+  "buybacks": {},
+  "dividends_paid": {
+   "2019-12-31": {
+    "val": 259303800000,
+    "start": "2019-01-01",
+    "end": "2019-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-22-104891",
+    "filed": "2022-04-14",
+    "tag": "ifrs-full:DividendsPaidClassifiedAsFinancingActivities"
+   },
+   "2020-12-31": {
+    "val": 259303800000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-23-107214",
+    "filed": "2023-04-20",
+    "tag": "ifrs-full:DividendsPaidClassifiedAsFinancingActivities"
+   },
+   "2021-12-31": {
+    "val": 265786400000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-24-099840",
+    "filed": "2024-04-18",
+    "tag": "ifrs-full:DividendsPaidClassifiedAsFinancingActivities"
+   },
+   "2022-12-31": {
+    "val": 285234200000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:DividendsPaidClassifiedAsFinancingActivities"
+   },
+   "2023-12-31": {
+    "val": 291721900000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:DividendsPaidClassifiedAsFinancingActivities"
+   },
+   "2024-12-31": {
+    "val": 363055200000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:DividendsPaidClassifiedAsFinancingActivities"
+   }
+  },
+  "acquisitions": {},
+  "diluted_shares": {
+   "2020-12-31": {
+    "val": 25930300000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "shares",
+    "form": "20-F",
+    "accn": "0001193125-23-107214",
+    "filed": "2023-04-20",
+    "tag": "ifrs-full:AdjustedWeightedAverageShares"
+   },
+   "2021-12-31": {
+    "val": 25930300000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "shares",
+    "form": "20-F",
+    "accn": "0001193125-24-099840",
+    "filed": "2024-04-18",
+    "tag": "ifrs-full:AdjustedWeightedAverageShares"
+   },
+   "2022-12-31": {
+    "val": 25929400000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "shares",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:AdjustedWeightedAverageShares"
+   },
+   "2023-12-31": {
+    "val": 25929300000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "shares",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:AdjustedWeightedAverageShares"
+   },
+   "2024-12-31": {
+    "val": 25929700000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "shares",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:AdjustedWeightedAverageShares"
+   }
+  },
+  "eps_diluted": {
+   "2019-12-31": {
+    "val": 13.65,
+    "start": "2019-01-01",
+    "end": "2019-12-31",
+    "unit": "TWD/shares",
+    "form": "20-F",
+    "accn": "0001193125-22-104891",
+    "filed": "2022-04-14",
+    "tag": "ifrs-full:DilutedEarningsLossPerShare"
+   },
+   "2020-12-31": {
+    "val": 19.7,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "TWD/shares",
+    "form": "20-F",
+    "accn": "0001193125-23-107214",
+    "filed": "2023-04-20",
+    "tag": "ifrs-full:DilutedEarningsLossPerShare"
+   },
+   "2021-12-31": {
+    "val": 22.84,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "TWD/shares",
+    "form": "20-F",
+    "accn": "0001193125-24-099840",
+    "filed": "2024-04-18",
+    "tag": "ifrs-full:DilutedEarningsLossPerShare"
+   },
+   "2022-12-31": {
+    "val": 38.29,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "TWD/shares",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:DilutedEarningsLossPerShare"
+   },
+   "2023-12-31": {
+    "val": 32.85,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "TWD/shares",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:DilutedEarningsLossPerShare"
+   },
+   "2024-12-31": {
+    "val": 44.67,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "TWD/shares",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:DilutedEarningsLossPerShare"
+   }
+  },
+  "cash": {
+   "2019-12-31": {
+    "val": 455399300000,
+    "start": null,
+    "end": "2019-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-23-107214",
+    "filed": "2023-04-20",
+    "tag": "ifrs-full:CashAndCashEquivalents"
+   },
+   "2020-12-31": {
+    "val": 660170600000,
+    "start": null,
+    "end": "2020-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-24-099840",
+    "filed": "2024-04-18",
+    "tag": "ifrs-full:CashAndCashEquivalents"
+   },
+   "2021-12-31": {
+    "val": 1064990200000,
+    "start": null,
+    "end": "2021-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:CashAndCashEquivalents"
+   },
+   "2022-12-31": {
+    "val": 1342814100000,
+    "start": null,
+    "end": "2022-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:CashAndCashEquivalents"
+   },
+   "2023-12-31": {
+    "val": 1465427800000,
+    "start": null,
+    "end": "2023-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:CashAndCashEquivalents"
+   },
+   "2024-12-31": {
+    "val": 2127627000000,
+    "start": null,
+    "end": "2024-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:CashAndCashEquivalents"
+   }
+  },
+  "short_term_investments": {},
+  "debt_current": {},
+  "debt_noncurrent": {},
+  "equity": {
+   "2019-12-31": {
+    "val": 1613705600000,
+    "start": null,
+    "end": "2019-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-21-118512",
+    "filed": "2021-04-16",
+    "tag": "ifrs-full:EquityAttributableToOwnersOfParent"
+   },
+   "2020-12-31": {
+    "val": 1834811300000,
+    "start": null,
+    "end": "2020-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-22-104891",
+    "filed": "2022-04-14",
+    "tag": "ifrs-full:EquityAttributableToOwnersOfParent"
+   },
+   "2021-12-31": {
+    "val": 2149259800000,
+    "start": null,
+    "end": "2021-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-23-107214",
+    "filed": "2023-04-20",
+    "tag": "ifrs-full:EquityAttributableToOwnersOfParent"
+   },
+   "2022-12-31": {
+    "val": 2903019700000,
+    "start": null,
+    "end": "2022-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-24-099840",
+    "filed": "2024-04-18",
+    "tag": "ifrs-full:EquityAttributableToOwnersOfParent"
+   },
+   "2023-12-31": {
+    "val": 3429522400000,
+    "start": null,
+    "end": "2023-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:EquityAttributableToOwnersOfParent"
+   },
+   "2024-12-31": {
+    "val": 4244266500000,
+    "start": null,
+    "end": "2024-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:EquityAttributableToOwnersOfParent"
+   }
+  },
+  "total_assets": {
+   "2019-12-31": {
+    "val": 2264725000000,
+    "start": null,
+    "end": "2019-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-21-118512",
+    "filed": "2021-04-16",
+    "tag": "ifrs-full:Assets"
+   },
+   "2020-12-31": {
+    "val": 2760600500000,
+    "start": null,
+    "end": "2020-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-22-104891",
+    "filed": "2022-04-14",
+    "tag": "ifrs-full:Assets"
+   },
+   "2021-12-31": {
+    "val": 3725302200000,
+    "start": null,
+    "end": "2021-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-23-107214",
+    "filed": "2023-04-20",
+    "tag": "ifrs-full:Assets"
+   },
+   "2022-12-31": {
+    "val": 4964459100000,
+    "start": null,
+    "end": "2022-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-24-099840",
+    "filed": "2024-04-18",
+    "tag": "ifrs-full:Assets"
+   },
+   "2023-12-31": {
+    "val": 5532196600000,
+    "start": null,
+    "end": "2023-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:Assets"
+   },
+   "2024-12-31": {
+    "val": 6691764700000,
+    "start": null,
+    "end": "2024-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:Assets"
+   }
+  },
+  "goodwill": {},
+  "inventory": {
+   "2019-12-31": {
+    "val": 82981200000,
+    "start": null,
+    "end": "2019-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-21-118512",
+    "filed": "2021-04-16",
+    "tag": "ifrs-full:Inventories"
+   },
+   "2020-12-31": {
+    "val": 137353400000,
+    "start": null,
+    "end": "2020-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-22-104891",
+    "filed": "2022-04-14",
+    "tag": "ifrs-full:Inventories"
+   },
+   "2021-12-31": {
+    "val": 193102300000,
+    "start": null,
+    "end": "2021-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-23-107214",
+    "filed": "2023-04-20",
+    "tag": "ifrs-full:Inventories"
+   },
+   "2022-12-31": {
+    "val": 221149100000,
+    "start": null,
+    "end": "2022-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-24-099840",
+    "filed": "2024-04-18",
+    "tag": "ifrs-full:Inventories"
+   },
+   "2023-12-31": {
+    "val": 250997100000,
+    "start": null,
+    "end": "2023-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:Inventories"
+   },
+   "2024-12-31": {
+    "val": 287868800000,
+    "start": null,
+    "end": "2024-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:Inventories"
+   }
+  },
+  "receivables": {},
+  "retained_earnings": {
+   "2019-12-31": {
+    "val": 1325630400000,
+    "start": null,
+    "end": "2019-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-21-118512",
+    "filed": "2021-04-16",
+    "tag": "ifrs-full:RetainedEarnings"
+   },
+   "2020-12-31": {
+    "val": 1573840100000,
+    "start": null,
+    "end": "2020-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-22-104891",
+    "filed": "2022-04-14",
+    "tag": "ifrs-full:RetainedEarnings"
+   },
+   "2021-12-31": {
+    "val": 1887802900000,
+    "start": null,
+    "end": "2021-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-23-107214",
+    "filed": "2023-04-20",
+    "tag": "ifrs-full:RetainedEarnings"
+   },
+   "2022-12-31": {
+    "val": 2594891200000,
+    "start": null,
+    "end": "2022-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-24-099840",
+    "filed": "2024-04-18",
+    "tag": "ifrs-full:RetainedEarnings"
+   },
+   "2023-12-31": {
+    "val": 3128639600000,
+    "start": null,
+    "end": "2023-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:RetainedEarnings"
+   },
+   "2024-12-31": {
+    "val": 3872973400000,
+    "start": null,
+    "end": "2024-12-31",
+    "unit": "TWD",
+    "form": "20-F",
+    "accn": "0001193125-25-083423",
+    "filed": "2025-04-17",
+    "tag": "ifrs-full:RetainedEarnings"
+   }
+  }
+ },
+ "derived": {
+  "2019-12-31": {
+   "fcf": 154716500000,
+   "sbc_adjusted_fcf": 154713700000,
+   "owner_earnings": null,
+   "sbc_pct_of_ocf": 4.551818963755654e-06,
+   "gross_margin": 0.460475348542139,
+   "operating_margin": 0.34832353787257286,
+   "fcf_margin": 0.1445968328165973,
+   "effective_tax_rate": 0.09191737283516402,
+   "net_cash": null,
+   "invested_capital": null,
+   "roic": null,
+   "roic_tax_rate_used": 0.09191737283516402,
+   "interest_coverage": 114.64551355009382,
+   "debt_to_equity": null
+  },
+  "2020-12-31": {
+   "fcf": 315427500000,
+   "sbc_adjusted_fcf": 315420900000,
+   "owner_earnings": null,
+   "sbc_pct_of_ocf": 8.022694988562797e-06,
+   "gross_margin": 0.5309893979846105,
+   "operating_margin": 0.4232082647753064,
+   "fcf_margin": 0.23552463653667696,
+   "effective_tax_rate": 0.12610306384153264,
+   "net_cash": null,
+   "invested_capital": null,
+   "roic": null,
+   "roic_tax_rate_used": 0.12610306384153264,
+   "interest_coverage": 272.29579630074466,
+   "debt_to_equity": null,
+   "inventory_growth_minus_sales_growth": 0.40357808301390374
+  },
+  "2021-12-31": {
+   "fcf": 272965000000,
+   "sbc_adjusted_fcf": 272957200000,
+   "owner_earnings": null,
+   "sbc_pct_of_ocf": 7.0133749556156764e-06,
+   "gross_margin": 0.516271611393366,
+   "operating_margin": 0.40945871117508653,
+   "fcf_margin": 0.17195566376782379,
+   "effective_tax_rate": 0.10580933765285747,
+   "net_cash": null,
+   "invested_capital": null,
+   "roic": null,
+   "roic_tax_rate_used": 0.10580933765285747,
+   "interest_coverage": 120.05114328986738,
+   "debt_to_equity": null,
+   "inventory_growth_minus_sales_growth": 0.22058206008281656
+  },
+  "2022-12-31": {
+   "fcf": 527927100000,
+   "sbc_adjusted_fcf": 527624700000,
+   "owner_earnings": null,
+   "sbc_pct_of_ocf": 0.0001877562089935224,
+   "gross_margin": 0.5955916699710804,
+   "operating_margin": 0.49528831176655874,
+   "fcf_margin": 0.23319454427869393,
+   "effective_tax_rate": 0.1317901964578809,
+   "net_cash": null,
+   "invested_capital": null,
+   "roic": null,
+   "roic_tax_rate_used": 0.1317901964578809,
+   "interest_coverage": 95.4279914893617,
+   "debt_to_equity": null,
+   "inventory_growth_minus_sales_growth": -0.2809063997883121
+  },
+  "2023-12-31": {
+   "fcf": 292150500000,
+   "sbc_adjusted_fcf": 291667500000,
+   "owner_earnings": null,
+   "sbc_pct_of_ocf": 0.00038889912802052035,
+   "gross_margin": 0.5435958455237685,
+   "operating_margin": 0.42626189564885775,
+   "fcf_margin": 0.13514625607810168,
+   "effective_tax_rate": 0.13099830340855076,
+   "net_cash": null,
+   "invested_capital": null,
+   "roic": null,
+   "roic_tax_rate_used": 0.13099830340855076,
+   "interest_coverage": 76.7926396319816,
+   "debt_to_equity": null,
+   "inventory_growth_minus_sales_growth": 0.18009161987304345
+  },
+  "2024-12-31": {
+   "fcf": 870170600000,
+   "sbc_adjusted_fcf": 868927900000,
+   "owner_earnings": null,
+   "sbc_pct_of_ocf": 0.0006804925984451344,
+   "gross_margin": 0.561223535424378,
+   "operating_margin": 0.45677693494717236,
+   "fcf_margin": 0.3006489600259157,
+   "effective_tax_rate": 0.17663183577078473,
+   "net_cash": null,
+   "invested_capital": null,
+   "roic": null,
+   "roic_tax_rate_used": 0.17663183577078473,
+   "interest_coverage": 125.96499418792995,
+   "debt_to_equity": null,
+   "inventory_growth_minus_sales_growth": -0.19198042815774063
+  }
+ },
+ "ttm": {},
+ "shares_outstanding_latest": {
+  "val": 25932524521,
+  "end": "2025-12-31",
+  "form": "20-F",
+  "accn": "0001628280-26-025362",
+  "filed": "2026-04-16"
+ },
+ "diluted_share_cagr": null,
+ "revenue_cagr": 0.22020659978342128,
+ "stale": "STALE: latest annual XBRL period ends 2024-12-31. EDGAR has not got a newer annual filing tagged -- pull recent periods from the company's IR filings / 6-K and cite them",
+ "gaps": [
+  "d_and_a: no data for FY ending 2019-12-31",
+  "d_and_a: no data for FY ending 2020-12-31",
+  "d_and_a: no data for FY ending 2021-12-31",
+  "d_and_a: no data for FY ending 2022-12-31",
+  "d_and_a: no data for FY ending 2023-12-31",
+  "d_and_a: no data for FY ending 2024-12-31",
+  "buybacks: no data for FY ending 2019-12-31",
+  "buybacks: no data for FY ending 2020-12-31",
+  "buybacks: no data for FY ending 2021-12-31",
+  "buybacks: no data for FY ending 2022-12-31",
+  "buybacks: no data for FY ending 2023-12-31",
+  "buybacks: no data for FY ending 2024-12-31",
+  "acquisitions: no data for FY ending 2019-12-31",
+  "acquisitions: no data for FY ending 2020-12-31",
+  "acquisitions: no data for FY ending 2021-12-31",
+  "acquisitions: no data for FY ending 2022-12-31",
+  "acquisitions: no data for FY ending 2023-12-31",
+  "acquisitions: no data for FY ending 2024-12-31",
+  "diluted_shares: no data for FY ending 2019-12-31",
+  "short_term_investments: no data for FY ending 2019-12-31",
+  "short_term_investments: no data for FY ending 2020-12-31",
+  "short_term_investments: no data for FY ending 2021-12-31",
+  "short_term_investments: no data for FY ending 2022-12-31",
+  "short_term_investments: no data for FY ending 2023-12-31",
+  "short_term_investments: no data for FY ending 2024-12-31",
+  "debt_current: no data for FY ending 2019-12-31",
+  "debt_current: no data for FY ending 2020-12-31",
+  "debt_current: no data for FY ending 2021-12-31",
+  "debt_current: no data for FY ending 2022-12-31",
+  "debt_current: no data for FY ending 2023-12-31",
+  "debt_current: no data for FY ending 2024-12-31",
+  "debt_noncurrent: no data for FY ending 2019-12-31",
+  "debt_noncurrent: no data for FY ending 2020-12-31",
+  "debt_noncurrent: no data for FY ending 2021-12-31",
+  "debt_noncurrent: no data for FY ending 2022-12-31",
+  "debt_noncurrent: no data for FY ending 2023-12-31",
+  "debt_noncurrent: no data for FY ending 2024-12-31",
+  "goodwill: no data for FY ending 2019-12-31",
+  "goodwill: no data for FY ending 2020-12-31",
+  "goodwill: no data for FY ending 2021-12-31",
+  "goodwill: no data for FY ending 2022-12-31",
+  "goodwill: no data for FY ending 2023-12-31",
+  "goodwill: no data for FY ending 2024-12-31",
+  "receivables: no data for FY ending 2019-12-31",
+  "receivables: no data for FY ending 2020-12-31",
+  "receivables: no data for FY ending 2021-12-31",
+  "receivables: no data for FY ending 2022-12-31",
+  "receivables: no data for FY ending 2023-12-31",
+  "receivables: no data for FY ending 2024-12-31"
+ ]
+}

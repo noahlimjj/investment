@@ -1,0 +1,12 @@
+as_of,ticker,verdict,price_usd,fair_value,upside_pct,entry_below,exit_above,conviction,key_risk,data_warnings,review_date,actual_price_at_review,outcome,template
+2026-08-28,MSFT,HOLD,505.06,422,-16,400,600,MEDIUM,FCF down 3 yrs; $329.1B leases not yet commenced off balance sheet,0,2026-11-28,,,FULL
+2026-08-28,RVMD,HOLD,221.15,108,-51,120,230,MEDIUM,Prices in $15-18B peak sales vs $11.5B most-bullish published,2,2026-11-28,,,rNPV
+2026-10-13,VWRA.L,HOLD,193.34,6.30,,,,MEDIUM,Implied ERP ~1% over 5.22% 10y UST; 62% US AI-concentrated index at 21x,1,2027-01-13,,,FUND
+2026-10-13,ZBH,TRIM,92.17,71.18,-22.8,49.82,92.53,MEDIUM,Price needs FY23-peak-plus margins while margins erode; buybacks ~1.5x value on rising debt,1,2027-01-13,,,FULL
+2026-10-13,TSM,TRIM,444.35,268.24,-39.6,160.94,348.71,MEDIUM,Price embeds ~18-19%/yr growth for 10 yrs; capex locked in before any AI digestion,1,2027-01-13,,,FULL
+2026-10-13,RVMD,TRIM,193.95,63.76,-67.1,38.26,82.89,MEDIUM,"Price needs ~$18.5B peak sales: NSCLC success (RASolve 301, 2027) on top of PDAC",2,2027-01-13,,,rNPV
+2026-10-13,MC.PA,HOLD,427.72,372.41,-12.9,223.02,484.14,MEDIUM,Price needs PRO margin ~26.8% (FY21 peak) while F&L margin slides and inventory builds,1,2027-01-13,,,FULL
+2026-10-13,VXUS,SELL,84.52,6.64,,,,MEDIUM,Structural: 30% US WHT (~62bp/yr) + US-situs estate exposure; switch before Dec ex-date,1,2027-01-13,,,FUND
+2026-10-13,NVO,HOLD,38.02,45.40,19.4,34.05,59.02,MEDIUM,US WAC list cuts of 35-50% in 2027 and tirzepatide competition compress EBIT margins toward 30-33% on DKK 140B debt load,1,2027-01-13,,,FULL
+2026-10-13,000660.KS,TRIM,1075.60,532.08,-50.5,319.25,691.71,HIGH,Price requires peak HBM margins to persist 5 full years without a cyclical downturn while Samsung ramps supply,0,2027-01-13,,,FULL
+2026-10-13,SYK,TRIM,283.71,207.87,-26.7,166.30,270.23,HIGH,Price discounts ~10% revenue CAGR for a decade while M&A returns lag and peripheral vascular issues persist,0,2027-01-13,,,FULL

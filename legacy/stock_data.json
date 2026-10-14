@@ -1,0 +1,272 @@
+{
+  "LAD": {
+    "Price": 427.48,
+    "PE": 14.915563,
+    "ForwardPE": 10.490999,
+    "PEG": 0.77,
+    "ROE": 0.108660005,
+    "DebtToEquity": 251.65,
+    "Sector": "Consumer Cyclical",
+    "Name": "Lithia Motors, Inc."
+  },
+  "UNH": {
+    "Price": 420.57,
+    "PE": 32.2523,
+    "ForwardPE": 18.745789,
+    "PEG": 1.34,
+    "ROE": 0.14152999,
+    "DebtToEquity": 69.211,
+    "Sector": "Healthcare",
+    "Name": "UnitedHealth Group Incorporated"
+  },
+  "RR.L": {
+    "Price": 1380.0,
+    "PE": 20.0,
+    "ForwardPE": 31.303875,
+    "PEG": 2.52,
+    "ROE": 6.23504,
+    "DebtToEquity": 158.445,
+    "Sector": "Industrials",
+    "Name": "Rolls-Royce Holdings plc"
+  },
+  "SYK": {
+    "Price": 352.25,
+    "PE": 40.816917,
+    "ForwardPE": 21.05712,
+    "PEG": 1.6,
+    "ROE": 0.152,
+    "DebtToEquity": 66.295,
+    "Sector": "Healthcare",
+    "Name": "Stryker Corporation"
+  },
+  "NVO": {
+    "Price": 51.58,
+    "PE": 12.339714,
+    "ForwardPE": 15.833399,
+    "PEG": 3.36,
+    "ROE": 0.71402,
+    "DebtToEquity": 72.086,
+    "Sector": "Healthcare",
+    "Name": "Novo Nordisk A/S"
+  },
+  "AES": {
+    "Price": 14.82,
+    "PE": 7.71875,
+    "ForwardPE": 6.2280946,
+    "PEG": 0.81,
+    "ROE": 0.052600004,
+    "DebtToEquity": 259.603,
+    "Sector": "Utilities",
+    "Name": "The AES Corporation"
+  },
+  "ZBH": {
+    "Price": 97.15,
+    "PE": 25.168394,
+    "ForwardPE": 10.790585,
+    "PEG": 0.65,
+    "ROE": 0.060650002,
+    "DebtToEquity": 59.827,
+    "Sector": "Healthcare",
+    "Name": "Zimmer Biomet Holdings, Inc."
+  },
+  "VEEV": {
+    "Price": 207.91,
+    "PE": 36.92895,
+    "ForwardPE": 20.720572,
+    "PEG": 0.88,
+    "ROE": 0.13934,
+    "DebtToEquity": 1.411,
+    "Sector": "Healthcare",
+    "Name": "Veeva Systems Inc."
+  },
+  "BRK-B": {
+    "Price": 509.16,
+    "PE": 15.149062,
+    "ForwardPE": 23.603334,
+    "PEG": 10.06,
+    "ROE": 0.10499,
+    "DebtToEquity": 17.669,
+    "Sector": "Financial Services",
+    "Name": "Berkshire Hathaway Inc."
+  },
+  "VOO": {
+    "Price": 670.63,
+    "PE": 26.27669,
+    "ForwardPE": "N/A",
+    "PEG": "N/A",
+    "ROE": "N/A",
+    "DebtToEquity": "N/A",
+    "Sector": "N/A",
+    "Name": "Vanguard S&P 500 ETF"
+  },
+  "MDT": {
+    "Price": 87.54,
+    "PE": 23.46917,
+    "ForwardPE": 13.6515045,
+    "PEG": 1.66,
+    "ROE": 0.098409995,
+    "DebtToEquity": 58.214,
+    "Sector": "Healthcare",
+    "Name": "Medtronic plc"
+  },
+  "MC.PA": {
+    "Price": 467.95,
+    "PE": 21.3092,
+    "ForwardPE": 18.294275,
+    "PEG": 1.86,
+    "ROE": 0.16586,
+    "DebtToEquity": 53.306,
+    "Sector": "Consumer Cyclical",
+    "Name": "LVMH Mo\u00ebt Hennessy - Louis Vuitton, Soci\u00e9t\u00e9 Europ\u00e9enne"
+  },
+  "ACAD": {
+    "Price": 26.34,
+    "PE": 11.758928,
+    "ForwardPE": 30.821436,
+    "PEG": 50.86,
+    "ROE": 0.37317002,
+    "DebtToEquity": 4.07,
+    "Sector": "Healthcare",
+    "Name": "ACADIA Pharmaceuticals Inc."
+  },
+  "WKL.AS": {
+    "Price": 74.1,
+    "PE": 13.138298,
+    "ForwardPE": 11.868914,
+    "PEG": 1.94,
+    "ROE": 1.11652,
+    "DebtToEquity": 623.058,
+    "Sector": "Industrials",
+    "Name": "Wolters Kluwer N.V."
+  },
+  "ABT": {
+    "Price": 108.0,
+    "PE": 34.951458,
+    "ForwardPE": 17.814344,
+    "PEG": 2.11,
+    "ROE": "N/A",
+    "DebtToEquity": 64.773,
+    "Sector": "Healthcare",
+    "Name": "Abbott Laboratories"
+  },
+  "AERO.SW": {
+    "Price": 25.6,
+    "PE": 98.46154,
+    "ForwardPE": 16.862988,
+    "PEG": "N/A",
+    "ROE": 0.0178,
+    "DebtToEquity": 16.549,
+    "Sector": "Industrials",
+    "Name": "Montana Aerospace AG"
+  },
+  "PFE": {
+    "Price": 25.15,
+    "PE": 19.198473,
+    "ForwardPE": 8.88134,
+    "PEG": 2.91,
+    "ROE": 0.083100006,
+    "DebtToEquity": 71.602,
+    "Sector": "Healthcare",
+    "Name": "Pfizer Inc."
+  },
+  "VXUS": {
+    "Price": 82.39,
+    "PE": 17.547585,
+    "ForwardPE": "N/A",
+    "PEG": "N/A",
+    "ROE": "N/A",
+    "DebtToEquity": "N/A",
+    "Sector": "N/A",
+    "Name": "Vanguard Total International Stock Index Fund ETF Shares"
+  },
+  "EXE": {
+    "Price": 92.46,
+    "PE": 6.8794646,
+    "ForwardPE": 10.63124,
+    "PEG": 2.81,
+    "ROE": 0.17568001,
+    "DebtToEquity": 25.883,
+    "Sector": "Energy",
+    "Name": "Expand Energy Corporation"
+  },
+  "CNQ": {
+    "Price": 46.45,
+    "PE": 12.386667,
+    "ForwardPE": 12.735372,
+    "PEG": 3.42,
+    "ROE": 0.22825001,
+    "DebtToEquity": 44.85,
+    "Sector": "Energy",
+    "Name": "Canadian Natural Resources Limited"
+  },
+  "INSM": {
+    "Price": 103.12,
+    "PE": "N/A",
+    "ForwardPE": 803.8039,
+    "PEG": 1.09,
+    "ROE": -2.9446201,
+    "DebtToEquity": 105.336,
+    "Sector": "Healthcare",
+    "Name": "Insmed Incorporated"
+  },
+  "JD": {
+    "Price": 32.2,
+    "PE": 23.50365,
+    "ForwardPE": 7.573273,
+    "PEG": 0.79,
+    "ROE": 0.06004,
+    "DebtToEquity": 38.478,
+    "Sector": "Consumer Cyclical",
+    "Name": "JD.com, Inc."
+  },
+  "PRAX": {
+    "Price": 291.03,
+    "PE": "N/A",
+    "ForwardPE": -30.139246,
+    "PEG": "N/A",
+    "ROE": -0.35317,
+    "DebtToEquity": 0.102,
+    "Sector": "Healthcare",
+    "Name": "Praxis Precision Medicines, Inc."
+  },
+  "BABA": {
+    "Price": 115.03,
+    "PE": 17.696922,
+    "ForwardPE": 12.726952,
+    "PEG": 0.48,
+    "ROE": 0.092159994,
+    "DebtToEquity": 25.014,
+    "Sector": "Consumer Cyclical",
+    "Name": "Alibaba Group Holding Limited"
+  },
+  "TM": {
+    "Price": 192.84,
+    "PE": 10.683657,
+    "ForwardPE": 12.220532,
+    "PEG": 1.56,
+    "ROE": 0.10233,
+    "DebtToEquity": 107.061,
+    "Sector": "Consumer Cyclical",
+    "Name": "Toyota Motor Corporation"
+  },
+  "MSFT": {
+    "Price": 390.54,
+    "PE": 23.24643,
+    "ForwardPE": 20.152971,
+    "PEG": 1.21,
+    "ROE": 0.34013999,
+    "DebtToEquity": 30.271,
+    "Sector": "Technology",
+    "Name": "Microsoft Corporation"
+  },
+  "7974.T": {
+    "Price": 7984.0,
+    "PE": 21.921682,
+    "ForwardPE": 23.456646,
+    "PEG": 3.74,
+    "ROE": 0.14931,
+    "DebtToEquity": "N/A",
+    "Sector": "Communication Services",
+    "Name": "Nintendo Co., Ltd."
+  }
+}

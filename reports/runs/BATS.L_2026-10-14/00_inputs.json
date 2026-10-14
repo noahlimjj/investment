@@ -1,0 +1,31 @@
+{
+ "ticker": "BATS.L",
+ "generated": "2026-10-14T02:16:33+00:00",
+ "price": 4194.0,
+ "price_date": "2026-10-12",
+ "price_basis": "official raw close (yfinance history, auto_adjust=False); use this for verdicts",
+ "vendor_current_price": 42.25,
+ "quote_currency": "GBP",
+ "financial_currency": "GBP",
+ "price_as_of": "2026-10-14T02:11:47+00:00",
+ "risk_free_10y": {
+  "GBP": {
+   "value_pct": null,
+   "error": "TimeoutError: The read operation timed out"
+  },
+  "USD": {
+   "value_pct": null,
+   "error": "TimeoutError: The read operation timed out"
+  }
+ },
+ "fx_spot_to_usd": {
+  "GBPUSD": 1.326682209968567,
+  "SGDUSD": 0.781109631061554
+ },
+ "equity_risk_premium_pct": 5.0,
+ "discount_rate_floor": {
+  "USD": 8.0,
+  "other": "local 10y + 4.0"
+ },
+ "rule": "All agents use these values. If an agent believes one is wrong or stale, it says so in its output and shows the effect, but does not silently substitute another figure."
+}

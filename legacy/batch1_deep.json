@@ -1,0 +1,95 @@
+{
+  "MSFT": {
+    "Info": {
+      "Sector": "Technology",
+      "Industry": "Software - Infrastructure",
+      "MarketCap": 2901100986368,
+      "ForwardPE": 20.152971,
+      "PEG": 1.21,
+      "ROE": 0.34013999,
+      "DebtToEquity": 30.271,
+      "CurrentPrice": 390.54
+    },
+    "Margins (Last 5 yrs)": {
+      "Gross": [
+        0.6882374238616519,
+        0.6976444382797138,
+        0.6892008588349102,
+        0.684016744842891
+      ],
+      "Operating": [
+        0.4562195624085985,
+        0.44644299573273716,
+        0.417728806361041,
+        0.4205527815604983
+      ]
+    },
+    "Owner Earnings (TTM)": -30398000000.0,
+    "Institutions %": 0.75714993,
+    "Insiders %": 0.00079,
+    "Analyst Target Mean": 555.7652,
+    "Analyst Rating": "strong_buy"
+  },
+  "VEEV": {
+    "Info": {
+      "Sector": "Healthcare",
+      "Industry": "Health Information Services",
+      "MarketCap": 33773586432,
+      "ForwardPE": 20.720572,
+      "PEG": 0.88,
+      "ROE": 0.13934,
+      "DebtToEquity": 1.411,
+      "CurrentPrice": 207.91
+    },
+    "Margins (Last 5 yrs)": {
+      "Gross": [
+        0.7552604425672493,
+        0.7452737347262216,
+        0.7134582490894468,
+        0.7172213302645866
+      ],
+      "Operating": [
+        0.2867855429408906,
+        0.25174041248531376,
+        0.1816384922956771,
+        0.21302933561014542
+      ]
+    },
+    "Owner Earnings (TTM)": 37972000.0,
+    "Institutions %": 0.89695,
+    "Insiders %": 0.08583,
+    "Analyst Target Mean": 244.14285,
+    "Analyst Rating": "buy"
+  },
+  "BABA": {
+    "Info": {
+      "Sector": "Consumer Cyclical",
+      "Industry": "Internet Retail",
+      "MarketCap": 275712212992,
+      "ForwardPE": 12.726952,
+      "PEG": 0.48,
+      "ROE": 0.092159994,
+      "DebtToEquity": 25.014,
+      "CurrentPrice": 115.03
+    },
+    "Margins (Last 5 yrs)": {
+      "Gross": [
+        0.39811071927476627,
+        0.39952145186365795,
+        0.3770262057358516,
+        0.3672116654214924
+      ],
+      "Operating": [
+        0.058285384938505574,
+        0.14761523846611674,
+        0.13161412202709824,
+        0.11864457508861075
+      ]
+    },
+    "Owner Earnings (TTM)": -79819000000.0,
+    "Institutions %": 0.11261,
+    "Insiders %": 0.01832,
+    "Analyst Target Mean": 189.7632,
+    "Analyst Rating": "strong_buy"
+  }
+}

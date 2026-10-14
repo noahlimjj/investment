@@ -1,0 +1,1 @@
+{"agent_end": "2026-10-13T13:55:28+00:00", "file": "facts.json", "method": "backfill", "recorded_at": "2026-10-14T04:20:22+00:00", "sha256": "52601b11cad953eb3730562a7ea691d4a87dec62f5101c753b0a8afa6dabad36", "sig": "033dc4610ed1b5962465b6c62e5b3fd5291850bcd15a6e72ea0637a3602da140", "stage": "value-researcher", "v": 1}

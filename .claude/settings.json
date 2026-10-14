@@ -1,0 +1,38 @@
+{
+  "hooks": {
+    "SubagentStop": [
+      {
+        "matcher": "value-researcher|value-quant|value-skeptic|general-purpose",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/methodologies/provenance.py\" hook-subagent",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "input=$(cat); case \"$input\" in *report_lint.py*) printf '%s' \"$input\" | python3 \"$CLAUDE_PROJECT_DIR/methodologies/provenance.py\" hook-lint ;; esac; exit 0",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "osascript -e 'display notification \"Claude has finished!\" with title \"Claude Code\" sound name \"Glass\"' 2>/dev/null || true"
+          }
+        ]
+      }
+    ]
+  }
+}

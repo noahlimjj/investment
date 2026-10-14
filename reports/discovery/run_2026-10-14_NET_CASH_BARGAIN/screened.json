@@ -1,0 +1,73 @@
+{
+  "preset": "NET_CASH_BARGAIN",
+  "universe": "ASIA_COMPOUNDERS",
+  "run_dir": "reports/discovery/run_2026-10-14_NET_CASH_BARGAIN",
+  "screened": 10,
+  "qualified": 1,
+  "failures": [],
+  "rejected": {
+    "7203.T": "net cash -86.0% of price < 10.0%",
+    "6758.T": "net cash 1.3% of price < 10.0%",
+    "8058.T": "net cash -26.9% of price < 10.0%",
+    "8031.T": "net cash -35.8% of price < 10.0%",
+    "6861.T": "net cash 7.3% of price < 10.0%",
+    "D05.SI": "financial: deposits are operating liabilities, net cash doesn't apply",
+    "O39.SI": "financial: deposits are operating liabilities, net cash doesn't apply",
+    "U11.SI": "financial: deposits are operating liabilities, net cash doesn't apply",
+    "7974.T": "forward P/E 24.241179 outside 0-20x"
+  },
+  "rules": {
+    "min_net_cash_pct": 10.0,
+    "max_fwd_pe": 20.0
+  },
+  "candidates": [
+    {
+      "ticker": "4063.T",
+      "name": "SHIN-ETSU CHEMICAL CO",
+      "country": "Japan",
+      "sector": "Basic Materials",
+      "metrics": "6,180.00 JPY \u00b7 -22.1% vs 52w high \u00b7 P/E (ttm/fwd) 24.5x/18.7x \u00b7 EV/EBITDA 11.4x \u00b7 yield 1.9%",
+      "why": "net cash 12.4% of price, forward P/E 18.7x, net-cash-adjusted P/E 21.4x",
+      "flags": [],
+      "tax": "Japan: 15.315% dividend WHT",
+      "score": 23.99,
+      "held": false,
+      "pipeline": null,
+      "screen": {
+        "ticker": "4063.T",
+        "name": "SHIN-ETSU CHEMICAL CO",
+        "sector": "Basic Materials",
+        "country": "Japan",
+        "currency": "JPY",
+        "price": 6180.0,
+        "high_52w": 7930.0,
+        "drawdown_52w_pct": -22.06809583858764,
+        "market_cap_usd_bn": 70.91540941566895,
+        "trailing_pe": 24.476217,
+        "forward_pe": 18.742607,
+        "peg_ratio": 1.69,
+        "lynch_ratio": 0.40602676031141244,
+        "eps_growth_pct": 5.7,
+        "net_cash_per_share": 768.6902130228618,
+        "net_cash_pct_price": 12.43835296153498,
+        "net_cash_adj_pe": 21.431778632726594,
+        "dividend_yield_pct": 1.91,
+        "roic_proxy_pct": 9.656800359999998,
+        "gross_margin_pct": 33.928000000000004,
+        "operating_margin_pct": 26.237,
+        "debt_to_equity": 0.05487,
+        "net_debt_to_ebitda": -1.5764383532745312,
+        "ev_to_ebitda": 11.4,
+        "is_financial": false,
+        "tax": "Japan: 15.315% dividend WHT",
+        "why": "net cash 12.4% of price, forward P/E 18.7x, net-cash-adjusted P/E 21.4x",
+        "flags": [],
+        "score": 23.992966502899215,
+        "qualifies": true,
+        "rejection_reason": null
+      }
+    }
+  ],
+  "held_hits": [],
+  "analysed": []
+}

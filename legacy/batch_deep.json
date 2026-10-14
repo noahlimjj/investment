@@ -1,0 +1,67 @@
+{
+  "MDGL": {
+    "Info": {
+      "Sector": "Healthcare",
+      "Industry": "Biotechnology",
+      "MarketCap": 12561482752,
+      "ForwardPE": 56.487274,
+      "PEG": null,
+      "ROE": -0.53306997,
+      "DebtToEquity": 66.4,
+      "CurrentPrice": 543.69
+    },
+    "Margins (Last 5 yrs)": {
+      "Gross": [
+        0.9414150414804628,
+        0.9653977894111573
+      ],
+      "Operating": [
+        -0.31312193304904096,
+        -2.7639299850665897,
+        -Infinity,
+        -Infinity
+      ]
+    },
+    "Owner Earnings (TTM)": -1961000.0,
+    "Institutions %": 1.04428,
+    "Insiders %": 0.058769997,
+    "Analyst Target Mean": 678.0625,
+    "Analyst Rating": "none"
+  },
+  "RVMD": {
+    "Info": {
+      "Sector": "Healthcare",
+      "Industry": "Biotechnology",
+      "MarketCap": 47400497152,
+      "ForwardPE": -33.651665,
+      "PEG": null,
+      "ROE": -0.79089,
+      "DebtToEquity": 45.678,
+      "CurrentPrice": 221.15
+    },
+    "Margins (Last 5 yrs)": "Data unavailable",
+    "Owner Earnings (TTM)": 568000.0,
+    "Institutions %": 1.01036,
+    "Insiders %": 0.01874,
+    "Analyst Target Mean": 235.82143,
+    "Analyst Rating": "strong_buy"
+  },
+  "CELC": {
+    "Info": {
+      "Sector": "Healthcare",
+      "Industry": "Biotechnology",
+      "MarketCap": 4562411008,
+      "ForwardPE": -1165.5,
+      "PEG": null,
+      "ROE": -14.33703,
+      "DebtToEquity": null,
+      "CurrentPrice": 93.24
+    },
+    "Margins (Last 5 yrs)": "Data unavailable",
+    "Owner Earnings (TTM)": -82000.0,
+    "Institutions %": 1.10324,
+    "Insiders %": 0.102299996,
+    "Analyst Target Mean": 161.09091,
+    "Analyst Rating": "strong_buy"
+  }
+}

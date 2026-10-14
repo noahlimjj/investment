@@ -1,0 +1,41 @@
+{
+ "ticker": "ASML.AS",
+ "generated": "2026-10-14T03:52:21+00:00",
+ "price": 1575.8,
+ "price_date": "2026-10-12",
+ "price_basis": "official raw close (yfinance history, auto_adjust=False); use this for verdicts",
+ "vendor_current_price": 1509.6,
+ "quote_currency": "EUR",
+ "financial_currency": "EUR",
+ "price_as_of": "2026-10-14T03:51:47+00:00",
+ "risk_free_10y": {
+  "EUR": {
+   "value_pct": 3.564,
+   "date": "2026-09",
+   "series": "IRS/M.NL.L.L40.CI.0000.EUR.N.Z",
+   "source": "https://data-api.ecb.europa.eu/service/data/IRS/M.NL.L.L40.CI.0000.EUR.N.Z?format=csvdata&lastNObservations=1",
+   "frequency": "monthly average, NL 10y (ECB convergence rate)"
+  },
+  "EUR_AAA_daily": {
+   "value_pct": 3.499,
+   "date": "2026-10-12",
+   "series": "YC/B.U2.EUR.4F.G_N_A.SV_C_YM.SR_10Y",
+   "source": "https://data-api.ecb.europa.eu/service/data/YC/B.U2.EUR.4F.G_N_A.SV_C_YM.SR_10Y?format=csvdata&lastNObservations=1",
+   "frequency": "daily, euro-area AAA 10y (reference only)"
+  },
+  "USD": {
+   "value_pct": null,
+   "error": "TimeoutError: The read operation timed out"
+  }
+ },
+ "fx_spot_to_usd": {
+  "EURUSD": 1.121076226234436,
+  "SGDUSD": 0.7809815406799316
+ },
+ "equity_risk_premium_pct": 5.0,
+ "discount_rate_floor": {
+  "USD": 8.0,
+  "other": "local 10y + 4.0"
+ },
+ "rule": "All agents use these values. If an agent believes one is wrong or stale, it says so in its output and shows the effect, but does not silently substitute another figure."
+}

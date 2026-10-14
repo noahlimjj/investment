@@ -1,0 +1,145 @@
+{
+ "ticker": "VWRA.L",
+ "as_of": "2026-10-13",
+ "route": "FUND",
+ "quote_currency": "USD",
+ "price": 193.34,
+ "nav": {
+  "value": 193.64,
+  "date": "2026-10-12"
+ },
+ "price_change_pct": {
+  "1y": 18.1,
+  "3y": 81.0,
+  "5y": 72.9,
+  "source": "yfinance closes, own calc"
+ },
+ "range_52w_close": {
+  "low": 161.84,
+  "high": 195.82,
+  "conflict_yfinance_info": [
+   140.22,
+   202.3
+  ]
+ },
+ "ter_pct": 0.14,
+ "aum_usd": {
+  "share_class": 60190000000.0,
+  "fund_total": 87290000000.0,
+  "as_of": null
+ },
+ "domicile": "Ireland",
+ "isin": "IE00BK5BQT80",
+ "distribution": "accumulating",
+ "index": "FTSE All-World",
+ "replication": "physical optimised sampling",
+ "holdings_count": {
+  "fund": 3784,
+  "benchmark": 4263,
+  "as_of": "2026-08-31",
+  "alt_justetf": 3759
+ },
+ "top10": [
+  [
+   "NVIDIA",
+   4.77
+  ],
+  [
+   "Apple",
+   4.24
+  ],
+  [
+   "Microsoft",
+   3.49
+  ],
+  [
+   "Amazon",
+   2.33
+  ],
+  [
+   "Alphabet A",
+   1.87
+  ],
+  [
+   "TSMC",
+   1.7
+  ],
+  [
+   "Broadcom",
+   1.59
+  ],
+  [
+   "Alphabet C",
+   1.44
+  ],
+  [
+   "Meta",
+   1.17
+  ],
+  [
+   "Micron",
+   1.0
+  ]
+ ],
+ "top10_total_pct": 23.6,
+ "country_pct": {
+  "US": 61.68,
+  "Japan": 6.0,
+  "Taiwan": 3.31,
+  "UK": 3.25,
+  "Canada": 3.01,
+  "China": 2.72,
+  "South Korea": 2.5,
+  "France": 1.99,
+  "Switzerland": 1.97,
+  "Germany": 1.89,
+  "as_of": "2026-08-31",
+  "alt_justetf_US": 59.77
+ },
+ "sector_pct": {
+  "Technology": 36.04,
+  "Finance": 18.63,
+  "Industrials": 9.16,
+  "Consumer Non-Cyclicals": 8.1,
+  "Other": 28.07,
+  "source": "justETF",
+  "as_of": "2026-08-31"
+ },
+ "tracking_error_pct": {
+  "1y": 0.07,
+  "3y": 0.07,
+  "5y": 0.08,
+  "as_of": "2026-08-31"
+ },
+ "tracking_difference_pct": {
+  "1y": null,
+  "3y": null,
+  "5y": null
+ },
+ "spread_pct_indicative": 0.01,
+ "avg_volume": 225212,
+ "index_valuation": {
+  "pe": 21.0,
+  "pb": 3.6,
+  "as_of": "2026-08-31",
+  "forward_pe": null,
+  "dividend_yield_pct": null,
+  "cape": null,
+  "proxy_msci_acwi": {
+   "pe": 23.24,
+   "fwd_pe": 17.13,
+   "div_yield_pct": 1.59,
+   "as_of": "2026-07-31"
+  },
+  "proxy_global_cape_siblis": {
+   "value": 29.12,
+   "as_of": "2026-07-01"
+  }
+ },
+ "conflicts": [
+  "TER 0.14 vs 0.19 stale",
+  "US weight 61.68 vs 59.77",
+  "holdings 3784 vs 3759",
+  "52w range"
+ ]
+}

@@ -1,0 +1,43 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+*.key
+
+# Runtime locks & state
+*.lock
+.telegram_poller_*.lock
+fundamentals.json.lock
+data/.telegram_poller_*.lock
+data/fundamentals.json.lock
+data/telegram_state_*.json
+data/telegram_jobs/
+
+# Broker screenshots & personal scratch
+data/screenshots/
+scratch/
+scripts/*.log
+scripts/*.png
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS artifacts
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+
+# Editor & IDE artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary backups
+*.bak*

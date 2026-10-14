@@ -1,0 +1,1792 @@
+{
+ "ticker": "BABA",
+ "cik": 1577552,
+ "entity": "Alibaba Group Holding Ltd",
+ "retrieved": "2026-10-13T13:53:31+00:00",
+ "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001577552.json",
+ "fiscal_year_ends": [
+  "2021-03-31",
+  "2022-03-31",
+  "2023-03-31",
+  "2024-03-31",
+  "2025-03-31",
+  "2026-03-31"
+ ],
+ "annual": {
+  "revenue": {
+   "2021-03-31": {
+    "val": 717289000000,
+    "start": "2020-04-01",
+    "end": "2021-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-23-033752",
+    "filed": "2023-07-21",
+    "tag": "us-gaap:Revenues"
+   },
+   "2022-03-31": {
+    "val": 853062000000,
+    "start": "2021-04-01",
+    "end": "2022-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-24-063767",
+    "filed": "2024-05-23",
+    "tag": "us-gaap:Revenues"
+   },
+   "2023-03-31": {
+    "val": 868687000000,
+    "start": "2022-04-01",
+    "end": "2023-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-25-090161",
+    "filed": "2025-06-26",
+    "tag": "us-gaap:Revenues"
+   },
+   "2024-03-31": {
+    "val": 941168000000,
+    "start": "2023-04-01",
+    "end": "2024-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:Revenues"
+   },
+   "2025-03-31": {
+    "val": 996347000000,
+    "start": "2024-04-01",
+    "end": "2025-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:Revenues"
+   },
+   "2026-03-31": {
+    "val": 1023670000000,
+    "start": "2025-04-01",
+    "end": "2026-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:Revenues"
+   }
+  },
+  "gross_profit": {},
+  "cost_of_revenue": {
+   "2021-03-31": {
+    "val": 421205000000,
+    "start": "2020-04-01",
+    "end": "2021-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-23-033752",
+    "filed": "2023-07-21",
+    "tag": "us-gaap:CostOfRevenue"
+   },
+   "2022-03-31": {
+    "val": 539450000000,
+    "start": "2021-04-01",
+    "end": "2022-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-24-063767",
+    "filed": "2024-05-23",
+    "tag": "us-gaap:CostOfRevenue"
+   },
+   "2023-03-31": {
+    "val": 549695000000,
+    "start": "2022-04-01",
+    "end": "2023-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-25-090161",
+    "filed": "2025-06-26",
+    "tag": "us-gaap:CostOfRevenue"
+   },
+   "2024-03-31": {
+    "val": 586323000000,
+    "start": "2023-04-01",
+    "end": "2024-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:CostOfRevenue"
+   },
+   "2025-03-31": {
+    "val": 598285000000,
+    "start": "2024-04-01",
+    "end": "2025-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:CostOfRevenue"
+   },
+   "2026-03-31": {
+    "val": 616136000000,
+    "start": "2025-04-01",
+    "end": "2026-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:CostOfRevenue"
+   }
+  },
+  "operating_income": {
+   "2021-03-31": {
+    "val": 89678000000,
+    "start": "2020-04-01",
+    "end": "2021-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-23-033752",
+    "filed": "2023-07-21",
+    "tag": "us-gaap:OperatingIncomeLoss"
+   },
+   "2022-03-31": {
+    "val": 69638000000,
+    "start": "2021-04-01",
+    "end": "2022-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-24-063767",
+    "filed": "2024-05-23",
+    "tag": "us-gaap:OperatingIncomeLoss"
+   },
+   "2023-03-31": {
+    "val": 100351000000,
+    "start": "2022-04-01",
+    "end": "2023-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-25-090161",
+    "filed": "2025-06-26",
+    "tag": "us-gaap:OperatingIncomeLoss"
+   },
+   "2024-03-31": {
+    "val": 113350000000,
+    "start": "2023-04-01",
+    "end": "2024-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:OperatingIncomeLoss"
+   },
+   "2025-03-31": {
+    "val": 140905000000,
+    "start": "2024-04-01",
+    "end": "2025-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:OperatingIncomeLoss"
+   },
+   "2026-03-31": {
+    "val": 50150000000,
+    "start": "2025-04-01",
+    "end": "2026-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:OperatingIncomeLoss"
+   }
+  },
+  "pretax_income": {
+   "2021-03-31": {
+    "val": 165578000000,
+    "start": "2020-04-01",
+    "end": "2021-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-23-033752",
+    "filed": "2023-07-21",
+    "tag": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
+   },
+   "2022-03-31": {
+    "val": 59550000000,
+    "start": "2021-04-01",
+    "end": "2022-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-24-063767",
+    "filed": "2024-05-23",
+    "tag": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
+   },
+   "2023-03-31": {
+    "val": 89185000000,
+    "start": "2022-04-01",
+    "end": "2023-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-25-090161",
+    "filed": "2025-06-26",
+    "tag": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
+   },
+   "2024-03-31": {
+    "val": 101596000000,
+    "start": "2023-04-01",
+    "end": "2024-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
+   },
+   "2025-03-31": {
+    "val": 155455000000,
+    "start": "2024-04-01",
+    "end": "2025-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
+   },
+   "2026-03-31": {
+    "val": 129387000000,
+    "start": "2025-04-01",
+    "end": "2026-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
+   }
+  },
+  "income_tax": {
+   "2021-03-31": {
+    "val": 29278000000,
+    "start": "2020-04-01",
+    "end": "2021-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-23-033752",
+    "filed": "2023-07-21",
+    "tag": "us-gaap:IncomeTaxExpenseBenefit"
+   },
+   "2022-03-31": {
+    "val": 26815000000,
+    "start": "2021-04-01",
+    "end": "2022-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-24-063767",
+    "filed": "2024-05-23",
+    "tag": "us-gaap:IncomeTaxExpenseBenefit"
+   },
+   "2023-03-31": {
+    "val": 15549000000,
+    "start": "2022-04-01",
+    "end": "2023-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-25-090161",
+    "filed": "2025-06-26",
+    "tag": "us-gaap:IncomeTaxExpenseBenefit"
+   },
+   "2024-03-31": {
+    "val": 22529000000,
+    "start": "2023-04-01",
+    "end": "2024-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:IncomeTaxExpenseBenefit"
+   },
+   "2025-03-31": {
+    "val": 35445000000,
+    "start": "2024-04-01",
+    "end": "2025-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:IncomeTaxExpenseBenefit"
+   },
+   "2026-03-31": {
+    "val": 30045000000,
+    "start": "2025-04-01",
+    "end": "2026-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:IncomeTaxExpenseBenefit"
+   }
+  },
+  "net_income": {
+   "2021-03-31": {
+    "val": 150578000000,
+    "start": "2020-04-01",
+    "end": "2021-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-23-033752",
+    "filed": "2023-07-21",
+    "tag": "us-gaap:NetIncomeLoss"
+   },
+   "2022-03-31": {
+    "val": 62249000000,
+    "start": "2021-04-01",
+    "end": "2022-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-24-063767",
+    "filed": "2024-05-23",
+    "tag": "us-gaap:NetIncomeLoss"
+   },
+   "2023-03-31": {
+    "val": 72783000000,
+    "start": "2022-04-01",
+    "end": "2023-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-25-090161",
+    "filed": "2025-06-26",
+    "tag": "us-gaap:NetIncomeLoss"
+   },
+   "2024-03-31": {
+    "val": 80009000000,
+    "start": "2023-04-01",
+    "end": "2024-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:NetIncomeLoss"
+   },
+   "2025-03-31": {
+    "val": 130109000000,
+    "start": "2024-04-01",
+    "end": "2025-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:NetIncomeLoss"
+   },
+   "2026-03-31": {
+    "val": 103592000000,
+    "start": "2025-04-01",
+    "end": "2026-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:NetIncomeLoss"
+   }
+  },
+  "interest_expense": {
+   "2021-03-31": {
+    "val": 4476000000,
+    "start": "2020-04-01",
+    "end": "2021-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-23-033752",
+    "filed": "2023-07-21",
+    "tag": "us-gaap:InterestExpense"
+   },
+   "2022-03-31": {
+    "val": 4909000000,
+    "start": "2021-04-01",
+    "end": "2022-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-24-063767",
+    "filed": "2024-05-23",
+    "tag": "us-gaap:InterestExpense"
+   },
+   "2023-03-31": {
+    "val": 5918000000,
+    "start": "2022-04-01",
+    "end": "2023-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-25-090161",
+    "filed": "2025-06-26",
+    "tag": "us-gaap:InterestExpense"
+   },
+   "2024-03-31": {
+    "val": 7947000000,
+    "start": "2023-04-01",
+    "end": "2024-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:InterestExpense"
+   },
+   "2025-03-31": {
+    "val": 9596000000,
+    "start": "2024-04-01",
+    "end": "2025-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:InterestExpense"
+   },
+   "2026-03-31": {
+    "val": 9793000000,
+    "start": "2025-04-01",
+    "end": "2026-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:InterestExpense"
+   }
+  },
+  "d_and_a": {
+   "2021-03-31": {
+    "val": 25550000000,
+    "start": "2020-04-01",
+    "end": "2021-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-23-033752",
+    "filed": "2023-07-21",
+    "tag": "us-gaap:DepreciationDepletionAndAmortization"
+   },
+   "2022-03-31": {
+    "val": 25470000000,
+    "start": "2021-04-01",
+    "end": "2022-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-24-063767",
+    "filed": "2024-05-23",
+    "tag": "us-gaap:DepreciationDepletionAndAmortization"
+   },
+   "2023-03-31": {
+    "val": 24654000000,
+    "start": "2022-04-01",
+    "end": "2023-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-25-090161",
+    "filed": "2025-06-26",
+    "tag": "us-gaap:DepreciationDepletionAndAmortization"
+   },
+   "2024-03-31": {
+    "val": 23344000000,
+    "start": "2023-04-01",
+    "end": "2024-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:DepreciationDepletionAndAmortization"
+   },
+   "2025-03-31": {
+    "val": 24515000000,
+    "start": "2024-04-01",
+    "end": "2025-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:DepreciationDepletionAndAmortization"
+   },
+   "2026-03-31": {
+    "val": 34963000000,
+    "start": "2025-04-01",
+    "end": "2026-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:DepreciationDepletionAndAmortization"
+   }
+  },
+  "sbc": {
+   "2021-03-31": {
+    "val": 50120000000,
+    "start": "2020-04-01",
+    "end": "2021-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001104659-21-096092",
+    "filed": "2021-07-27",
+    "tag": "us-gaap:ShareBasedCompensation"
+   },
+   "2022-03-31": {
+    "val": 23971000000,
+    "start": "2021-04-01",
+    "end": "2022-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-24-063767",
+    "filed": "2024-05-23",
+    "tag": "us-gaap:AllocatedShareBasedCompensationExpense"
+   },
+   "2023-03-31": {
+    "val": 30831000000,
+    "start": "2022-04-01",
+    "end": "2023-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-25-090161",
+    "filed": "2025-06-26",
+    "tag": "us-gaap:AllocatedShareBasedCompensationExpense"
+   },
+   "2024-03-31": {
+    "val": 18546000000,
+    "start": "2023-04-01",
+    "end": "2024-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:AllocatedShareBasedCompensationExpense"
+   },
+   "2025-03-31": {
+    "val": 13970000000,
+    "start": "2024-04-01",
+    "end": "2025-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:AllocatedShareBasedCompensationExpense"
+   },
+   "2026-03-31": {
+    "val": 11180000000,
+    "start": "2025-04-01",
+    "end": "2026-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:AllocatedShareBasedCompensationExpense"
+   }
+  },
+  "ocf": {
+   "2021-03-31": {
+    "val": 231786000000,
+    "start": "2020-04-01",
+    "end": "2021-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-23-033752",
+    "filed": "2023-07-21",
+    "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities"
+   },
+   "2022-03-31": {
+    "val": 142759000000,
+    "start": "2021-04-01",
+    "end": "2022-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-24-063767",
+    "filed": "2024-05-23",
+    "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities"
+   },
+   "2023-03-31": {
+    "val": 199752000000,
+    "start": "2022-04-01",
+    "end": "2023-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-25-090161",
+    "filed": "2025-06-26",
+    "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities"
+   },
+   "2024-03-31": {
+    "val": 182593000000,
+    "start": "2023-04-01",
+    "end": "2024-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities"
+   },
+   "2025-03-31": {
+    "val": 163509000000,
+    "start": "2024-04-01",
+    "end": "2025-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities"
+   },
+   "2026-03-31": {
+    "val": 76213000000,
+    "start": "2025-04-01",
+    "end": "2026-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities"
+   }
+  },
+  "capex": {},
+  "capex_intangibles": {
+   "2021-03-31": {
+    "val": 1735000000,
+    "start": "2020-04-01",
+    "end": "2021-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-23-033752",
+    "filed": "2023-07-21",
+    "tag": "us-gaap:PaymentsToAcquireIntangibleAssets"
+   },
+   "2022-03-31": {
+    "val": 15000000,
+    "start": "2021-04-01",
+    "end": "2022-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-24-063767",
+    "filed": "2024-05-23",
+    "tag": "us-gaap:PaymentsToAcquireIntangibleAssets"
+   },
+   "2023-03-31": {
+    "val": 22000000,
+    "start": "2022-04-01",
+    "end": "2023-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-25-090161",
+    "filed": "2025-06-26",
+    "tag": "us-gaap:PaymentsToAcquireIntangibleAssets"
+   },
+   "2024-03-31": {
+    "val": 842000000,
+    "start": "2023-04-01",
+    "end": "2024-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:PaymentsToAcquireIntangibleAssets"
+   },
+   "2025-03-31": {
+    "val": 0,
+    "start": "2024-04-01",
+    "end": "2025-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:PaymentsToAcquireIntangibleAssets"
+   },
+   "2026-03-31": {
+    "val": 874000000,
+    "start": "2025-04-01",
+    "end": "2026-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:PaymentsToAcquireIntangibleAssets"
+   }
+  },
+  "investing_cf": {
+   "2021-03-31": {
+    "val": -244194000000,
+    "start": "2020-04-01",
+    "end": "2021-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-23-033752",
+    "filed": "2023-07-21",
+    "tag": "us-gaap:NetCashProvidedByUsedInInvestingActivities"
+   },
+   "2022-03-31": {
+    "val": -198592000000,
+    "start": "2021-04-01",
+    "end": "2022-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-24-063767",
+    "filed": "2024-05-23",
+    "tag": "us-gaap:NetCashProvidedByUsedInInvestingActivities"
+   },
+   "2023-03-31": {
+    "val": -135506000000,
+    "start": "2022-04-01",
+    "end": "2023-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-25-090161",
+    "filed": "2025-06-26",
+    "tag": "us-gaap:NetCashProvidedByUsedInInvestingActivities"
+   },
+   "2024-03-31": {
+    "val": -21824000000,
+    "start": "2023-04-01",
+    "end": "2024-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:NetCashProvidedByUsedInInvestingActivities"
+   },
+   "2025-03-31": {
+    "val": -185415000000,
+    "start": "2024-04-01",
+    "end": "2025-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:NetCashProvidedByUsedInInvestingActivities"
+   },
+   "2026-03-31": {
+    "val": -67336000000,
+    "start": "2025-04-01",
+    "end": "2026-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:NetCashProvidedByUsedInInvestingActivities"
+   }
+  },
+  "securities_bought": {},
+  "securities_sold": {
+   "2021-03-31": {
+    "val": 7280000000,
+    "start": "2020-04-01",
+    "end": "2021-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-23-033752",
+    "filed": "2023-07-21",
+    "tag": "us-gaap:ProceedsFromSaleAndMaturityOfMarketableSecurities"
+   },
+   "2022-03-31": {
+    "val": 14543000000,
+    "start": "2021-04-01",
+    "end": "2022-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-24-063767",
+    "filed": "2024-05-23",
+    "tag": "us-gaap:ProceedsFromSaleAndMaturityOfMarketableSecurities"
+   },
+   "2023-03-31": {
+    "val": 21738000000,
+    "start": "2022-04-01",
+    "end": "2023-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-25-090161",
+    "filed": "2025-06-26",
+    "tag": "us-gaap:ProceedsFromSaleAndMaturityOfMarketableSecurities"
+   },
+   "2024-03-31": {
+    "val": 21966000000,
+    "start": "2023-04-01",
+    "end": "2024-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:ProceedsFromSaleAndMaturityOfMarketableSecurities"
+   },
+   "2025-03-31": {
+    "val": 18214000000,
+    "start": "2024-04-01",
+    "end": "2025-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:ProceedsFromSaleAndMaturityOfMarketableSecurities"
+   },
+   "2026-03-31": {
+    "val": 80685000000,
+    "start": "2025-04-01",
+    "end": "2026-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:ProceedsFromSaleAndMaturityOfMarketableSecurities"
+   }
+  },
+  "buybacks": {
+   "2021-03-31": {
+    "val": 773000000,
+    "start": "2020-04-01",
+    "end": "2021-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-23-033752",
+    "filed": "2023-07-21",
+    "tag": "us-gaap:PaymentsForRepurchaseOfCommonStock"
+   },
+   "2022-03-31": {
+    "val": 61225000000,
+    "start": "2021-04-01",
+    "end": "2022-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-24-063767",
+    "filed": "2024-05-23",
+    "tag": "us-gaap:PaymentsForRepurchaseOfCommonStock"
+   },
+   "2023-03-31": {
+    "val": 74746000000,
+    "start": "2022-04-01",
+    "end": "2023-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-25-090161",
+    "filed": "2025-06-26",
+    "tag": "us-gaap:PaymentsForRepurchaseOfCommonStock"
+   },
+   "2024-03-31": {
+    "val": 88745000000,
+    "start": "2023-04-01",
+    "end": "2024-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:PaymentsForRepurchaseOfCommonStock"
+   },
+   "2025-03-31": {
+    "val": 86662000000,
+    "start": "2024-04-01",
+    "end": "2025-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:PaymentsForRepurchaseOfCommonStock"
+   },
+   "2026-03-31": {
+    "val": 7638000000,
+    "start": "2025-04-01",
+    "end": "2026-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:PaymentsForRepurchaseOfCommonStock"
+   }
+  },
+  "dividends_paid": {
+   "2022-03-31": {
+    "val": 0,
+    "start": "2021-04-01",
+    "end": "2022-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-24-063767",
+    "filed": "2024-05-23",
+    "tag": "us-gaap:PaymentsOfDividends"
+   },
+   "2023-03-31": {
+    "val": 0,
+    "start": "2022-04-01",
+    "end": "2023-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-25-090161",
+    "filed": "2025-06-26",
+    "tag": "us-gaap:PaymentsOfDividends"
+   },
+   "2024-03-31": {
+    "val": 17946000000,
+    "start": "2023-04-01",
+    "end": "2024-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:PaymentsOfDividends"
+   },
+   "2025-03-31": {
+    "val": 29077000000,
+    "start": "2024-04-01",
+    "end": "2025-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:PaymentsOfDividends"
+   },
+   "2026-03-31": {
+    "val": 33732000000,
+    "start": "2025-04-01",
+    "end": "2026-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:PaymentsOfDividends"
+   }
+  },
+  "acquisitions": {
+   "2021-03-31": {
+    "val": 19137000000,
+    "start": "2020-04-01",
+    "end": "2021-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-23-033752",
+    "filed": "2023-07-21",
+    "tag": "us-gaap:PaymentsToAcquireBusinessesNetOfCashAcquired"
+   },
+   "2022-03-31": {
+    "val": 4087000000,
+    "start": "2021-04-01",
+    "end": "2022-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-24-063767",
+    "filed": "2024-05-23",
+    "tag": "us-gaap:PaymentsToAcquireBusinessesNetOfCashAcquired"
+   },
+   "2023-03-31": {
+    "val": 1204000000,
+    "start": "2022-04-01",
+    "end": "2023-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-25-090161",
+    "filed": "2025-06-26",
+    "tag": "us-gaap:PaymentsToAcquireBusinessesNetOfCashAcquired"
+   },
+   "2024-03-31": {
+    "val": 2204000000,
+    "start": "2023-04-01",
+    "end": "2024-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:PaymentsToAcquireBusinessesNetOfCashAcquired"
+   },
+   "2025-03-31": {
+    "val": -353000000,
+    "start": "2024-04-01",
+    "end": "2025-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:PaymentsToAcquireBusinessesNetOfCashAcquired"
+   },
+   "2026-03-31": {
+    "val": 1212000000,
+    "start": "2025-04-01",
+    "end": "2026-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:PaymentsToAcquireBusinessesNetOfCashAcquired"
+   }
+  },
+  "diluted_shares": {
+   "2021-03-31": {
+    "val": 21982000000,
+    "start": "2020-04-01",
+    "end": "2021-03-31",
+    "unit": "shares",
+    "form": "20-F",
+    "accn": "0000950170-23-033752",
+    "filed": "2023-07-21",
+    "tag": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding"
+   },
+   "2022-03-31": {
+    "val": 21787000000,
+    "start": "2021-04-01",
+    "end": "2022-03-31",
+    "unit": "shares",
+    "form": "20-F",
+    "accn": "0000950170-24-063767",
+    "filed": "2024-05-23",
+    "tag": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding"
+   },
+   "2023-03-31": {
+    "val": 21114000000,
+    "start": "2022-04-01",
+    "end": "2023-03-31",
+    "unit": "shares",
+    "form": "20-F",
+    "accn": "0000950170-25-090161",
+    "filed": "2025-06-26",
+    "tag": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding"
+   },
+   "2024-03-31": {
+    "val": 20359000000,
+    "start": "2023-04-01",
+    "end": "2024-03-31",
+    "unit": "shares",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding"
+   },
+   "2025-03-31": {
+    "val": 19318000000,
+    "start": "2024-04-01",
+    "end": "2025-03-31",
+    "unit": "shares",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding"
+   },
+   "2026-03-31": {
+    "val": 19235000000,
+    "start": "2025-04-01",
+    "end": "2026-03-31",
+    "unit": "shares",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding"
+   }
+  },
+  "eps_diluted": {
+   "2021-03-31": {
+    "val": 6.84,
+    "start": "2020-04-01",
+    "end": "2021-03-31",
+    "unit": "CNY/shares",
+    "form": "20-F",
+    "accn": "0000950170-23-033752",
+    "filed": "2023-07-21",
+    "tag": "us-gaap:EarningsPerShareDiluted"
+   },
+   "2022-03-31": {
+    "val": 2.84,
+    "start": "2021-04-01",
+    "end": "2022-03-31",
+    "unit": "CNY/shares",
+    "form": "20-F",
+    "accn": "0000950170-24-063767",
+    "filed": "2024-05-23",
+    "tag": "us-gaap:EarningsPerShareDiluted"
+   },
+   "2023-03-31": {
+    "val": 3.43,
+    "start": "2022-04-01",
+    "end": "2023-03-31",
+    "unit": "CNY/shares",
+    "form": "20-F",
+    "accn": "0000950170-25-090161",
+    "filed": "2025-06-26",
+    "tag": "us-gaap:EarningsPerShareDiluted"
+   },
+   "2024-03-31": {
+    "val": 3.91,
+    "start": "2023-04-01",
+    "end": "2024-03-31",
+    "unit": "CNY/shares",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:EarningsPerShareDiluted"
+   },
+   "2025-03-31": {
+    "val": 6.7,
+    "start": "2024-04-01",
+    "end": "2025-03-31",
+    "unit": "CNY/shares",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:EarningsPerShareDiluted"
+   },
+   "2026-03-31": {
+    "val": 5.5,
+    "start": "2025-04-01",
+    "end": "2026-03-31",
+    "unit": "CNY/shares",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:EarningsPerShareDiluted"
+   }
+  },
+  "cash": {
+   "2021-03-31": {
+    "val": 321262000000,
+    "start": null,
+    "end": "2021-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001104659-22-082622",
+    "filed": "2022-07-26",
+    "tag": "us-gaap:CashAndCashEquivalentsAtCarryingValue"
+   },
+   "2022-03-31": {
+    "val": 189898000000,
+    "start": null,
+    "end": "2022-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-23-033752",
+    "filed": "2023-07-21",
+    "tag": "us-gaap:CashAndCashEquivalentsAtCarryingValue"
+   },
+   "2023-03-31": {
+    "val": 193086000000,
+    "start": null,
+    "end": "2023-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-24-063767",
+    "filed": "2024-05-23",
+    "tag": "us-gaap:CashAndCashEquivalentsAtCarryingValue"
+   },
+   "2024-03-31": {
+    "val": 248125000000,
+    "start": null,
+    "end": "2024-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-25-090161",
+    "filed": "2025-06-26",
+    "tag": "us-gaap:CashAndCashEquivalentsAtCarryingValue"
+   },
+   "2025-03-31": {
+    "val": 145487000000,
+    "start": null,
+    "end": "2025-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:CashAndCashEquivalentsAtCarryingValue"
+   },
+   "2026-03-31": {
+    "val": 131530000000,
+    "start": null,
+    "end": "2026-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:CashAndCashEquivalentsAtCarryingValue"
+   }
+  },
+  "short_term_investments": {
+   "2025-03-31": {
+    "val": 228826000000,
+    "start": null,
+    "end": "2025-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:ShortTermInvestments"
+   },
+   "2026-03-31": {
+    "val": 155310000000,
+    "start": null,
+    "end": "2026-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:ShortTermInvestments"
+   }
+  },
+  "debt_current": {},
+  "debt_noncurrent": {},
+  "equity": {
+   "2021-03-31": {
+    "val": 937470000000,
+    "start": null,
+    "end": "2021-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001104659-22-082622",
+    "filed": "2022-07-26",
+    "tag": "us-gaap:StockholdersEquity"
+   },
+   "2022-03-31": {
+    "val": 948479000000,
+    "start": null,
+    "end": "2022-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-23-033752",
+    "filed": "2023-07-21",
+    "tag": "us-gaap:StockholdersEquity"
+   },
+   "2023-03-31": {
+    "val": 989657000000,
+    "start": null,
+    "end": "2023-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-24-063767",
+    "filed": "2024-05-23",
+    "tag": "us-gaap:StockholdersEquity"
+   },
+   "2024-03-31": {
+    "val": 986544000000,
+    "start": null,
+    "end": "2024-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-25-090161",
+    "filed": "2025-06-26",
+    "tag": "us-gaap:StockholdersEquity"
+   },
+   "2025-03-31": {
+    "val": 1009858000000,
+    "start": null,
+    "end": "2025-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:StockholdersEquity"
+   },
+   "2026-03-31": {
+    "val": 1060886000000,
+    "start": null,
+    "end": "2026-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:StockholdersEquity"
+   }
+  },
+  "total_assets": {
+   "2021-03-31": {
+    "val": 1690218000000,
+    "start": null,
+    "end": "2021-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001104659-22-082622",
+    "filed": "2022-07-26",
+    "tag": "us-gaap:Assets"
+   },
+   "2022-03-31": {
+    "val": 1695553000000,
+    "start": null,
+    "end": "2022-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-23-033752",
+    "filed": "2023-07-21",
+    "tag": "us-gaap:Assets"
+   },
+   "2023-03-31": {
+    "val": 1753044000000,
+    "start": null,
+    "end": "2023-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-24-063767",
+    "filed": "2024-05-23",
+    "tag": "us-gaap:Assets"
+   },
+   "2024-03-31": {
+    "val": 1764829000000,
+    "start": null,
+    "end": "2024-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-25-090161",
+    "filed": "2025-06-26",
+    "tag": "us-gaap:Assets"
+   },
+   "2025-03-31": {
+    "val": 1804227000000,
+    "start": null,
+    "end": "2025-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:Assets"
+   },
+   "2026-03-31": {
+    "val": 1909570000000,
+    "start": null,
+    "end": "2026-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:Assets"
+   }
+  },
+  "goodwill": {
+   "2021-03-31": {
+    "val": 292771000000,
+    "start": null,
+    "end": "2021-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-23-033752",
+    "filed": "2023-07-21",
+    "tag": "us-gaap:Goodwill"
+   },
+   "2022-03-31": {
+    "val": 269581000000,
+    "start": null,
+    "end": "2022-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-24-063767",
+    "filed": "2024-05-23",
+    "tag": "us-gaap:Goodwill"
+   },
+   "2023-03-31": {
+    "val": 268091000000,
+    "start": null,
+    "end": "2023-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-25-090161",
+    "filed": "2025-06-26",
+    "tag": "us-gaap:Goodwill"
+   },
+   "2024-03-31": {
+    "val": 259679000000,
+    "start": null,
+    "end": "2024-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:Goodwill"
+   },
+   "2025-03-31": {
+    "val": 255501000000,
+    "start": null,
+    "end": "2025-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:Goodwill"
+   },
+   "2026-03-31": {
+    "val": 247378000000,
+    "start": null,
+    "end": "2026-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:Goodwill"
+   }
+  },
+  "inventory": {},
+  "receivables": {
+   "2021-03-31": {
+    "val": 27076000000,
+    "start": null,
+    "end": "2021-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001104659-22-082622",
+    "filed": "2022-07-26",
+    "tag": "us-gaap:AccountsReceivableNetCurrent"
+   },
+   "2022-03-31": {
+    "val": 32813000000,
+    "start": null,
+    "end": "2022-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-23-033752",
+    "filed": "2023-07-21",
+    "tag": "us-gaap:AccountsReceivableNetCurrent"
+   },
+   "2023-03-31": {
+    "val": 32134000000,
+    "start": null,
+    "end": "2023-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-24-063767",
+    "filed": "2024-05-23",
+    "tag": "us-gaap:AccountsReceivableNetCurrent"
+   },
+   "2024-03-31": {
+    "val": 30686000000,
+    "start": null,
+    "end": "2024-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0000950170-25-090161",
+    "filed": "2025-06-26",
+    "tag": "us-gaap:AccountsReceivableNetCurrent"
+   },
+   "2025-03-31": {
+    "val": 31172000000,
+    "start": null,
+    "end": "2025-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:AccountsReceivableNetCurrent"
+   },
+   "2026-03-31": {
+    "val": 36020000000,
+    "start": null,
+    "end": "2026-03-31",
+    "unit": "CNY",
+    "form": "20-F",
+    "accn": "0001193125-26-231755",
+    "filed": "2026-05-20",
+    "tag": "us-gaap:AccountsReceivableNetCurrent"
+   }
+  },
+  "retained_earnings": {}
+ },
+ "derived": {
+  "2021-03-31": {
+   "capex_total": null,
+   "fcf": null,
+   "sbc_adjusted_fcf": null,
+   "owner_earnings": null,
+   "sbc_pct_of_ocf": 0.21623393992734677,
+   "gross_margin": 0.41278201673244674,
+   "operating_margin": 0.12502352608223463,
+   "fcf_margin": null,
+   "effective_tax_rate": 0.17682300788752128,
+   "net_cash": null,
+   "invested_capital": null,
+   "roic": null,
+   "roic_tax_rate_used": 0.17682300788752128,
+   "interest_coverage": 20.035299374441465,
+   "debt_to_equity": null
+  },
+  "2022-03-31": {
+   "capex_total": null,
+   "fcf": null,
+   "sbc_adjusted_fcf": null,
+   "owner_earnings": null,
+   "sbc_pct_of_ocf": 0.16791235578842664,
+   "gross_margin": 0.3676309576560672,
+   "operating_margin": 0.08163298798914967,
+   "fcf_margin": null,
+   "effective_tax_rate": 0.45029387069689336,
+   "net_cash": null,
+   "invested_capital": null,
+   "roic": null,
+   "roic_tax_rate_used": 0.21,
+   "interest_coverage": 14.185781218170707,
+   "debt_to_equity": null
+  },
+  "2023-03-31": {
+   "capex_total": null,
+   "fcf": null,
+   "sbc_adjusted_fcf": null,
+   "owner_earnings": null,
+   "sbc_pct_of_ocf": 0.15434638952300853,
+   "gross_margin": 0.3672116654214924,
+   "operating_margin": 0.1155203197469284,
+   "fcf_margin": null,
+   "effective_tax_rate": 0.17434546168077591,
+   "net_cash": null,
+   "invested_capital": null,
+   "roic": null,
+   "roic_tax_rate_used": 0.17434546168077591,
+   "interest_coverage": 16.956911118621157,
+   "debt_to_equity": null
+  },
+  "2024-03-31": {
+   "capex_total": null,
+   "fcf": null,
+   "sbc_adjusted_fcf": null,
+   "owner_earnings": null,
+   "sbc_pct_of_ocf": 0.10157015876840843,
+   "gross_margin": 0.3770262057358516,
+   "operating_margin": 0.12043545891913027,
+   "fcf_margin": null,
+   "effective_tax_rate": 0.2217508563329265,
+   "net_cash": null,
+   "invested_capital": null,
+   "roic": null,
+   "roic_tax_rate_used": 0.2217508563329265,
+   "interest_coverage": 14.263243991443312,
+   "debt_to_equity": null
+  },
+  "2025-03-31": {
+   "capex_total": null,
+   "fcf": null,
+   "sbc_adjusted_fcf": null,
+   "owner_earnings": null,
+   "sbc_pct_of_ocf": 0.08543872202753365,
+   "gross_margin": 0.39952145186365795,
+   "operating_margin": 0.14142161315284735,
+   "fcf_margin": null,
+   "effective_tax_rate": 0.22800810523945836,
+   "net_cash": null,
+   "invested_capital": null,
+   "roic": null,
+   "roic_tax_rate_used": 0.22800810523945836,
+   "interest_coverage": 14.683722384326803,
+   "debt_to_equity": null
+  },
+  "2026-03-31": {
+   "capex_total": null,
+   "fcf": null,
+   "sbc_adjusted_fcf": null,
+   "owner_earnings": null,
+   "sbc_pct_of_ocf": 0.14669413354677024,
+   "gross_margin": 0.39811071927476627,
+   "operating_margin": 0.048990397296003595,
+   "fcf_margin": null,
+   "effective_tax_rate": 0.23221034570706486,
+   "net_cash": null,
+   "invested_capital": null,
+   "roic": null,
+   "roic_tax_rate_used": 0.23221034570706486,
+   "interest_coverage": 5.121004799346472,
+   "debt_to_equity": null
+  }
+ },
+ "ttm": {},
+ "shares_outstanding_latest": {
+  "val": 1858037427,
+  "end": "2026-03-31",
+  "form": "20-F",
+  "accn": "0001193125-26-231755",
+  "filed": "2026-05-20"
+ },
+ "diluted_share_cagr": -0.026345226429597135,
+ "revenue_cagr": 0.07372523718910529,
+ "stale": null,
+ "gaps": [
+  "gross_profit: no data for FY ending 2021-03-31",
+  "gross_profit: no data for FY ending 2022-03-31",
+  "gross_profit: no data for FY ending 2023-03-31",
+  "gross_profit: no data for FY ending 2024-03-31",
+  "gross_profit: no data for FY ending 2025-03-31",
+  "gross_profit: no data for FY ending 2026-03-31",
+  "capex: no data for FY ending 2021-03-31",
+  "capex: no data for FY ending 2022-03-31",
+  "capex: no data for FY ending 2023-03-31",
+  "capex: no data for FY ending 2024-03-31",
+  "capex: no data for FY ending 2025-03-31",
+  "capex: no data for FY ending 2026-03-31",
+  "securities_bought: no data for FY ending 2021-03-31",
+  "securities_bought: no data for FY ending 2022-03-31",
+  "securities_bought: no data for FY ending 2023-03-31",
+  "securities_bought: no data for FY ending 2024-03-31",
+  "securities_bought: no data for FY ending 2025-03-31",
+  "securities_bought: no data for FY ending 2026-03-31",
+  "dividends_paid: no data for FY ending 2021-03-31",
+  "short_term_investments: no data for FY ending 2021-03-31",
+  "short_term_investments: no data for FY ending 2022-03-31",
+  "short_term_investments: no data for FY ending 2023-03-31",
+  "short_term_investments: no data for FY ending 2024-03-31",
+  "debt_current: no data for FY ending 2021-03-31",
+  "debt_current: no data for FY ending 2022-03-31",
+  "debt_current: no data for FY ending 2023-03-31",
+  "debt_current: no data for FY ending 2024-03-31",
+  "debt_current: no data for FY ending 2025-03-31",
+  "debt_current: no data for FY ending 2026-03-31",
+  "debt_noncurrent: no data for FY ending 2021-03-31",
+  "debt_noncurrent: no data for FY ending 2022-03-31",
+  "debt_noncurrent: no data for FY ending 2023-03-31",
+  "debt_noncurrent: no data for FY ending 2024-03-31",
+  "debt_noncurrent: no data for FY ending 2025-03-31",
+  "debt_noncurrent: no data for FY ending 2026-03-31",
+  "inventory: no data for FY ending 2021-03-31",
+  "inventory: no data for FY ending 2022-03-31",
+  "inventory: no data for FY ending 2023-03-31",
+  "inventory: no data for FY ending 2024-03-31",
+  "inventory: no data for FY ending 2025-03-31",
+  "inventory: no data for FY ending 2026-03-31",
+  "retained_earnings: no data for FY ending 2021-03-31",
+  "retained_earnings: no data for FY ending 2022-03-31",
+  "retained_earnings: no data for FY ending 2023-03-31",
+  "retained_earnings: no data for FY ending 2024-03-31",
+  "retained_earnings: no data for FY ending 2025-03-31",
+  "retained_earnings: no data for FY ending 2026-03-31"
+ ],
+ "researcher_additions": {
+  "note": "Added by Researcher 2026-10-14. All values CNY millions unless stated. null = missing. FY ends 31 Mar. Original sec_facts keys above are untouched; where they conflict, see 'overrides'.",
+  "units": "CNY millions (sec_facts annual block is in CNY units, i.e. x1e6 of these)",
+  "capex_total_incl_intangibles": {
+   "FY2021": {
+    "val": 43185,
+    "src": "20-F FY22 accn 0001104659-22-082622 cash flow: land use rights+PP&E 41,450 + intangibles 1,735"
+   },
+   "FY2022": {
+    "val": 53324,
+    "src": "same: 53,309 + 15"
+   },
+   "FY2023": {
+    "val": 34352,
+    "src": "20-F FY25 accn 0000950170-25-090161 cash flow: 34,330 + 22"
+   },
+   "FY2024": {
+    "val": 32929,
+    "src": "20-F FY25: 32,087 + 842"
+   },
+   "FY2025": {
+    "val": 85972,
+    "src": "20-F FY25: 85,972 + 0"
+   },
+   "FY2026": {
+    "val": 126937,
+    "src": "FY26 results 6-K accn 0001104659-26-060224: capex 126,063 (land use rights/PP&E) + intangibles 874; matches data/fundamentals.json capex"
+   }
+  },
+  "fcf_ocf_minus_capex": {
+   "FY2021": 188601,
+   "FY2022": 89435,
+   "FY2023": 165400,
+   "FY2024": 149664,
+   "FY2025": 77537,
+   "FY2026": -50724,
+   "basis": "derived: OCF (sec_facts) minus capex_total_incl_intangibles"
+  },
+  "fcf_company_definition": {
+   "FY2025": 73870,
+   "FY2026": -46609,
+   "Q1_FY26": -18815,
+   "Q1_FY27": -44670,
+   "src": "6-K 0001104659-26-060224 and 0001104659-26-099220 (company FCF excludes campus construction and buyer-protection deposits)"
+  },
+  "debt_financial_excl_leases": {
+   "2021-03-31": 149153,
+   "2022-03-31": 141344,
+   "2023-03-31": 161354,
+   "2024-03-31": 170776,
+   "2025-03-31": 230703,
+   "2026-03-31": 259996,
+   "2026-06-30": 266530,
+   "src": "balance sheets in 20-F FY22/FY24/FY25 (accn 0001104659-22-082622, 0000950170-24-063767, 0000950170-25-090161); FY26 from 6-K 0001104659-26-060224; Jun-26 from 6-K 0001104659-26-099220. Sum of current+non-current bank borrowings, senior notes, convertible notes, exchangeable bonds"
+  },
+  "operating_lease_liabilities": {
+   "2021-03-31": 32286,
+   "2022-03-31": 35253,
+   "2023-03-31": 34215,
+   "2024-03-31": 34838,
+   "2025-03-31": 17407,
+   "2026-03-31": 21726,
+   "src": "20-F balance sheets (current+non-current); FY26 XBRL OperatingLeaseLiability accn 0001193125-26-231755"
+  },
+  "inventories": {
+   "2021-03-31": 27858,
+   "2022-03-31": 30087,
+   "2023-03-31": 28547,
+   "2024-03-31": 25460,
+   "2025-03-31": 18887,
+   "2026-03-31": null,
+   "src": "Notes 'Prepayments, receivables and other assets' in 20-F FY22/FY24/FY25; FY26 20-F primary document returned HTTP 404 on EDGAR, no XBRL tag -> UNKNOWN"
+  },
+  "shares_outstanding_ordinary_us_gaap": {
+   "2021-03-31": 21699031448,
+   "2022-03-31": 21357323112,
+   "2023-03-31": 20526017712,
+   "2024-03-31": 19469126956,
+   "2025-03-31": 18474235708,
+   "2026-03-31": 18580374278,
+   "src": "balance sheet captions, 20-Fs; FY26 XBRL us-gaap:CommonStockSharesOutstanding accn 0001193125-26-231755"
+  },
+  "shares_issued_hkex": {
+   "2026-06-30": 19206078670,
+   "2026-07-31": 19174988918,
+   "2026-08-31": 19884988918,
+   "2026-09-29": 19901959514,
+   "src": "HKEX monthly returns / next-day disclosure returns furnished on 6-K (accn 0001104659-26-091990, -105208, -111915)"
+  },
+  "buybacks_shares_and_usd": {
+   "FY2022": {
+    "ordinary_shares_m": 480.3,
+    "usd_m": 9600,
+    "avg_usd_per_ads": 159.9,
+    "src": "6-K 0001104659-22-065269"
+   },
+   "FY2024": {
+    "ordinary_shares_m": 1249,
+    "usd_m": 12500,
+    "avg_usd_per_ads": 80.06,
+    "src": "6-K 0001104659-24-061145"
+   },
+   "FY2025": {
+    "ordinary_shares_m": 1197,
+    "usd_m": 11900,
+    "avg_usd_per_ads": 79.53,
+    "src": "6-K 0001104659-25-049400 (NYSE 735.2m sh $7,417m; HK 343.1m sh HK$25,294m; private 118.6m sh at $10.10)"
+   },
+   "FY2026": {
+    "ordinary_shares_m": 72.733488,
+    "usd_m": 1046,
+    "avg_usd_per_ads": 115.05,
+    "src": "6-K 0001104659-26-060224 (all repurchases Apr-Aug 2025; none Sep 2025-Mar 2026)"
+   },
+   "Q1_FY27": {
+    "ordinary_shares_m": 13.4,
+    "usd_m": 162,
+    "avg_usd_per_ads": 96.72,
+    "src": "6-K 0001104659-26-099220"
+   },
+   "FY2023": {
+    "ordinary_shares_m": null,
+    "usd_m": null,
+    "cash_rmb_m": 74746,
+    "src": "FY23 USD/share totals not extracted -> UNKNOWN; Q4 FY23 alone: 172.4m shares US$1.9bn (6-K 0001104659-23-062243)"
+   }
+  },
+  "q1_fy27_quarter": {
+   "period": "quarter ended 2026-06-30",
+   "src": "6-K accn 0001104659-26-099220",
+   "revenue": 268953,
+   "revenue_prior_year": 247652,
+   "income_from_operations": 15161,
+   "adj_ebita": 27329,
+   "adj_ebitda": 39143,
+   "net_income": 10444,
+   "net_income_ord": 10537,
+   "non_gaap_ni": 20715,
+   "ocf": 22945,
+   "capex": 67678,
+   "fcf_company": -44670,
+   "cash_and_liquid_investments": 474505,
+   "diluted_eps_per_ads_rmb": 3.71,
+   "non_gaap_diluted_eps_per_ads_rmb": 8.52
+  },
+  "ttm_jun2026_derived": {
+   "revenue": 1044971,
+   "net_income_incl_nci": 70189,
+   "net_income_ord": 73325,
+   "non_gaap_net_income": 47863,
+   "income_from_operations": 30323,
+   "adj_ebita": 64901,
+   "adj_ebitda": 106891,
+   "ocf": 78486,
+   "capex": 155065,
+   "ocf_minus_capex": -76579,
+   "fcf_company": -72464,
+   "sbc_noncash": 10948,
+   "basis": "FY26 minus Q1 FY26 plus Q1 FY27, all from the two results 6-Ks; derived by Researcher"
+  },
+  "overrides": {
+   "shares_outstanding_latest": "sec_facts value 1,858,037,427 (dei:EntityCommonStockSharesOutstanding, FY26 20-F) is 1/10 of us-gaap:CommonStockSharesOutstanding 18,580,374,278 ordinary shares (=2,322.5m ADS). Use ordinary 18.58bn at 2026-03-31 or HKEX issued 19,901,959,514 at 2026-09-29 (=2,487.7m ADS). Do not use the dei figure.",
+   "net_income": "sec_facts net_income FY26 103,592 = us-gaap:NetIncomeLoss (attributable to Alibaba before mezzanine accretion). Net income incl. NCI = 102,127 (ProfitLoss, used by fundamentals.json). Attributable to ordinary shareholders = 105,904 (EPS numerator). All reconcile via NCI loss 1,465 and mezzanine accretion/reversal.",
+   "gross_profit": "Not a tagged line. Derived = revenue minus cost of revenue (cost of revenue per sec_facts)."
+  }
+ }
+}

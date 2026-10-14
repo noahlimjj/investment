@@ -1,0 +1,35 @@
+{
+ "ticker": "NVO",
+ "generated": "2026-10-13T13:52:15+00:00",
+ "price": 38.415,
+ "quote_currency": "USD",
+ "financial_currency": "DKK",
+ "price_as_of": "2026-10-13T13:52:06+00:00",
+ "risk_free_10y": {
+  "USD": {
+   "value_pct": 5.22,
+   "date": "2026-10-08",
+   "series": "DGS10",
+   "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10",
+   "frequency": "daily"
+  },
+  "DKK": {
+   "value_pct": 3.01,
+   "date": "2026-08-01",
+   "series": "IRLTLT01DKM156N",
+   "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=IRLTLT01DKM156N",
+   "frequency": "monthly average (OECD, lags 1-2 months)"
+  }
+ },
+ "fx_spot_to_usd": {
+  "USDUSD": 1.0,
+  "DKKUSD": 0.1497335433959961,
+  "SGDUSD": 0.7812073230743408
+ },
+ "equity_risk_premium_pct": 5.0,
+ "discount_rate_floor": {
+  "USD": 8.0,
+  "other": "local 10y + 4.0"
+ },
+ "rule": "All agents use these values. If an agent believes one is wrong or stale, it says so in its output and shows the effect, but does not silently substitute another figure."
+}

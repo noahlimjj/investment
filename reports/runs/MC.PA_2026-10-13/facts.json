@@ -1,0 +1,585 @@
+{
+ "ticker": "MC.PA",
+ "as_of": "2026-10-13",
+ "routing": "FULL (SOTP cross-check optional)",
+ "annual": {
+  "revenue": {
+   "FY2021": 64215,
+   "FY2022": 79184,
+   "FY2023": 86153,
+   "FY2024": 84683,
+   "FY2025": 80807
+  },
+  "gross_profit": {
+   "FY2021": 43860,
+   "FY2022": 54196,
+   "FY2023": 59277,
+   "FY2024": 56765,
+   "FY2025": 53528
+  },
+  "profit_from_recurring_operations": {
+   "FY2021": 17151,
+   "FY2022": 21055,
+   "FY2023": 22802,
+   "FY2024": 19571,
+   "FY2025": 17755
+  },
+  "operating_profit_ebit_reported": {
+   "FY2021": 17155,
+   "FY2022": 21001,
+   "FY2023": 22560,
+   "FY2024": 18907,
+   "FY2025": 17099
+  },
+  "net_financial_income_expense": {
+   "FY2021": 53,
+   "FY2022": -888,
+   "FY2023": -935,
+   "FY2024": -792,
+   "FY2025": -401
+  },
+  "income_taxes": {
+   "FY2021": -4510,
+   "FY2022": -5362,
+   "FY2023": -5673,
+   "FY2024": -5157,
+   "FY2025": -5476
+  },
+  "net_profit_before_minorities": {
+   "FY2021": 12698,
+   "FY2022": 14751,
+   "FY2023": 15952,
+   "FY2024": 12958,
+   "FY2025": 11222
+  },
+  "minority_interests": {
+   "FY2021": -662,
+   "FY2022": -667,
+   "FY2023": -778,
+   "FY2024": -408,
+   "FY2025": -344
+  },
+  "net_profit_group_share": {
+   "FY2021": 12036,
+   "FY2022": 14084,
+   "FY2023": 15174,
+   "FY2024": 12550,
+   "FY2025": 10878
+  },
+  "eps_diluted_eur": {
+   "FY2021": 23.89,
+   "FY2022": 28.03,
+   "FY2023": 30.33,
+   "FY2024": 25.12,
+   "FY2025": 21.85
+  },
+  "diluted_shares_weighted_avg": {
+   "FY2021": 503895592,
+   "FY2022": 502480100,
+   "FY2023": 500304316,
+   "FY2024": 499681046,
+   "FY2025": 497976118
+  },
+  "d_and_a_incl_provisions_plus_rou_depr": {
+   "FY2021": 5830,
+   "FY2022": 6226,
+   "FY2023": 7177,
+   "FY2024": 7796,
+   "FY2025": 8001
+  },
+  "d_and_a_note": "= 'Net increase in depreciation, amortization and provisions' + 'Depreciation of right-of-use assets' (cash-flow statement). FY2021 derived 3,139+2,691; FY2022 derived 3,219+3,007 (=6,226); FY2023 4,146+3,031; FY2024 4,568+3,228; FY2025 4,858+3,143. Includes provisions movements.",
+  "depreciation_of_right_of_use_assets": {
+   "FY2021": 2691,
+   "FY2022": 3007,
+   "FY2023": 3031,
+   "FY2024": 3228,
+   "FY2025": 3143
+  },
+  "sbc_bonus_share_expense": {
+   "FY2021": null,
+   "FY2022": null,
+   "FY2023": null,
+   "FY2024": null,
+   "FY2025": 159
+  },
+  "net_cash_from_operating_activities": {
+   "FY2021": 18648,
+   "FY2022": 17833,
+   "FY2023": 18400,
+   "FY2024": 18924,
+   "FY2025": 18874
+  },
+  "operating_investments_capex": {
+   "FY2021": -2664,
+   "FY2022": -4969,
+   "FY2023": -7478,
+   "FY2024": -5531,
+   "FY2025": -4567
+  },
+  "repayment_of_lease_liabilities": {
+   "FY2021": -2453,
+   "FY2022": -2751,
+   "FY2023": -2818,
+   "FY2024": -2915,
+   "FY2025": -2974
+  },
+  "operating_free_cash_flow_company_def": {
+   "FY2021": 13531,
+   "FY2022": 10113,
+   "FY2023": 8104,
+   "FY2024": 10478,
+   "FY2025": 11333
+  },
+  "operating_fcf_note": "Company definition = operating cash flow - operating investments - repayment of lease liabilities (IFRS 16 principal). Yahoo 'FreeCashFlow' (OCF - capex) does NOT deduct lease principal.",
+  "cash_acquisitions_net_of_disposals": {
+   "FY2021": -13226,
+   "FY2022": -809,
+   "FY2023": -721,
+   "FY2024": -438,
+   "FY2025": 149
+  },
+  "dividends_paid_incl_minorities": {
+   "FY2021": -4161,
+   "FY2022": -6774,
+   "FY2023": -7159,
+   "FY2024": -7322,
+   "FY2025": -7123
+  },
+  "share_buybacks_other_equity_related_transactions": {
+   "FY2021": -552,
+   "FY2022": -1604,
+   "FY2023": -1569,
+   "FY2024": -224,
+   "FY2025": -1634
+  },
+  "purchase_of_minority_interests": {
+   "FY2021": -435,
+   "FY2022": -351,
+   "FY2023": -17,
+   "FY2024": -173,
+   "FY2025": -1091
+  },
+  "dividend_per_share_eur_for_fiscal_year": {
+   "FY2021": 10.0,
+   "FY2022": 12.0,
+   "FY2023": 13.0,
+   "FY2024": 13.0,
+   "FY2025": 13.0
+  },
+  "cash_and_equivalents_balance_sheet": {
+   "FY2021": 8021,
+   "FY2022": 7300,
+   "FY2023": 7774,
+   "FY2024": 9631,
+   "FY2025": 8794
+  },
+  "cash_plus_current_afs_financial_assets": {
+   "FY2021": null,
+   "FY2022": 10852,
+   "FY2023": 11264,
+   "FY2024": 13587,
+   "FY2025": 13502
+  },
+  "long_term_borrowings": {
+   "FY2021": 12165,
+   "FY2022": 10380,
+   "FY2023": 11227,
+   "FY2024": 12091,
+   "FY2025": 12418
+  },
+  "short_term_borrowings": {
+   "FY2021": 8075,
+   "FY2022": 9359,
+   "FY2023": 10680,
+   "FY2024": 10851,
+   "FY2025": 7925
+  },
+  "gross_borrowings_after_derivatives": {
+   "FY2021": null,
+   "FY2022": 20053,
+   "FY2023": 22010,
+   "FY2024": 22815,
+   "FY2025": 20358
+  },
+  "net_financial_debt_excl_leases_excl_minority_puts": {
+   "FY2021": 9607,
+   "FY2022": 9201,
+   "FY2023": 10746,
+   "FY2024": 9228,
+   "FY2025": 6857
+  },
+  "nfd_note": "FY2021=9,607 read from FD2023 chart (axis order 2021|2022|2023: 9,607|9,201|10,746; 2022 and 2023 confirmed in table). FY2024=9,228 per FD2025 table.",
+  "lease_liabilities_non_current_ifrs16": {
+   "FY2021": 11887,
+   "FY2022": 12776,
+   "FY2023": 13810,
+   "FY2024": 14860,
+   "FY2025": 13384
+  },
+  "lease_liabilities_current_ifrs16": {
+   "FY2021": 2387,
+   "FY2022": 2632,
+   "FY2023": 2728,
+   "FY2024": 2972,
+   "FY2025": 2634
+  },
+  "lease_liabilities_total_ifrs16": {
+   "FY2021": 14274,
+   "FY2022": 15408,
+   "FY2023": 16538,
+   "FY2024": 17832,
+   "FY2025": 16018
+  },
+  "lease_note": "FY2025 total 16,018 per FD2025 Note 7.2 table (13,384+2,634); DFS lease liabilities of c.1.0bn were reclassified to liabilities held for sale at 31 Dec 2025, so FY2025 not like-for-like with FY2024. Totals for other years are sums of the two sourced lines.",
+  "purchase_commitments_minority_interests_shares_liability": {
+   "FY2021": null,
+   "FY2022": null,
+   "FY2023": 11919,
+   "FY2024": 8056,
+   "FY2025": 6331
+  },
+  "equity_total": {
+   "FY2021": 48909,
+   "FY2022": 56604,
+   "FY2023": 62701,
+   "FY2024": 69287,
+   "FY2025": 68949
+  },
+  "equity_group_share": {
+   "FY2021": 47119,
+   "FY2022": 55111,
+   "FY2023": 61017,
+   "FY2024": 67517,
+   "FY2025": 67472
+  },
+  "total_assets": {
+   "FY2021": 125311,
+   "FY2022": 134646,
+   "FY2023": 143694,
+   "FY2024": 149190,
+   "FY2025": 142037
+  },
+  "shares_issued_year_end": {
+   "FY2024": 500341700,
+   "FY2025": 497686940
+  },
+  "revenue_by_group": {
+   "FY2021": {
+    "WS": 5974,
+    "FLG": 30896,
+    "PC": 6608,
+    "WJ": 8964,
+    "SR": 11754,
+    "Other_elim": 19
+   },
+   "FY2022": {
+    "WS": 7099,
+    "FLG": 38648,
+    "PC": 7722,
+    "WJ": 10581,
+    "SR": 14852,
+    "Other_elim": 282
+   },
+   "FY2023": {
+    "WS": 6602,
+    "FLG": 42169,
+    "PC": 8271,
+    "WJ": 10902,
+    "SR": 17885,
+    "Other_elim": 324
+   },
+   "FY2024": {
+    "WS": 5862,
+    "FLG": 41060,
+    "PC": 8418,
+    "WJ": 10577,
+    "SR": 18262,
+    "Other_elim": 503
+   },
+   "FY2025": {
+    "WS": 5358,
+    "FLG": 37770,
+    "PC": 8174,
+    "WJ": 10486,
+    "SR": 18348,
+    "Other_elim": 671
+   }
+  },
+  "pro_by_group": {
+   "FY2021": {
+    "WS": 1863,
+    "FLG": 12842,
+    "PC": 684,
+    "WJ": 1679,
+    "SR": 534,
+    "Other_elim": -451
+   },
+   "FY2022": {
+    "WS": 2155,
+    "FLG": 15709,
+    "PC": 660,
+    "WJ": 2017,
+    "SR": 788,
+    "Other_elim": -274
+   },
+   "FY2023": {
+    "WS": 2109,
+    "FLG": 16836,
+    "PC": 713,
+    "WJ": 2162,
+    "SR": 1391,
+    "Other_elim": -409
+   },
+   "FY2024": {
+    "WS": 1356,
+    "FLG": 15230,
+    "PC": 671,
+    "WJ": 1546,
+    "SR": 1385,
+    "Other_elim": -617
+   },
+   "FY2025": {
+    "WS": 1016,
+    "FLG": 13209,
+    "PC": 727,
+    "WJ": 1514,
+    "SR": 1780,
+    "Other_elim": -491
+   }
+  },
+  "group_note": "Other_elim = 'Other activities' + eliminations. FY2021/22 Other_elim derived as total minus sum of five groups; FY2023-25 = segment note 'Other' + 'Eliminations' (FY2025: -477-14; FY2024: -625+8; FY2023: -397-12). WS=Wines&Spirits FLG=Fashion&Leather PC=Perfumes&Cosmetics WJ=Watches&Jewelry SR=Selective Retailing."
+ },
+ "interim": {
+  "H1_2025": {
+   "revenue": 39810,
+   "gross_profit": 26610,
+   "pro": 9012,
+   "operating_profit": 8998,
+   "net_profit_group": 5698,
+   "eps_diluted": 11.42,
+   "nocf": 7881,
+   "operating_investments": -2360,
+   "lease_repayment": -1489,
+   "operating_fcf": 4032,
+   "nfd": 10176,
+   "equity": 66875
+  },
+  "H1_2026": {
+   "revenue": 38644,
+   "gross_profit": 25936,
+   "pro": 8691,
+   "operating_profit": 8714,
+   "other_operating_income_expense": 23,
+   "cost_of_net_financial_debt": -192,
+   "interest_on_lease_liabilities": -261,
+   "income_taxes": -2583,
+   "net_profit_before_minorities": 6019,
+   "minority_interests": -322,
+   "net_profit_group": 5697,
+   "eps_basic": 11.52,
+   "eps_diluted": 11.51,
+   "diluted_shares_weighted_avg": 494957592,
+   "shares_issued_30jun2026": 495811080,
+   "nocf": 7647,
+   "operating_investments": -2061,
+   "lease_repayment": -1486,
+   "operating_fcf": 4100,
+   "da_provisions": 1767,
+   "rou_depreciation": 1550,
+   "dividends_paid_incl_minorities": -3991,
+   "other_equity_related_transactions_buybacks": -1658,
+   "acquisition_of_LVMH_shares_equity_stmt": -1659,
+   "shares_retired": 1875860,
+   "bonus_share_expense": 97,
+   "cash_and_equivalents": 6803,
+   "current_afs_financial_assets": 5399,
+   "long_term_borrowings": 13041,
+   "short_term_borrowings": 7444,
+   "nfd": 8245,
+   "lease_non_current": 13509,
+   "lease_current": 2752,
+   "lease_total": 16261,
+   "purchase_commitments_minorities": 6416,
+   "minority_interests_equity": 1599,
+   "equity_total": 69694,
+   "equity_group": 68095,
+   "assets_held_for_sale": 2074,
+   "liabilities_held_for_sale": 1025,
+   "total_assets": 141769,
+   "revenue_by_group": {
+    "WS": 2598,
+    "FLG": 18146,
+    "PC": 3914,
+    "WJ": 5225,
+    "SR": 8406,
+    "Other_elim": 356
+   },
+   "pro_by_group": {
+    "WS": 582,
+    "FLG": 6195,
+    "PC": 417,
+    "WJ": 831,
+    "SR": 893,
+    "Other_elim": -228
+   },
+   "organic_growth_revenue": 0.02,
+   "fx_impact": -0.05,
+   "perimeter_impact": -0.01,
+   "interim_dividend_eur": 5.5
+  },
+  "Q3_2026": {
+   "revenue": 18504,
+   "revenue_9m_2026": 57148,
+   "revenue_9m_2025": 58090,
+   "q3_2025_revenue": 18280,
+   "organic_growth_q3": 0.01,
+   "organic_growth_9m": 0.02,
+   "fx_impact_9m": -0.03,
+   "perimeter_impact_9m": -0.01,
+   "fx_q3": 0.02,
+   "perimeter_q3": -0.02,
+   "revenue_9m_by_group": {
+    "WS": 4027,
+    "FLG": 26391,
+    "PC": 5922,
+    "WJ": 7725,
+    "SR": 12476,
+    "Other_elim": 607
+   },
+   "organic_q3_by_group": {
+    "WS": 0.06,
+    "FLG": -0.05,
+    "PC": 0.01,
+    "WJ": 0.06,
+    "SR": 0.08
+   },
+   "organic_9m_by_group": {
+    "WS": 0.05,
+    "FLG": -0.02,
+    "PC": 0.0,
+    "WJ": 0.08,
+    "SR": 0.06
+   },
+   "source": "S4"
+  }
+ },
+ "ttm": {
+  "revenue": 79641,
+  "pro": 17434,
+  "net_profit_group": 10877,
+  "eps_diluted": 21.94,
+  "nocf": 18640,
+  "operating_investments": -4268,
+  "operating_fcf": 11401,
+  "basis": "FY2025 + H1 2026 - H1 2025 (Q3 revenue only: 9M TTM revenue = 80,807+57,148-58,090 = 79,865)",
+  "revenue_ttm_to_9m2026": 79865
+ },
+ "market": {
+  "price_eur": 381.65,
+  "price_asof": "2026-10-13 (yfinance close/last; fundamentals.json 381.7)",
+  "price_12m_ago_eur": 527.18,
+  "price_12m_ago_date": "2025-10-13",
+  "change_12m_pct": -27.6,
+  "close_52w_high": 641.64,
+  "close_52w_high_date": "2026-01-09",
+  "close_52w_low": 378.55,
+  "close_52w_low_date": "2026-10-02",
+  "intraday_52w_high": 643.8,
+  "intraday_52w_low": 375.65,
+  "vendor_info_52w_high_conflict": 654.7,
+  "market_cap_eur_m_own_build": 189226,
+  "market_cap_build": "381.65 x 495,811,080 shares issued at 30 Jun 2026 (treasury shares at that date UNKNOWN; 1,295,928 at 31 Dec 2025)",
+  "yahoo_market_cap_eur": 188090875904,
+  "yahoo_shares_outstanding": 492965227,
+  "ev_build_eur_m": {
+   "market_cap": 189226,
+   "net_financial_debt_30jun26": 8245,
+   "lease_liabilities_30jun26": 16261,
+   "minority_interests_book": 1599,
+   "purchase_commitments_minority_puts": 6416,
+   "total_incl_leases_and_puts": 221747,
+   "total_excl_leases_incl_puts": 205486,
+   "note": "Assets/liabilities held for sale (DFS) not netted. Puts partly overlap with minority-interest book value; Quant to decide treatment."
+  },
+  "pe_trailing_own": 17.4,
+  "pe_trailing_fundamentals_json": 17.606,
+  "pe_forward_fundamentals_json": 15.71,
+  "dividend_yield_pct_13_eur": 3.41,
+  "quote_ccy": "EUR",
+  "reporting_ccy": "EUR",
+  "units": "EUR millions unless stated",
+  "fx_eurusd_fundamentals_json": 1.1196,
+  "ten_year_yield_france_oat_pct": 4.75,
+  "ten_year_yield_note": "~4.75% on 7 Oct 2026 per TradingEconomics snippet (S11); >5% reached prior week; not verified for 13 Oct."
+ },
+ "sources": {
+  "S1": "https://lvmh-com.cdn.prismic.io/lvmh-com/aXjqHgIvOtkhB_8I_Financialdocuments-December31%2C2025.pdf (LVMH Financial Documents 31 Dec 2025)",
+  "S2": "https://cdn.luxe.digital/download/financial-documents-lvmh-december-31-2023.pdf (English translation of LVMH Financial Documents 31 Dec 2023; third-party host of company doc)",
+  "S3": "https://lvmh-com.cdn.prismic.io/lvmh-com/HpVUWE8YyscbnlXI_LVMH2026HalfYearResults_Pressrelease.pdf (H1 2026 press release with condensed statements, 27 Jul 2026)",
+  "S4": "https://lvmh-com.cdn.prismic.io/lvmh-com/Y6AfTE0Y7WFnyftQ_LVMH2026ThirdQuarterRevenue.pdf (Q3 2026 revenue release, 12 Oct 2026)",
+  "S5": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf (URD 2025)",
+  "S6": "data/fundamentals.json MC.PA record, as_of 2026-10-13T13:18:26Z",
+  "S7": "yfinance (Yahoo Finance) pulled 2026-10-13",
+  "S8": "https://taxsummaries.pwc.com/france/corporate/withholding-taxes",
+  "S9": "https://www.investing.com/news/company-news/lvmh-q3-2026-slides-1-growth-as-us-europe-offset-china-slump-93CH-4945011 (AI-assisted article; secondary)",
+  "S10": "abcbourse.com insider list via WebSearch snippet (page returned 403 to fetch; secondary)",
+  "S11": "tradingeconomics.com France 10Y OAT news via WebSearch snippet (7 Oct 2026; secondary)",
+  "S12": "https://www.lalibre.be/economie/entreprises-startup/2026/02/24/la-famille-arnault-detient-desormais-plus-de-50-du-capital-lvmh-MEV3FIQR7FDMJPXYEBNPNVFZGE/",
+  "S13": "https://www.ad-hoc-news.de/boerse/news/corporate-news/lvmh-reports-1-percent-third-quarter-growth-and-lvmh-stock-loses-1-83-percent/70311764 (secondary)"
+ },
+ "withholding_tax_sg_resident": {
+  "rate_pct": 12.8,
+  "basis": "French domestic WHT for non-resident individual beneficiaries (S8); France-Singapore treaty dividend rates 5/15% (5% needs >=10% corporate holding) so treaty cap 15% does not bind; non-resident companies 25% domestic",
+  "caveat": "Secondary source; actual rate applied depends on broker/custodian chain and treaty/individual-status documentation. Verify with broker."
+ },
+ "insider": {
+  "arnault_family_pct_31dec2025": 49.77,
+  "arnault_family_shares_31dec2025": 247694473,
+  "arnault_family_voting_pct": 65.89,
+  "arnault_family_pct_feb2026": 50.01,
+  "source": "S1,S12"
+ },
+ "debt_maturities_gross_after_derivatives_31dec2025": {
+  "2026": 7923,
+  "2027": 1986,
+  "2028": 1767,
+  "2029": 2107,
+  "2030": 863,
+  "2031": 1505,
+  "thereafter": 4206,
+  "total": 20358,
+  "source": "S1 Note 19.2"
+ },
+ "lease_schedule_undiscounted_31dec2025": {
+  "2026": 2990,
+  "2027": 2702,
+  "2028": 2295,
+  "2029": 1974,
+  "2030": 1635,
+  "2031_2035": 4847,
+  "2036_2040": 1041,
+  "thereafter": 680,
+  "total_undiscounted": 18163,
+  "discount_impact": -2145,
+  "pv": 16018,
+  "source": "S1 Note 7.2"
+ },
+ "consensus_labelled": {
+  "label": "CONSENSUS (Yahoo Finance, 2026-10-13)",
+  "eps_fy2026_avg": 22.18,
+  "eps_fy2026_n": 17,
+  "eps_fy2027_avg": 24.43,
+  "eps_fy2027_n": 18,
+  "rev_fy2026_avg_eur": 80736544800,
+  "rev_fy2027_avg_eur": 84451105300
+ },
+ "fundamentals_json": {
+  "as_of": "2026-10-13T13:24:43Z",
+  "net_income": 10878,
+  "owner_earnings": 14209,
+  "owner_earnings_usd_m": 15920,
+  "warning": "cash-flow NI 17,099 differs from income-statement 10,878; income statement used",
+  "superseded_owner_earnings_not_to_be_used": true,
+  "source": "S6"
+ }
+}

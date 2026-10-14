@@ -1,0 +1,201 @@
+{
+  "as_of": "2026-10-14T04:41:32.689404+00:00",
+  "source_file": "ibkr_20261014_112528.png",
+  "total_holdings_count": 19,
+  "tickers": [
+    "TSM",
+    "VWRA.L",
+    "VXUS",
+    "ZBH",
+    "RVMD",
+    "SYK",
+    "LAD",
+    "000660.KS",
+    "BABA",
+    "TM",
+    "PRAX",
+    "INCY",
+    "CELC",
+    "MC.PA",
+    "MDGL",
+    "INSM",
+    "402340.KS",
+    "ACAD",
+    "NVO"
+  ],
+  "holdings": [
+    {
+      "ticker": "TSM",
+      "exchange": "NYSE",
+      "shares": 2,
+      "shares_note": null,
+      "name": "Taiwan Semiconductor Manufactur",
+      "price": 445.12,
+      "currency": "USD"
+    },
+    {
+      "ticker": "VWRA.L",
+      "exchange": "LSEETF",
+      "shares": null,
+      "shares_note": "position column truncated in the screenshot ('.1087'): leading digits hidden behind the Instrument column, so the share count is UNKNOWN. Re-send a screenshot with the Position column fully visible (landscape, or scroll right).",
+      "name": "VANGUARD FUNDS PLC VANGUARD FTS",
+      "price": 193.12,
+      "currency": "USD"
+    },
+    {
+      "ticker": "VXUS",
+      "exchange": "NASDAQ.NMS",
+      "shares": null,
+      "shares_note": "position column truncated in the screenshot ('.5925'): leading digits hidden behind the Instrument column, so the share count is UNKNOWN. Re-send a screenshot with the Position column fully visible (landscape, or scroll right).",
+      "name": "Vanguard Total International St",
+      "price": 84.54,
+      "currency": "USD"
+    },
+    {
+      "ticker": "ZBH",
+      "exchange": "NYSE",
+      "shares": 47,
+      "shares_note": null,
+      "name": "Zimmer Biomet Holdings, Inc.",
+      "price": 92.08,
+      "currency": "USD"
+    },
+    {
+      "ticker": "RVMD",
+      "exchange": "NASDAQ.NMS",
+      "shares": 4,
+      "shares_note": null,
+      "name": "Revolution Medicines, Inc.",
+      "price": 188.44,
+      "currency": "USD"
+    },
+    {
+      "ticker": "SYK",
+      "exchange": "NYSE",
+      "shares": 13,
+      "shares_note": null,
+      "name": "Stryker Corporation",
+      "price": 282.55,
+      "currency": "USD"
+    },
+    {
+      "ticker": "LAD",
+      "exchange": "NYSE",
+      "shares": 10,
+      "shares_note": null,
+      "name": "Lithia Motors, Inc.",
+      "price": 286.78,
+      "currency": "USD"
+    },
+    {
+      "ticker": "000660.KS",
+      "exchange": "KRX",
+      "shares": 2,
+      "shares_note": null,
+      "name": "SK hynix",
+      "price": 1459000.0,
+      "currency": "KRW"
+    },
+    {
+      "ticker": "BABA",
+      "exchange": "NYSE",
+      "shares": 6,
+      "shares_note": null,
+      "name": "Alibaba Group Holding Limited",
+      "price": 110.85,
+      "currency": "USD"
+    },
+    {
+      "ticker": "TM",
+      "exchange": "NYSE",
+      "shares": 38,
+      "shares_note": null,
+      "name": "Toyota Motor Corporation",
+      "price": 188.71,
+      "currency": "USD"
+    },
+    {
+      "ticker": "PRAX",
+      "exchange": "NASDAQ.NMS",
+      "shares": 6,
+      "shares_note": null,
+      "name": "Praxis Precision Medicines, Inc",
+      "price": 243.34,
+      "currency": "USD"
+    },
+    {
+      "ticker": "INCY",
+      "exchange": "NASDAQ.NMS",
+      "shares": 40,
+      "shares_note": null,
+      "name": "Incyte Corporation",
+      "price": 108.62,
+      "currency": "USD"
+    },
+    {
+      "ticker": "CELC",
+      "exchange": "NASDAQ.SCM",
+      "shares": 20,
+      "shares_note": null,
+      "name": "Celcuity Inc.",
+      "price": 63.19,
+      "currency": "USD"
+    },
+    {
+      "ticker": "MC.PA",
+      "exchange": "SBF",
+      "shares": 8,
+      "shares_note": null,
+      "name": "LVMH",
+      "price": 384.05,
+      "currency": "EUR"
+    },
+    {
+      "ticker": "MDGL",
+      "exchange": "NASDAR.NMS",
+      "shares": 10,
+      "shares_note": null,
+      "name": "Madrigal Pharmaceuticals, Inc.",
+      "price": 452.12,
+      "currency": "USD"
+    },
+    {
+      "ticker": "INSM",
+      "exchange": "NASDAQ.NMS",
+      "shares": 40,
+      "shares_note": null,
+      "name": "Insmed Incorporated",
+      "price": 96.79,
+      "currency": "USD"
+    },
+    {
+      "ticker": "402340.KS",
+      "exchange": "KRX",
+      "shares": 8,
+      "shares_note": null,
+      "name": "SKSQUARE",
+      "price": 863000.0,
+      "currency": "KRW"
+    },
+    {
+      "ticker": "ACAD",
+      "exchange": "NASDAQ.NMS",
+      "shares": 200,
+      "shares_note": null,
+      "name": "ACADIA Pharmaceuticals Inc.",
+      "price": 18.62,
+      "currency": "USD"
+    },
+    {
+      "ticker": "NVO",
+      "exchange": "NYSE",
+      "shares": 210,
+      "shares_note": null,
+      "name": "Novo Nordisk A/S",
+      "price": 38.06,
+      "currency": "USD"
+    }
+  ],
+  "confirmed_at": "2026-10-14T04:41:32.690195+00:00",
+  "confirmed_via": "portfolio_ocr.py --save"
+}

@@ -1,0 +1,2146 @@
+{
+ "ticker": "ASML.AS",
+ "cik": 937966,
+ "entity": "ASML HOLDING NV",
+ "share_count_warning": null,
+ "retrieved": "2026-10-14T03:52:44+00:00",
+ "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000937966.json",
+ "fiscal_year_ends": [
+  "2020-12-31",
+  "2021-12-31",
+  "2022-12-31",
+  "2023-12-31",
+  "2024-12-31",
+  "2025-12-31"
+ ],
+ "annual": {
+  "revenue": {
+   "2020-12-31": {
+    "val": 13978500000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-23-000014",
+    "filed": "2023-02-15",
+    "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+   },
+   "2021-12-31": {
+    "val": 18611000000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+   },
+   "2022-12-31": {
+    "val": 21173400000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-25-000009",
+    "filed": "2025-03-05",
+    "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+   },
+   "2023-12-31": {
+    "val": 27558500000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+   },
+   "2024-12-31": {
+    "val": 28262900000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+   },
+   "2025-12-31": {
+    "val": 32667300000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+   }
+  },
+  "gross_profit": {
+   "2020-12-31": {
+    "val": 6797200000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-23-000014",
+    "filed": "2023-02-15",
+    "tag": "us-gaap:GrossProfit"
+   },
+   "2021-12-31": {
+    "val": 9809000000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:GrossProfit"
+   },
+   "2022-12-31": {
+    "val": 10700100000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-25-000009",
+    "filed": "2025-03-05",
+    "tag": "us-gaap:GrossProfit"
+   },
+   "2023-12-31": {
+    "val": 14136100000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:GrossProfit"
+   },
+   "2024-12-31": {
+    "val": 14492000000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:GrossProfit"
+   },
+   "2025-12-31": {
+    "val": 17258000000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:GrossProfit"
+   }
+  },
+  "cost_of_revenue": {
+   "2020-12-31": {
+    "val": 7181300000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-23-000014",
+    "filed": "2023-02-15",
+    "tag": "us-gaap:CostOfGoodsAndServicesSold"
+   },
+   "2021-12-31": {
+    "val": 8802000000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:CostOfGoodsAndServicesSold"
+   },
+   "2022-12-31": {
+    "val": 10473300000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-25-000009",
+    "filed": "2025-03-05",
+    "tag": "us-gaap:CostOfGoodsAndServicesSold"
+   },
+   "2023-12-31": {
+    "val": 13422400000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:CostOfGoodsAndServicesSold"
+   },
+   "2024-12-31": {
+    "val": 13770900000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:CostOfGoodsAndServicesSold"
+   },
+   "2025-12-31": {
+    "val": 15409300000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:CostOfGoodsAndServicesSold"
+   }
+  },
+  "operating_income": {
+   "2020-12-31": {
+    "val": 4051500000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-23-000014",
+    "filed": "2023-02-15",
+    "tag": "us-gaap:OperatingIncomeLoss"
+   },
+   "2021-12-31": {
+    "val": 6750100000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:OperatingIncomeLoss"
+   },
+   "2022-12-31": {
+    "val": 6500700000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-25-000009",
+    "filed": "2025-03-05",
+    "tag": "us-gaap:OperatingIncomeLoss"
+   },
+   "2023-12-31": {
+    "val": 9042300000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:OperatingIncomeLoss"
+   },
+   "2024-12-31": {
+    "val": 9022600000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:OperatingIncomeLoss"
+   },
+   "2025-12-31": {
+    "val": 11301400000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:OperatingIncomeLoss"
+   }
+  },
+  "pretax_income": {
+   "2020-12-31": {
+    "val": 4016600000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-23-000014",
+    "filed": "2023-02-15",
+    "tag": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments"
+   },
+   "2021-12-31": {
+    "val": 6705500000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments"
+   },
+   "2022-12-31": {
+    "val": 6456100000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-25-000009",
+    "filed": "2025-03-05",
+    "tag": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments"
+   },
+   "2023-12-31": {
+    "val": 9083500000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments"
+   },
+   "2024-12-31": {
+    "val": 9042400000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments"
+   },
+   "2025-12-31": {
+    "val": 11406100000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments"
+   }
+  },
+  "income_tax": {
+   "2020-12-31": {
+    "val": 551500000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-23-000014",
+    "filed": "2023-02-15",
+    "tag": "us-gaap:IncomeTaxExpenseBenefit"
+   },
+   "2021-12-31": {
+    "val": 1021400000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:IncomeTaxExpenseBenefit"
+   },
+   "2022-12-31": {
+    "val": 969900000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-25-000009",
+    "filed": "2025-03-05",
+    "tag": "us-gaap:IncomeTaxExpenseBenefit"
+   },
+   "2023-12-31": {
+    "val": 1435800000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:IncomeTaxExpenseBenefit"
+   },
+   "2024-12-31": {
+    "val": 1680600000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:IncomeTaxExpenseBenefit"
+   },
+   "2025-12-31": {
+    "val": 2013400000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:IncomeTaxExpenseBenefit"
+   }
+  },
+  "net_income": {
+   "2020-12-31": {
+    "val": 3553700000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-23-000014",
+    "filed": "2023-02-15",
+    "tag": "us-gaap:NetIncomeLoss"
+   },
+   "2021-12-31": {
+    "val": 5883200000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:NetIncomeLoss"
+   },
+   "2022-12-31": {
+    "val": 5624200000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-25-000009",
+    "filed": "2025-03-05",
+    "tag": "us-gaap:NetIncomeLoss"
+   },
+   "2023-12-31": {
+    "val": 7839000000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:NetIncomeLoss"
+   },
+   "2024-12-31": {
+    "val": 7571600000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:NetIncomeLoss"
+   },
+   "2025-12-31": {
+    "val": 9609400000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:NetIncomeLoss"
+   }
+  },
+  "interest_expense": {
+   "2020-12-31": {
+    "val": 43300000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-23-000014",
+    "filed": "2023-02-15",
+    "tag": "us-gaap:InterestExpense"
+   },
+   "2021-12-31": {
+    "val": 54600000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:InterestExpense"
+   },
+   "2022-12-31": {
+    "val": 60800000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:InterestExpense"
+   },
+   "2023-12-31": {
+    "val": 152700000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:InterestExpense"
+   },
+   "2024-12-31": {
+    "val": 162600000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:InterestExpenseNonoperating"
+   },
+   "2025-12-31": {
+    "val": 118300000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:InterestExpenseNonoperating"
+   }
+  },
+  "d_and_a": {
+   "2020-12-31": {
+    "val": 490800000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-23-000014",
+    "filed": "2023-02-15",
+    "tag": "us-gaap:DepreciationDepletionAndAmortization"
+   },
+   "2021-12-31": {
+    "val": 471000000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:DepreciationDepletionAndAmortization"
+   },
+   "2022-12-31": {
+    "val": 583600000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-25-000009",
+    "filed": "2025-03-05",
+    "tag": "us-gaap:DepreciationDepletionAndAmortization"
+   },
+   "2023-12-31": {
+    "val": 739800000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:DepreciationDepletionAndAmortization"
+   },
+   "2024-12-31": {
+    "val": 918600000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:DepreciationDepletionAndAmortization"
+   },
+   "2025-12-31": {
+    "val": 1025900000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:DepreciationDepletionAndAmortization"
+   }
+  },
+  "depreciation": {
+   "2020-12-31": {
+    "val": 351700000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-23-000014",
+    "filed": "2023-02-15",
+    "tag": "us-gaap:Depreciation"
+   },
+   "2021-12-31": {
+    "val": 321600000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:Depreciation"
+   },
+   "2022-12-31": {
+    "val": 445200000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-25-000009",
+    "filed": "2025-03-05",
+    "tag": "us-gaap:Depreciation"
+   },
+   "2023-12-31": {
+    "val": 605600000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:Depreciation"
+   },
+   "2024-12-31": {
+    "val": 787300000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:Depreciation"
+   },
+   "2025-12-31": {
+    "val": 916000000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:Depreciation"
+   }
+  },
+  "amort_intangibles": {
+   "2020-12-31": {
+    "val": 123500000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-23-000014",
+    "filed": "2023-02-15",
+    "tag": "us-gaap:AmortizationOfIntangibleAssets"
+   },
+   "2021-12-31": {
+    "val": 133000000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:AmortizationOfIntangibleAssets"
+   },
+   "2022-12-31": {
+    "val": 135100000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-25-000009",
+    "filed": "2025-03-05",
+    "tag": "us-gaap:AmortizationOfIntangibleAssets"
+   },
+   "2023-12-31": {
+    "val": 127600000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:AmortizationOfIntangibleAssets"
+   },
+   "2024-12-31": {
+    "val": 126000000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:AmortizationOfIntangibleAssets"
+   },
+   "2025-12-31": {
+    "val": 123500000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:AmortizationOfIntangibleAssets"
+   }
+  },
+  "sbc": {
+   "2020-12-31": {
+    "val": 53900000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-23-000014",
+    "filed": "2023-02-15",
+    "tag": "us-gaap:ShareBasedCompensation"
+   },
+   "2021-12-31": {
+    "val": 117500000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:ShareBasedCompensation"
+   },
+   "2022-12-31": {
+    "val": 68900000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-25-000009",
+    "filed": "2025-03-05",
+    "tag": "us-gaap:ShareBasedCompensation"
+   },
+   "2023-12-31": {
+    "val": 134800000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:ShareBasedCompensation"
+   },
+   "2024-12-31": {
+    "val": 172600000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:ShareBasedCompensation"
+   },
+   "2025-12-31": {
+    "val": 202300000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:ShareBasedCompensation"
+   }
+  },
+  "ocf": {
+   "2020-12-31": {
+    "val": 4627600000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-23-000014",
+    "filed": "2023-02-15",
+    "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities"
+   },
+   "2021-12-31": {
+    "val": 10845800000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities"
+   },
+   "2022-12-31": {
+    "val": 8486800000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-25-000009",
+    "filed": "2025-03-05",
+    "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities"
+   },
+   "2023-12-31": {
+    "val": 5443400000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities"
+   },
+   "2024-12-31": {
+    "val": 11166200000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities"
+   },
+   "2025-12-31": {
+    "val": 12658500000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities"
+   }
+  },
+  "capex": {
+   "2020-12-31": {
+    "val": 962000000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-23-000014",
+    "filed": "2023-02-15",
+    "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+   },
+   "2021-12-31": {
+    "val": 900700000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+   },
+   "2022-12-31": {
+    "val": 1281800000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-25-000009",
+    "filed": "2025-03-05",
+    "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+   },
+   "2023-12-31": {
+    "val": 2155600000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+   },
+   "2024-12-31": {
+    "val": 2067200000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+   },
+   "2025-12-31": {
+    "val": 1573600000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+   }
+  },
+  "capex_intangibles": {
+   "2020-12-31": {
+    "val": 38800000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-23-000014",
+    "filed": "2023-02-15",
+    "tag": "us-gaap:PaymentsToAcquireIntangibleAssets"
+   },
+   "2021-12-31": {
+    "val": 39600000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:PaymentsToAcquireIntangibleAssets"
+   },
+   "2022-12-31": {
+    "val": 37500000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-25-000009",
+    "filed": "2025-03-05",
+    "tag": "us-gaap:PaymentsToAcquireIntangibleAssets"
+   },
+   "2023-12-31": {
+    "val": 40600000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:PaymentsToAcquireIntangibleAssets"
+   },
+   "2024-12-31": {
+    "val": 15900000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:PaymentsToAcquireIntangibleAssets"
+   },
+   "2025-12-31": {
+    "val": 57600000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:PaymentsToAcquireIntangibleAssets"
+   }
+  },
+  "investing_cf": {
+   "2020-12-31": {
+    "val": -1352200000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-23-000014",
+    "filed": "2023-02-15",
+    "tag": "us-gaap:NetCashProvidedByUsedInInvestingActivities"
+   },
+   "2021-12-31": {
+    "val": -72000000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:NetCashProvidedByUsedInInvestingActivities"
+   },
+   "2022-12-31": {
+    "val": -1028900000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-25-000009",
+    "filed": "2025-03-05",
+    "tag": "us-gaap:NetCashProvidedByUsedInInvestingActivities"
+   },
+   "2023-12-31": {
+    "val": -2689300000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:NetCashProvidedByUsedInInvestingActivities"
+   },
+   "2024-12-31": {
+    "val": -2609300000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:NetCashProvidedByUsedInInvestingActivities"
+   },
+   "2025-12-31": {
+    "val": -3777800000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:NetCashProvidedByUsedInInvestingActivities"
+   }
+  },
+  "securities_bought": {
+   "2020-12-31": {
+    "val": 1475500000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-23-000014",
+    "filed": "2023-02-15",
+    "tag": "us-gaap:PaymentsToAcquireShortTermInvestments"
+   },
+   "2021-12-31": {
+    "val": 1162700000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:PaymentsToAcquireShortTermInvestments"
+   },
+   "2022-12-31": {
+    "val": 334300000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-25-000009",
+    "filed": "2025-03-05",
+    "tag": "us-gaap:PaymentsToAcquireShortTermInvestments"
+   },
+   "2023-12-31": {
+    "val": 23600000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:PaymentsToAcquireShortTermInvestments"
+   },
+   "2024-12-31": {
+    "val": 305200000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:PaymentsToAcquireShortTermInvestments"
+   },
+   "2025-12-31": {
+    "val": 406200000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:PaymentsToAcquireShortTermInvestments"
+   }
+  },
+  "securities_sold": {
+   "2020-12-31": {
+    "val": 1359100000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-23-000014",
+    "filed": "2023-02-15",
+    "tag": "us-gaap:ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities"
+   },
+   "2021-12-31": {
+    "val": 1826400000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities"
+   },
+   "2022-12-31": {
+    "val": 864700000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-25-000009",
+    "filed": "2025-03-05",
+    "tag": "us-gaap:ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities"
+   },
+   "2023-12-31": {
+    "val": 125600000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities"
+   },
+   "2024-12-31": {
+    "val": 305200000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities"
+   },
+   "2025-12-31": {
+    "val": 5300000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities"
+   }
+  },
+  "buybacks": {
+   "2020-12-31": {
+    "val": 1207500000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-23-000014",
+    "filed": "2023-02-15",
+    "tag": "us-gaap:PaymentsForRepurchaseOfCommonStock"
+   },
+   "2021-12-31": {
+    "val": 8560300000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:PaymentsForRepurchaseOfCommonStock"
+   },
+   "2022-12-31": {
+    "val": 4639700000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-25-000009",
+    "filed": "2025-03-05",
+    "tag": "us-gaap:PaymentsForRepurchaseOfCommonStock"
+   },
+   "2023-12-31": {
+    "val": 1000000000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:PaymentsForRepurchaseOfCommonStock"
+   },
+   "2024-12-31": {
+    "val": 500000000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:PaymentsForRepurchaseOfCommonStock"
+   },
+   "2025-12-31": {
+    "val": 5950000000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:PaymentsForRepurchaseOfCommonStock"
+   }
+  },
+  "dividends_paid": {},
+  "acquisitions": {
+   "2020-12-31": {
+    "val": 222800000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-23-000014",
+    "filed": "2023-02-15",
+    "tag": "us-gaap:PaymentsToAcquireBusinessesNetOfCashAcquired"
+   },
+   "2021-12-31": {
+    "val": 0,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:PaymentsToAcquireBusinessesNetOfCashAcquired"
+   },
+   "2022-12-31": {
+    "val": 0,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-25-000009",
+    "filed": "2025-03-05",
+    "tag": "us-gaap:PaymentsToAcquireBusinessesNetOfCashAcquired"
+   },
+   "2023-12-31": {
+    "val": 33600000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:PaymentsToAcquireBusinessesNetOfCashAcquired"
+   },
+   "2024-12-31": {
+    "val": 0,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:PaymentsToAcquireBusinessesNetOfCashAcquired"
+   },
+   "2025-12-31": {
+    "val": 0,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:PaymentsToAcquireBusinessesNetOfCashAcquired"
+   }
+  },
+  "diluted_shares": {
+   "2020-12-31": {
+    "val": 419100000,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "shares",
+    "form": "20-F",
+    "accn": "0000937966-23-000014",
+    "filed": "2023-02-15",
+    "tag": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding"
+   },
+   "2021-12-31": {
+    "val": 410400000,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "shares",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding"
+   },
+   "2022-12-31": {
+    "val": 398000000,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "shares",
+    "form": "20-F",
+    "accn": "0000937966-25-000009",
+    "filed": "2025-03-05",
+    "tag": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding"
+   },
+   "2023-12-31": {
+    "val": 394100000,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "shares",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding"
+   },
+   "2024-12-31": {
+    "val": 393600000,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "shares",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding"
+   },
+   "2025-12-31": {
+    "val": 388900000,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "shares",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding"
+   }
+  },
+  "eps_diluted": {
+   "2020-12-31": {
+    "val": 8.48,
+    "start": "2020-01-01",
+    "end": "2020-12-31",
+    "unit": "EUR/shares",
+    "form": "20-F",
+    "accn": "0000937966-23-000014",
+    "filed": "2023-02-15",
+    "tag": "us-gaap:EarningsPerShareDiluted"
+   },
+   "2021-12-31": {
+    "val": 14.34,
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "unit": "EUR/shares",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:EarningsPerShareDiluted"
+   },
+   "2022-12-31": {
+    "val": 14.13,
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "unit": "EUR/shares",
+    "form": "20-F",
+    "accn": "0000937966-25-000009",
+    "filed": "2025-03-05",
+    "tag": "us-gaap:EarningsPerShareDiluted"
+   },
+   "2023-12-31": {
+    "val": 19.89,
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "unit": "EUR/shares",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:EarningsPerShareDiluted"
+   },
+   "2024-12-31": {
+    "val": 19.24,
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "unit": "EUR/shares",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:EarningsPerShareDiluted"
+   },
+   "2025-12-31": {
+    "val": 24.71,
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "unit": "EUR/shares",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:EarningsPerShareDiluted"
+   }
+  },
+  "cash": {
+   "2020-12-31": {
+    "val": 6049400000,
+    "start": null,
+    "end": "2020-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-22-000013",
+    "filed": "2022-02-09",
+    "tag": "us-gaap:CashAndCashEquivalentsAtCarryingValue"
+   },
+   "2021-12-31": {
+    "val": 6951800000,
+    "start": null,
+    "end": "2021-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-23-000014",
+    "filed": "2023-02-15",
+    "tag": "us-gaap:CashAndCashEquivalentsAtCarryingValue"
+   },
+   "2022-12-31": {
+    "val": 7268300000,
+    "start": null,
+    "end": "2022-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:CashAndCashEquivalentsAtCarryingValue"
+   },
+   "2023-12-31": {
+    "val": 7004700000,
+    "start": null,
+    "end": "2023-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-25-000009",
+    "filed": "2025-03-05",
+    "tag": "us-gaap:CashAndCashEquivalentsAtCarryingValue"
+   },
+   "2024-12-31": {
+    "val": 12735900000,
+    "start": null,
+    "end": "2024-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:CashAndCashEquivalentsAtCarryingValue"
+   },
+   "2025-12-31": {
+    "val": 12916000000,
+    "start": null,
+    "end": "2025-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:CashAndCashEquivalentsAtCarryingValue"
+   }
+  },
+  "short_term_investments": {
+   "2020-12-31": {
+    "val": 1302200000,
+    "start": null,
+    "end": "2020-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-22-000013",
+    "filed": "2022-02-09",
+    "tag": "us-gaap:AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+   },
+   "2021-12-31": {
+    "val": 638500000,
+    "start": null,
+    "end": "2021-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-23-000014",
+    "filed": "2023-02-15",
+    "tag": "us-gaap:AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+   },
+   "2022-12-31": {
+    "val": 107700000,
+    "start": null,
+    "end": "2022-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+   },
+   "2023-12-31": {
+    "val": 5400000,
+    "start": null,
+    "end": "2023-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-25-000009",
+    "filed": "2025-03-05",
+    "tag": "us-gaap:AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+   },
+   "2024-12-31": {
+    "val": 5400000,
+    "start": null,
+    "end": "2024-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+   },
+   "2025-12-31": {
+    "val": 405900000,
+    "start": null,
+    "end": "2025-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+   }
+  },
+  "debt_current": {
+   "2020-12-31": {
+    "val": 15400000,
+    "start": null,
+    "end": "2020-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-22-000013",
+    "filed": "2022-02-09",
+    "tag": "us-gaap:LongTermDebtCurrent"
+   },
+   "2021-12-31": {
+    "val": 509100000,
+    "start": null,
+    "end": "2021-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-23-000014",
+    "filed": "2023-02-15",
+    "tag": "us-gaap:LongTermDebtCurrent"
+   },
+   "2022-12-31": {
+    "val": 746200000,
+    "start": null,
+    "end": "2022-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:LongTermDebtCurrent"
+   },
+   "2023-12-31": {
+    "val": 100000,
+    "start": null,
+    "end": "2023-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-25-000009",
+    "filed": "2025-03-05",
+    "tag": "us-gaap:LongTermDebtCurrent"
+   },
+   "2024-12-31": {
+    "val": 1010300000,
+    "start": null,
+    "end": "2024-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:LongTermDebtCurrent"
+   },
+   "2025-12-31": {
+    "val": 1681900000,
+    "start": null,
+    "end": "2025-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:LongTermDebtCurrent"
+   }
+  },
+  "debt_noncurrent": {
+   "2020-12-31": {
+    "val": 4662800000,
+    "start": null,
+    "end": "2020-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-22-000013",
+    "filed": "2022-02-09",
+    "tag": "us-gaap:LongTermDebtNoncurrent"
+   },
+   "2021-12-31": {
+    "val": 4075000000,
+    "start": null,
+    "end": "2021-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-23-000014",
+    "filed": "2023-02-15",
+    "tag": "us-gaap:LongTermDebtNoncurrent"
+   },
+   "2022-12-31": {
+    "val": 3514200000,
+    "start": null,
+    "end": "2022-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:LongTermDebtNoncurrent"
+   },
+   "2023-12-31": {
+    "val": 4631500000,
+    "start": null,
+    "end": "2023-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-25-000009",
+    "filed": "2025-03-05",
+    "tag": "us-gaap:LongTermDebtNoncurrent"
+   },
+   "2024-12-31": {
+    "val": 3677300000,
+    "start": null,
+    "end": "2024-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:LongTermDebtNoncurrent"
+   },
+   "2025-12-31": {
+    "val": 2709000000,
+    "start": null,
+    "end": "2025-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:LongTermDebtNoncurrent"
+   }
+  },
+  "equity": {
+   "2020-12-31": {
+    "val": 13865400000,
+    "start": null,
+    "end": "2020-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:StockholdersEquity"
+   },
+   "2021-12-31": {
+    "val": 10140600000,
+    "start": null,
+    "end": "2021-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-25-000009",
+    "filed": "2025-03-05",
+    "tag": "us-gaap:StockholdersEquity"
+   },
+   "2022-12-31": {
+    "val": 8810800000,
+    "start": null,
+    "end": "2022-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:StockholdersEquity"
+   },
+   "2023-12-31": {
+    "val": 13452400000,
+    "start": null,
+    "end": "2023-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:StockholdersEquity"
+   },
+   "2024-12-31": {
+    "val": 18476800000,
+    "start": null,
+    "end": "2024-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:StockholdersEquity"
+   },
+   "2025-12-31": {
+    "val": 19612200000,
+    "start": null,
+    "end": "2025-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:StockholdersEquity"
+   }
+  },
+  "total_assets": {
+   "2020-12-31": {
+    "val": 27267400000,
+    "start": null,
+    "end": "2020-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-22-000013",
+    "filed": "2022-02-09",
+    "tag": "us-gaap:Assets"
+   },
+   "2021-12-31": {
+    "val": 30231000000,
+    "start": null,
+    "end": "2021-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-23-000014",
+    "filed": "2023-02-15",
+    "tag": "us-gaap:Assets"
+   },
+   "2022-12-31": {
+    "val": 36300400000,
+    "start": null,
+    "end": "2022-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:Assets"
+   },
+   "2023-12-31": {
+    "val": 39957500000,
+    "start": null,
+    "end": "2023-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-25-000009",
+    "filed": "2025-03-05",
+    "tag": "us-gaap:Assets"
+   },
+   "2024-12-31": {
+    "val": 48589600000,
+    "start": null,
+    "end": "2024-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:Assets"
+   },
+   "2025-12-31": {
+    "val": 50566600000,
+    "start": null,
+    "end": "2025-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:Assets"
+   }
+  },
+  "goodwill": {
+   "2020-12-31": {
+    "val": 4629100000,
+    "start": null,
+    "end": "2020-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-22-000013",
+    "filed": "2022-02-09",
+    "tag": "us-gaap:Goodwill"
+   },
+   "2021-12-31": {
+    "val": 4555600000,
+    "start": null,
+    "end": "2021-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-23-000014",
+    "filed": "2023-02-15",
+    "tag": "us-gaap:Goodwill"
+   },
+   "2022-12-31": {
+    "val": 4555600000,
+    "start": null,
+    "end": "2022-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:Goodwill"
+   },
+   "2023-12-31": {
+    "val": 4588600000,
+    "start": null,
+    "end": "2023-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-25-000009",
+    "filed": "2025-03-05",
+    "tag": "us-gaap:Goodwill"
+   },
+   "2024-12-31": {
+    "val": 4588600000,
+    "start": null,
+    "end": "2024-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:Goodwill"
+   },
+   "2025-12-31": {
+    "val": 4588600000,
+    "start": null,
+    "end": "2025-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:Goodwill"
+   }
+  },
+  "inventory": {
+   "2020-12-31": {
+    "val": 4569400000,
+    "start": null,
+    "end": "2020-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-22-000013",
+    "filed": "2022-02-09",
+    "tag": "us-gaap:InventoryNet"
+   },
+   "2021-12-31": {
+    "val": 5179200000,
+    "start": null,
+    "end": "2021-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-23-000014",
+    "filed": "2023-02-15",
+    "tag": "us-gaap:InventoryNet"
+   },
+   "2022-12-31": {
+    "val": 7199700000,
+    "start": null,
+    "end": "2022-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:InventoryNet"
+   },
+   "2023-12-31": {
+    "val": 8850700000,
+    "start": null,
+    "end": "2023-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-25-000009",
+    "filed": "2025-03-05",
+    "tag": "us-gaap:InventoryNet"
+   },
+   "2024-12-31": {
+    "val": 10891500000,
+    "start": null,
+    "end": "2024-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:InventoryNet"
+   },
+   "2025-12-31": {
+    "val": 11429300000,
+    "start": null,
+    "end": "2025-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:InventoryNet"
+   }
+  },
+  "receivables": {
+   "2020-12-31": {
+    "val": 1310300000,
+    "start": null,
+    "end": "2020-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-22-000013",
+    "filed": "2022-02-09",
+    "tag": "us-gaap:AccountsReceivableNetCurrent"
+   },
+   "2021-12-31": {
+    "val": 3028000000,
+    "start": null,
+    "end": "2021-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-23-000014",
+    "filed": "2023-02-15",
+    "tag": "us-gaap:AccountsReceivableNetCurrent"
+   },
+   "2022-12-31": {
+    "val": 5323800000,
+    "start": null,
+    "end": "2022-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:AccountsReceivableNetCurrent"
+   },
+   "2023-12-31": {
+    "val": 4334100000,
+    "start": null,
+    "end": "2023-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-25-000009",
+    "filed": "2025-03-05",
+    "tag": "us-gaap:AccountsReceivableNetCurrent"
+   },
+   "2024-12-31": {
+    "val": 4477500000,
+    "start": null,
+    "end": "2024-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:AccountsReceivableNetCurrent"
+   },
+   "2025-12-31": {
+    "val": 3023000000,
+    "start": null,
+    "end": "2025-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:AccountsReceivableNetCurrent"
+   }
+  },
+  "retained_earnings": {
+   "2020-12-31": {
+    "val": 10731500000,
+    "start": null,
+    "end": "2020-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-22-000013",
+    "filed": "2022-02-09",
+    "tag": "us-gaap:RetainedEarningsAccumulatedDeficit"
+   },
+   "2021-12-31": {
+    "val": 8317300000,
+    "start": null,
+    "end": "2021-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-23-000014",
+    "filed": "2023-02-15",
+    "tag": "us-gaap:RetainedEarningsAccumulatedDeficit"
+   },
+   "2022-12-31": {
+    "val": 9046700000,
+    "start": null,
+    "end": "2022-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-24-000008",
+    "filed": "2024-02-14",
+    "tag": "us-gaap:RetainedEarningsAccumulatedDeficit"
+   },
+   "2023-12-31": {
+    "val": 12379500000,
+    "start": null,
+    "end": "2023-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0000937966-25-000009",
+    "filed": "2025-03-05",
+    "tag": "us-gaap:RetainedEarningsAccumulatedDeficit"
+   },
+   "2024-12-31": {
+    "val": 14414300000,
+    "start": null,
+    "end": "2024-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:RetainedEarningsAccumulatedDeficit"
+   },
+   "2025-12-31": {
+    "val": 17587300000,
+    "start": null,
+    "end": "2025-12-31",
+    "unit": "EUR",
+    "form": "20-F",
+    "accn": "0001628280-26-011378",
+    "filed": "2026-02-25",
+    "tag": "us-gaap:RetainedEarningsAccumulatedDeficit"
+   }
+  }
+ },
+ "derived": {
+  "2020-12-31": {
+   "d_and_a_used": 490800000,
+   "capex_total": 1000800000,
+   "fcf": 3626800000,
+   "sbc_adjusted_fcf": 3572900000,
+   "owner_earnings": 3043700000,
+   "sbc_pct_of_ocf": 0.011647506266747341,
+   "gross_margin": 0.4862610437457524,
+   "operating_margin": 0.28983796544693635,
+   "fcf_margin": 0.2594555925170798,
+   "effective_tax_rate": 0.13730518348852264,
+   "net_cash": 2673400000,
+   "invested_capital": 11192000000,
+   "roic": 0.3122952152516307,
+   "roic_tax_rate_used": 0.13730518348852264,
+   "interest_coverage": 93.56812933025404,
+   "debt_to_equity": 0.33740101259249644,
+   "unexplained_investing_outflow": 12200000
+  },
+  "2021-12-31": {
+   "d_and_a_used": 471000000,
+   "capex_total": 940300000,
+   "fcf": 9905500000,
+   "sbc_adjusted_fcf": 9788000000,
+   "owner_earnings": 5413900000,
+   "sbc_pct_of_ocf": 0.010833686772759962,
+   "gross_margin": 0.5270538928590618,
+   "operating_margin": 0.36269410563645155,
+   "fcf_margin": 0.5322389984417818,
+   "effective_tax_rate": 0.15232272015509657,
+   "net_cash": 3006200000,
+   "invested_capital": 7134400000,
+   "roic": 0.8020164844529438,
+   "roic_tax_rate_used": 0.15232272015509657,
+   "interest_coverage": 123.62820512820512,
+   "debt_to_equity": 0.4520541190856557,
+   "unexplained_investing_outflow": -204600000,
+   "inventory_growth_minus_sales_growth": -0.19794882585936513
+  },
+  "2022-12-31": {
+   "d_and_a_used": 583600000,
+   "capex_total": 1319300000,
+   "fcf": 7167500000,
+   "sbc_adjusted_fcf": 7098600000,
+   "owner_earnings": 4888500000,
+   "sbc_pct_of_ocf": 0.008118489890182401,
+   "gross_margin": 0.5053557765876052,
+   "operating_margin": 0.3070220181926379,
+   "fcf_margin": 0.33851436236032,
+   "effective_tax_rate": 0.1502300150245504,
+   "net_cash": 3115600000,
+   "invested_capital": 5695200000,
+   "roic": 0.9699571114850937,
+   "roic_tax_rate_used": 0.1502300150245504,
+   "interest_coverage": 106.91940789473684,
+   "debt_to_equity": 0.4835429245925455,
+   "unexplained_investing_outflow": 240000000,
+   "inventory_growth_minus_sales_growth": 0.25243614895552646
+  },
+  "2023-12-31": {
+   "d_and_a_used": 739800000,
+   "capex_total": 2196200000,
+   "fcf": 3247200000,
+   "sbc_adjusted_fcf": 3112400000,
+   "owner_earnings": 6382600000,
+   "sbc_pct_of_ocf": 0.02476393430576478,
+   "gross_margin": 0.5129488179690477,
+   "operating_margin": 0.3281129234174574,
+   "fcf_margin": 0.11782934484823195,
+   "effective_tax_rate": 0.15806682446193648,
+   "net_cash": 2378500000,
+   "invested_capital": 11073900000,
+   "roic": 0.6874734604039978,
+   "roic_tax_rate_used": 0.15806682446193648,
+   "interest_coverage": 59.216110019646365,
+   "debt_to_equity": 0.34429544170556925,
+   "unexplained_investing_outflow": 561500000,
+   "capex_completeness_warning": "562M of investing outflow not explained by capex/acquisitions/securities tags - check the filing's cash-flow statement for company-specific capex lines before using FCF",
+   "inventory_growth_minus_sales_growth": -0.07224722729825017
+  },
+  "2024-12-31": {
+   "d_and_a_used": 918600000,
+   "capex_total": 2083100000,
+   "fcf": 9083100000,
+   "sbc_adjusted_fcf": 8910500000,
+   "owner_earnings": 6407100000,
+   "sbc_pct_of_ocf": 0.015457362397234511,
+   "gross_margin": 0.512757006535069,
+   "operating_margin": 0.31923829472559434,
+   "fcf_margin": 0.32137891016137765,
+   "effective_tax_rate": 0.18585773688401308,
+   "net_cash": 8053700000,
+   "invested_capital": 10423100000,
+   "roic": 0.7047500247709706,
+   "roic_tax_rate_used": 0.18585773688401308,
+   "interest_coverage": 55.48954489544895,
+   "debt_to_equity": 0.25370193972982336,
+   "unexplained_investing_outflow": 526200000,
+   "capex_completeness_warning": "526M of investing outflow not explained by capex/acquisitions/securities tags - check the filing's cash-flow statement for company-specific capex lines before using FCF",
+   "inventory_growth_minus_sales_growth": 0.20502046004265329
+  },
+  "2025-12-31": {
+   "d_and_a_used": 1025900000,
+   "capex_total": 1631200000,
+   "fcf": 11027300000,
+   "sbc_adjusted_fcf": 10825000000,
+   "owner_earnings": 9004100000,
+   "sbc_pct_of_ocf": 0.015981356400837383,
+   "gross_margin": 0.5282958799778371,
+   "operating_margin": 0.34595451720833986,
+   "fcf_margin": 0.33756386355774737,
+   "effective_tax_rate": 0.17651958162737483,
+   "net_cash": 8931000000,
+   "invested_capital": 10681200000,
+   "roic": 0.8712955098861913,
+   "roic_tax_rate_used": 0.17651958162737483,
+   "interest_coverage": 95.53169907016061,
+   "debt_to_equity": 0.22388615249691518,
+   "unexplained_investing_outflow": 1745700000,
+   "capex_completeness_warning": "1,746M of investing outflow not explained by capex/acquisitions/securities tags - check the filing's cash-flow statement for company-specific capex lines before using FCF",
+   "inventory_growth_minus_sales_growth": -0.10645884843879228
+  }
+ },
+ "ttm": {},
+ "shares_outstanding_latest": {
+  "val": 385417665,
+  "end": "2025-12-31",
+  "form": "20-F",
+  "accn": "0001628280-26-011378",
+  "filed": "2026-02-25"
+ },
+ "diluted_share_cagr": -0.014846155556639817,
+ "revenue_cagr": 0.18503324439054114,
+ "stale": null,
+ "gaps": [
+  "dividends_paid: no data for FY ending 2020-12-31",
+  "dividends_paid: no data for FY ending 2021-12-31",
+  "dividends_paid: no data for FY ending 2022-12-31",
+  "dividends_paid: no data for FY ending 2023-12-31",
+  "dividends_paid: no data for FY ending 2024-12-31",
+  "dividends_paid: no data for FY ending 2025-12-31"
+ ]
+}
