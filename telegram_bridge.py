@@ -4,26 +4,17 @@ Commands (/analyse, /portfolio, /opportunities, /status, screenshots, /confirm) 
 exactly as in telegram_app.py: verified pipeline output only, and /analyse runs the real
 3-agent pipeline through headless Claude Code. Only free-form chat is forwarded to the
 Antigravity IDE conversation (via `agentapi send-message`).
-
-Why the split (14 Oct 2026): this bridge used to forward everything to Antigravity, which runs
-outside Claude Code and cannot start the value-researcher / value-quant / value-skeptic
-subagents. Asked to "enforce the 3-agent pipeline" and to stream "[1/3 Researcher Complete]"
-telemetry, it wrote look-alike run folders in about two minutes each (13 of 22 runs), restored
-files the pipeline had quarantined, and logged their verdicts to the ledger. Its replies were
-sent as `telegram_notifier.py --msg "<text>"`, where the shell turned "$45.40" into "5.40".
-Analysis and buy/sell questions about known tickers are now answered from verified runs before
-anything reaches Antigravity, and the instructions it receives forbid writing pipeline files.
-
-Run: ./run_bridge.sh. Needs TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID and CONVERSATION_ID in .env.
-Don't run it at the same time as telegram_app.py on the same token (the second one exits).
 """
 from __future__ import annotations
 
+import os
+import re
+import shutil
 import subprocess
 import sys
 from pathlib import Path
 
-from telegram_app import HELP, TelegramApp, acquire_poller_lock, esc, load_config
+from telegram_app import HELP, PROJECT_ROOT, TelegramApp, acquire_poller_lock, esc, load_config, COMPANY_ALIASES
 
 BRIDGE_INSTRUCTION = """[TELEGRAM MESSAGE from the authorised user, via telegram_bridge.py]
 {text}
@@ -47,28 +38,136 @@ Binding rules for your reply (.agents/AGENTS.md RULE 4 and 5):
 """
 
 
+def find_agentapi(cand: str | None = None) -> Path | None:
+    if cand:
+        p = Path(cand)
+        if p.exists():
+            return p
+    w = shutil.which("agentapi")
+    if w:
+        return Path(w)
+    home = Path.home()
+    candidates = [
+        home / ".gemini/antigravity-ide/bin/agentapi",
+        home / ".gemini/antigravity-ide/bin/agentapi.bat",
+        home / ".gemini/antigravity-cli/bin/agentapi",
+        home / ".gemini/antigravity-cli/bin/agentapi.bat",
+        home / ".gemini/antigravity/bin/agentapi",
+        home / ".gemini/antigravity/bin/agentapi.bat",
+    ]
+    for p in candidates:
+        if p.exists():
+            return p
+    return None
+
+
+def get_latest_conversation() -> str | None:
+    ide_dir = Path.home() / ".gemini" / "antigravity-ide"
+    activity: dict[str, float] = {}
+
+    brain_dir = ide_dir / "brain"
+    if brain_dir.exists():
+        for t in brain_dir.glob("*/.system_generated/logs/transcript.jsonl"):
+            cid = t.parents[2].name
+            try:
+                activity[cid] = max(activity.get(cid, 0), t.stat().st_mtime)
+            except Exception:
+                pass
+
+    conv_dir = ide_dir / "conversations"
+    if conv_dir.exists():
+        for f in conv_dir.glob("*.db*"):
+            cid = f.name.split(".")[0]
+            try:
+                activity[cid] = max(activity.get(cid, 0), f.stat().st_mtime)
+            except Exception:
+                pass
+
+    if activity:
+        return max(activity, key=activity.get)
+    return None
+
+
+def update_env_conversation_id(new_id: str) -> None:
+    env_path = PROJECT_ROOT / ".env"
+    if env_path.exists():
+        text = env_path.read_text(encoding="utf-8")
+        if "CONVERSATION_ID=" in text:
+            text = re.sub(r"CONVERSATION_ID=.*", f"CONVERSATION_ID={new_id}", text)
+        else:
+            text += f"\nCONVERSATION_ID={new_id}\n"
+        env_path.write_text(text, encoding="utf-8")
+
+
 class AntigravityBridge(TelegramApp):
     label = "bridge"
 
     def __init__(self, token, allowed, get):
         super().__init__(token, allowed, get)
         self.conv_id = get("CONVERSATION_ID")
-        self.agentapi = Path(get("ANTIGRAVITY_AGENTAPI") or Path.home() / ".gemini/antigravity-ide/bin/agentapi")
+        self.agentapi = find_agentapi(get("ANTIGRAVITY_AGENTAPI"))
+
+    def send_agent_message(self, text: str) -> None:
+        """Send message via agentapi, auto-healing stale conversation IDs."""
+        if not self.agentapi or not self.agentapi.exists():
+            raise RuntimeError("Antigravity agentapi binary not found.")
+
+        if not self.conv_id or self.conv_id in ("latest", "auto"):
+            latest = get_latest_conversation()
+            if latest:
+                self.conv_id = latest
+                update_env_conversation_id(latest)
+            else:
+                raise RuntimeError("No active conversation ID configured or found.")
+
+        cmd = [str(self.agentapi), "send-message", f"--title=Telegram: {text[:30]}",
+               self.conv_id, BRIDGE_INSTRUCTION.format(text=text)]
+        res = subprocess.run(cmd, capture_output=True, text=True)
+        if res.returncode != 0:
+            err = (res.stderr or res.stdout or "").strip()
+            # If trajectory not found or invalid session, auto-detect the current active conversation
+            if "trajectory not found" in err.lower() or "not found" in err.lower():
+                latest = get_latest_conversation()
+                if latest and latest != self.conv_id:
+                    print(f"[{self.label}] auto-updating stale conversation ID {self.conv_id} -> {latest}")
+                    self.conv_id = latest
+                    update_env_conversation_id(latest)
+                    cmd[3] = latest
+                    res2 = subprocess.run(cmd, capture_output=True, text=True)
+                    if res2.returncode == 0:
+                        return
+                    err = (res2.stderr or res2.stdout or "").strip()
+            raise RuntimeError(err or f"exit status {res.returncode}")
 
     def handle_free_text(self, chat_id: int, text: str) -> None:
+        cleaned = text.strip()
+        lower = cleaned.lower()
+
+        # 1. Natural language analyse: e.g. "analyse google", "analyze apple", "analyse TSLA"
+        for prefix in ("analyse ", "analyze ", "/analyse ", "/analyze "):
+            if lower.startswith(prefix):
+                target = cleaned[len(prefix):].strip()
+                if target:
+                    print(f"[{self.label}] routed natural language query '{text}' -> handle_analyse({target})")
+                    self.handle_analyse(chat_id, target)
+                    return
+
+        # 2. Check if intent matches known ticker cards
         if self.route_intent(chat_id, text):
             return
-        if not (self.conv_id and self.agentapi.exists()):
-            self.send(chat_id, "Free-form chat needs CONVERSATION_ID in .env and the Antigravity agentapi "
-                               "binary. Commands still work.\n\n" + HELP, keyboard=True)
+
+        # 3. Relay free-form text to Antigravity IDE agent
+        if not (self.agentapi and self.agentapi.exists()):
+            self.send(chat_id, "Free-form chat needs the Antigravity agentapi binary. "
+                               "Commands still work.\n\n" + HELP, keyboard=True)
             return
+
         try:
-            subprocess.run([str(self.agentapi), "send-message", f"--title=Telegram: {text[:30]}",
-                            self.conv_id, BRIDGE_INSTRUCTION.format(text=text)],
-                           capture_output=True, text=True, check=True, timeout=60)
+            self.send_agent_message(text)
         except Exception as exc:
             self.send(chat_id, f"❌ Couldn't reach the Antigravity agent: {esc(exc)}")
             return
+
         self.send(chat_id, "💬 Sent to the Antigravity agent (free-form chat). It can't issue verdicts. "
                            "For those use <code>/analyse TICKER</code> or <code>/portfolio</code>.")
 

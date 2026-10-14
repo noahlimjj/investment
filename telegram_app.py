@@ -25,7 +25,10 @@ Run: ./run_app.sh. Token: TELEGRAM_APP_BOT_TOKEN, else TELEGRAM_BOT_TOKEN, from 
 """
 from __future__ import annotations
 
-import fcntl
+try:
+    import fcntl
+except ImportError:
+    fcntl = None
 import glob
 import json
 import os
@@ -61,6 +64,41 @@ ANALYSIS_WORDS = re.compile(
     r"\b(analy[sz]e|analysis|valu(e|ation)|deep[- ]?dive|fair value|intrinsic|buy|sell|hold|trim|"
     r"accumulate|add to|should i|worth|undervalued|overvalued|verdict|re-?check|review)\b", re.I)
 STAGE_LABEL = {"value-researcher": "1/3 Researcher", "value-quant": "2/3 Quant", "value-skeptic": "3/3 Skeptic"}
+
+COMPANY_ALIASES: dict[str, str] = {
+    "google": "GOOGL",
+    "goog": "GOOGL",
+    "googl": "GOOGL",
+    "alphabet": "GOOGL",
+    "apple": "AAPL",
+    "aapl": "AAPL",
+    "microsoft": "MSFT",
+    "msft": "MSFT",
+    "amazon": "AMZN",
+    "amzn": "AMZN",
+    "meta": "META",
+    "facebook": "META",
+    "fb": "META",
+    "tesla": "TSLA",
+    "tsla": "TSLA",
+    "nvidia": "NVDA",
+    "nvda": "NVDA",
+    "netflix": "NFLX",
+    "nflx": "NFLX",
+    "tsmc": "TSM",
+    "tsm": "TSM",
+    "alibaba": "BABA",
+    "baba": "BABA",
+    "tencent": "0700.HK",
+    "samsung": "005930.KS",
+    "novo": "NVO",
+    "novo nordisk": "NVO",
+    "nvo": "NVO",
+    "lvmh": "MC.PA",
+    "asml": "ASML",
+    "berkshire": "BRK-B",
+    "berkshire hathaway": "BRK-B",
+}
 
 # Headless pipeline. dontAsk denies anything not listed; nothing waits on a prompt.
 PIPELINE_TOOLS = ["Skill", "Agent", "Task", "ToolSearch", "TodoWrite", "Read", "Write", "Edit",
@@ -126,8 +164,12 @@ def acquire_poller_lock(token: str):
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     fh = open(DATA_DIR / f".telegram_poller_{bot_id}.lock", "a+")
     try:
-        fcntl.flock(fh, fcntl.LOCK_EX | fcntl.LOCK_NB)
-    except BlockingIOError:
+        if fcntl:
+            fcntl.flock(fh, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        elif sys.platform == "win32":
+            import msvcrt
+            msvcrt.locking(fh.fileno(), msvcrt.LK_NBLCK, 1)
+    except (BlockingIOError, OSError):
         fh.seek(0)
         sys.exit(f"Another process ({fh.read().strip() or 'unknown'}) is already polling bot {bot_id}. "
                  "Stop it first: two pollers on one token split your messages between them at random.")
@@ -246,6 +288,18 @@ class TelegramApp:
             return next((j for j in self.jobs.values() if j["kind"] == kind and j["status"] in ("queued", "running")
                          and (ticker is None or j.get("ticker") == ticker)), None)
 
+    def _save_chat_id_to_env(self, chat_id: int) -> None:
+        env_path = PROJECT_ROOT / ".env"
+        if env_path.exists():
+            text = env_path.read_text()
+            if "TELEGRAM_CHAT_ID=" in text:
+                text = re.sub(r"TELEGRAM_CHAT_ID=.*", f"TELEGRAM_CHAT_ID={chat_id}", text)
+            else:
+                text += f"\nTELEGRAM_CHAT_ID={chat_id}\n"
+            env_path.write_text(text)
+        else:
+            env_path.write_text(f"TELEGRAM_BOT_TOKEN={self.token}\nTELEGRAM_CHAT_ID={chat_id}\n")
+
     # ---- dispatch -------------------------------------------------------------
     def process_update(self, update: dict[str, Any]) -> None:
         msg = update.get("message")
@@ -254,9 +308,16 @@ class TelegramApp:
         chat_id = msg.get("chat", {}).get("id")
         user = msg.get("from", {})
         if chat_id not in self.allowed:
-            print(f"[{self.label}] ignored message from unauthorised chat {chat_id} (@{user.get('username')})"
-                  + ("; set TELEGRAM_CHAT_ID in .env to pair your chat" if not self.allowed else ""))
-            self.send(chat_id, "🔒 This bot is private.")
+            if not self.allowed:
+                # First-time pairing: pair with the first user who messages the bot
+                self.allowed.add(chat_id)
+                self._save_chat_id_to_env(chat_id)
+                print(f"[{self.label}] initial pairing with chat {chat_id} (@{user.get('username')}); saved to .env")
+                self.send(chat_id, f"✅ <b>Bot paired successfully!</b>\n\nYour chat ID (<code>{chat_id}</code>) has been saved.\n\n" + HELP, keyboard=True)
+                return
+            print(f"[{self.label}] ignored message from unauthorised chat {chat_id} (@{user.get('username')})")
+            self.send(chat_id, f"🔒 This bot is private.\n\nYour chat ID is <code>{chat_id}</code>. "
+                               f"Add <code>TELEGRAM_CHAT_ID={chat_id}</code> to <code>.env</code> to authorise this chat.")
             return
         photos = msg.get("photo")
         doc = msg.get("document") or {}
@@ -297,9 +358,9 @@ class TelegramApp:
         known = pipeline_store.known_tickers() | set(portfolio_analyser.load_portfolio().get("tickers", []))
         out = []
         for tok in re.findall(r"[A-Za-z0-9][A-Za-z0-9.\-]{0,14}", text):
-            t = tok.upper().rstrip(".")
-            if t in known and t not in out:
-                out.append(t)
+            mapped = COMPANY_ALIASES.get(tok.lower(), tok.upper()).rstrip(".")
+            if mapped in known and mapped not in out:
+                out.append(mapped)
         return out
 
     def route_intent(self, chat_id: int, text: str) -> bool:
@@ -323,11 +384,13 @@ class TelegramApp:
 
     # ---- /analyse ---------------------------------------------------------------
     def handle_analyse(self, chat_id: int, rest: str) -> None:
-        parts = rest.upper().split()
+        parts = rest.split()
         if not parts:
             self.send(chat_id, "Usage: <code>/analyse TICKER</code> (e.g. <code>/analyse MC.PA</code>)")
             return
-        ticker, fresh = parts[0], "FRESH" in parts[1:]
+        raw_ticker = parts[0].strip()
+        ticker = COMPANY_ALIASES.get(raw_ticker.lower(), raw_ticker.upper())
+        fresh = any(p.upper() == "FRESH" for p in parts[1:])
         if not TICKER_RE.fullmatch(ticker):
             self.send(chat_id, f"'{esc(ticker)}' doesn't look like a ticker. Use the Yahoo symbol, e.g. BATS.L, 7974.T.")
             return
